@@ -54,3 +54,13 @@ Hardware counts come from the three existing batches of twenty trials per method
 ## Release transformations
 
 Scientific numbers and model tensors are preserved. Public files relocate local machine paths, compact JSON, add portable command-line interfaces and embed the evaluated tie-aware AP definition. Checkpoint manifests retain the source hash, public hash and selected epoch. No training, new scene generation or performance-driven seed selection is part of packaging this release.
+
+## Independent release check (2026-10-01)
+
+The public repository, benchmark downloads and model archive were checked in a fresh Linux Python 3.11 environment with PyTorch 2.11.0 on CPU and the dependency versions in `environment-reference.json`. All 39,455 benchmark files passed their published checksums, all 29 checkpoints loaded strictly and produced finite predictions, and all seven release tests passed.
+
+All 36 prediction configurations were evaluated on the full 1,945-target test split. The 98 numeric cells in the five prediction tables matched at the published precision. All 42 stored-label planning configurations were rerun: their aggregate metrics, per-target retrieval outcomes and removal sequences matched across 103,085 records. Execution times were excluded from this comparison.
+
+CPU/GPU rounding produced a maximum AP difference of 0.000002416. Edge-MLP seed 7 and generic OO/GG seed 11 each had one sufficient-label edge cross its threshold. The no-grasp-score planning ablation selected a different grasp on one target whose candidate scores differed by approximately 0.0000000002; its retrieval outcome and removal sequence were unchanged. Original published results are retained.
+
+The 1,280 recorded physical episodes, 144 ordered episodes and existing hardware counts were also recounted. This check did not retrain the models or rerun native physical simulation or robot trials; native simulation requires the external assets and licensed backends listed above. The evaluation command now exports minimal-blocker-set metrics and target/edge counts alongside edge metrics.
