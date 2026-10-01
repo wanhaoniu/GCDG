@@ -41,6 +41,18 @@ class ReleaseTests(unittest.TestCase):
             self.assertEqual(c['loop']['resettle_steps'],9000)
             self.assertEqual(c['loop']['max_shared_fallback_removals'],5)
 
+    def test_evaluation_exports_minimal_blocker_metrics(self):
+        from scripts.prediction import test_metrics
+        pred=dict(edge_sample_ids=['s','s'],edge_object_ids=['a','b'],edge_grasp_ids=['g','g'],
+                  y_true=np.array([[1,1,1,1],[0,0,0,0]],dtype=np.float32),
+                  y_score=np.array([[.9,.9,.9,.9],[.1,.1,.1,.1]],dtype=np.float32),
+                  mask=np.ones(2,dtype=bool),planning_labels_by_sample={'s':[
+                      dict(grasp_id='g',status='solved_within_depth',minimal_blocker_set=['a'])]})
+        metrics=test_metrics(pred,{},1)
+        self.assertEqual(metrics['target_count'],1)
+        self.assertEqual(metrics['modeled_edges'],2)
+        self.assertEqual(metrics['minimal_blocker_sets']['all_solved']['mean_exact_match'],1.)
+
     def test_ordered_denominators(self):
         from scripts.recount_ordered import recount
         result=recount(ROOT/'results/ordered/episodes.csv')

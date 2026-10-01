@@ -6,8 +6,9 @@ sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/'src'))
 import numpy as np
 import torch
 from grasp_dependency_dataset.hetero_gnn.graph_dataset import HeteroGraphDataset, discover_sample_refs
-from grasp_dependency_dataset.hetero_gnn.train_hetero_gnn import train_torch_backend, calibration_thresholds_from_metrics
+from grasp_dependency_dataset.hetero_gnn.train_hetero_gnn import train_torch_backend, calibration_thresholds_from_metrics, compact_metrics_for_log
 from grasp_dependency_dataset.hetero_gnn.eval_hetero_gnn import collect_torch_predictions
+from grasp_dependency_dataset.hetero_gnn.minimal_blocker_metrics import minimal_blocker_set_metrics
 from run_stage2_simple_baselines import collect_predictions, metrics_from_prediction, metrics_with_validation_thresholds
 
 def read(p):return json.loads(Path(p).read_text(encoding='utf-8'))
@@ -15,6 +16,19 @@ def save(p,x):Path(p).write_text(json.dumps(x,indent=2),encoding='utf-8')
 def save_predictions(p,pred):
     np.savez_compressed(p,y_true=pred['y_true'],y_score=pred['y_score'],mask=pred['mask'],
         sample_id=np.asarray(pred['edge_sample_ids']),object_id=np.asarray(pred['edge_object_ids']),grasp_id=np.asarray(pred['edge_grasp_ids']))
+
+def test_metrics(pred,calibration,target_count):
+    metrics=metrics_with_validation_thresholds(pred,calibration)
+    mbs=minimal_blocker_set_metrics(
+        edge_sample_ids=pred['edge_sample_ids'],edge_object_ids=pred['edge_object_ids'],
+        edge_grasp_ids=pred['edge_grasp_ids'],y_score=pred['y_score'],
+        planning_labels_by_sample=pred.get('planning_labels_by_sample',{}),mask=pred['mask'],
+        threshold=metrics['thresholds']['dep_progress_any'],score_label_index=0,
+        recall_ks=(1,2,3,5),y_true=pred['y_true'])
+    metrics['minimal_blocker_sets']=compact_metrics_for_log({'minimal_blocker_sets':mbs})['minimal_blocker_sets']
+    metrics['target_count']=target_count
+    metrics['modeled_edges']=int(pred['mask'].sum())
+    return metrics
 def main():
     a=argparse.ArgumentParser(description=__doc__)
     a.add_argument('mode',choices=['train','evaluate'])
@@ -51,7 +65,7 @@ def main():
         if not simple and args.checkpoint is None:raise SystemExit('--checkpoint is required for learned models.')
         test=dataset('test')
         pred=collect_predictions(c,test) if simple else collect_torch_predictions(args.checkpoint,test,batch_size=32,device=args.device)
-        save(args.output/'test_metrics.json',metrics_with_validation_thresholds(pred,read(args.calibration)))
+        save(args.output/'test_metrics.json',test_metrics(pred,read(args.calibration),len(test)))
         save_predictions(args.output/'test_predictions.npz',pred)
     print(args.output.resolve())
 if __name__=='__main__':main()
