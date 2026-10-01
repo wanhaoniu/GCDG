@@ -1,0 +1,205 @@
+[
+  {
+    "model": "edge_mlp_seed11",
+    "source_sha256": "790ab76d62c47744e82bc432a418e26b7ad5a284e42517953a8c08364b000038",
+    "sha256": "2b8bf036535ee35341db06fcb2a4aba944581ed3e29b77371705b9746c312718",
+    "state_dict_exact": true,
+    "epoch": 36
+  },
+  {
+    "model": "edge_mlp_seed23",
+    "source_sha256": "66535cab385da8c578f1863340c8e256c8f1b12f1aadb76005904ecc50cebe25",
+    "sha256": "9d06f5ca2ccfe806106f4ac072d554cac7cf1b82f2a60871a0180aabe6ae3b97",
+    "state_dict_exact": true,
+    "epoch": 37
+  },
+  {
+    "model": "edge_mlp_seed7",
+    "source_sha256": "a553027ed2fbc2ed3c2fdf9a8593bafd66a760f17ebce167b6185bf67ce4f614",
+    "sha256": "fa4b6dfd464b5f78bb6d4e90c001bc7e3c629139fa0bf7ca451de20907c84232",
+    "state_dict_exact": true,
+    "epoch": 40
+  },
+  {
+    "model": "g2n2_seed11",
+    "source_sha256": "fc545c672b6bd9fff4961e43eaa2ce83a44de7c7f76085599f24b83eef9771d9",
+    "sha256": "7a1498fdef12a52e21a8e7bd1323a14339e5a7d1ea54fc30ef11b39bc7898ffe",
+    "state_dict_exact": true,
+    "epoch": 42
+  },
+  {
+    "model": "g2n2_seed23",
+    "source_sha256": "5c8d8e22ad7d08352eca89d742682e0e7c565b4751924f758a01130c8a67cc2c",
+    "sha256": "ad636a5c1769d945e4ad21151089fe72fb1b045a127ce62884d85707dcc3e86b",
+    "state_dict_exact": true,
+    "epoch": 41
+  },
+  {
+    "model": "g2n2_seed7",
+    "source_sha256": "01b045db1e96521d00c2690158c139bea18d8ee03cf67bda317ef6257b84992f",
+    "sha256": "310ba058d510315a1c0374d2ab1a9585c841bbb5bb4f2ab71228e3821d844cbe",
+    "state_dict_exact": true,
+    "epoch": 40
+  },
+  {
+    "model": "generic_oo_gg_seed11",
+    "source_sha256": "2fc3f550b1ed509d14cd46192d81179e6704f3d814a2764b255ce3c445e34b2d",
+    "sha256": "4d8d3104aac79ed7c722b40e1952499821643e2f8474cd7eca88d0f257884ff9",
+    "state_dict_exact": true,
+    "epoch": 28
+  },
+  {
+    "model": "generic_oo_gg_seed23",
+    "source_sha256": "50fc2c50d0d62b2e3de5a95cb06f3d3cfdf2e2721bd72fbb25fdcc38103704b6",
+    "sha256": "c0705113a02d4afbc2bb0be870955e2465421d8807aa02f30bd125819122b0f4",
+    "state_dict_exact": true,
+    "epoch": 24
+  },
+  {
+    "model": "generic_oo_gg_seed7",
+    "source_sha256": "b2acfbe07841f6f33bc8e3726c94cbc99022b61a4b20fe5535b7bfce007892a2",
+    "sha256": "606bc9188b7fb7deef084810a7e724ba5e79f5419e8f65f60e8a42ac1ecb5d40",
+    "state_dict_exact": true,
+    "epoch": 41
+  },
+  {
+    "model": "no_context_seed11",
+    "source_sha256": "fb4ce6c7f8b6d42622a8881bfdd2158748dff7a15a4554fa904bbb91265a39f7",
+    "sha256": "415b2a268befb5bae01668af16303b189b52c63806a9154d9970e43d5385174c",
+    "state_dict_exact": true,
+    "epoch": 44
+  },
+  {
+    "model": "no_context_seed23",
+    "source_sha256": "553c59eef199948a7446e579b59ee44d20afe4f5247cb65b140532646e150b27",
+    "sha256": "39a1164034152d6218457107bcdc7bb974e305597b67b5f518e9205e186b8365",
+    "state_dict_exact": true,
+    "epoch": 45
+  },
+  {
+    "model": "no_context_seed7",
+    "source_sha256": "7118cadcb0b64fcd5a1d0674379a32a57cfd7fd74a88a776b512fd5f42010e48",
+    "sha256": "9569ee173c4bd5b66485dd4a03d3d487942616b8355fb2a9effbc96f0617358e",
+    "state_dict_exact": true,
+    "epoch": 35
+  },
+  {
+    "model": "no_edge_attr_seed11",
+    "source_sha256": "05efc1834be56d1a6ee9e00ae7ff8ebc3bb659787dc5f8a192783f4cec4e53d6",
+    "sha256": "138911dc9b4fa2a3cc2b923e339089974ba7e7ec760156fbd9a947c80222392d",
+    "state_dict_exact": true,
+    "epoch": 39
+  },
+  {
+    "model": "no_edge_attr_seed23",
+    "source_sha256": "0590dd4e265133b00913647668c7408fd9981cd1d80c48ee0de01ad769c22100",
+    "sha256": "359485b4a60172ced476cad38ee6053d642927b5eea9c7c9e1dcbb6264dd06ca",
+    "state_dict_exact": true,
+    "epoch": 42
+  },
+  {
+    "model": "no_edge_attr_seed7",
+    "source_sha256": "62ebe36fee28eed96a8aa791f1208a7c44b5486bbdaa2014caa78de7777393f8",
+    "sha256": "ee706654b72d5f690a1224835703673bc3bd3b0e141a5247520515d9eab41d10",
+    "state_dict_exact": true,
+    "epoch": 40
+  },
+  {
+    "model": "no_raw_seed11",
+    "source_sha256": "0cd065d07db2790e92155af488a2bdc8ebca8eceff639dad964ef6978e0e1c6c",
+    "sha256": "71f140235642343f12da27d972089c27fadca1a1c5eec7834a2fbbe8d818ec72",
+    "state_dict_exact": true,
+    "epoch": 41
+  },
+  {
+    "model": "no_raw_seed23",
+    "source_sha256": "ae6aa8b9ab27885265b02e1bc8034219157070ffa174b489f68fc294164ea120",
+    "sha256": "201cb8530831ef5c0a536362010855c0232625d42467b4a426ae691c4e3d5aad",
+    "state_dict_exact": true,
+    "epoch": 42
+  },
+  {
+    "model": "no_raw_seed7",
+    "source_sha256": "f2805587c22544872678a246e9f2d2b5bf6c406a3a63b0ab8c0b392b7e8df5ce",
+    "sha256": "2595710734d301c7379a1ef4c75bd0dde649c61fcdd0e1caa2ff119cf73bbd81",
+    "state_dict_exact": true,
+    "epoch": 29
+  },
+  {
+    "model": "object_only_seed11",
+    "source_sha256": "536e35b9ded18c340c29ce5f583a6f2b4c315179e17b698083cf150f2dbcb2f3",
+    "sha256": "87bb8e41dc952f04c207ec60e979f4669053d455cc9fd9f84f2921ea29a635f4",
+    "state_dict_exact": true,
+    "epoch": 38
+  },
+  {
+    "model": "object_only_seed23",
+    "source_sha256": "81a60e81b645f3942237cc1a43ae253125251d94bd792306cb128a2f1172eb8e",
+    "sha256": "e9bef250821de28f430c3be4065dffa62560657c72ebbe7d1cd2035c804cbd47",
+    "state_dict_exact": true,
+    "epoch": 38
+  },
+  {
+    "model": "object_only_seed7",
+    "source_sha256": "0e97b7010afdfcd6e4b851d2b7b5bd594b1d6c9b3dc99e80b92447eba5315bda",
+    "sha256": "64038e59fd28499bf2b26ce89c75ac77862b14b43c9de0fe886e4b423b8bbaf9",
+    "state_dict_exact": true,
+    "epoch": 42
+  },
+  {
+    "model": "ours_seed11",
+    "source_sha256": "46f5f4bf6e77c6340c70c4326ffb977e379a7f9e309e393ea1e6c0114217cb66",
+    "sha256": "9221d37c9201d45696823e81811bf74064cf9056dfe0ac2e9a20b8bdebdd7a39",
+    "state_dict_exact": true,
+    "epoch": 39
+  },
+  {
+    "model": "ours_seed23",
+    "source_sha256": "34ab3b89f7717cd79a96e1bd17092542f36ec117d9a5f70d04fa3cc91ab31696",
+    "sha256": "0053f69346e4a74790ac37fe46f25608f9d9de5280cc980da86238cc98259c20",
+    "state_dict_exact": true,
+    "epoch": 29
+  },
+  {
+    "model": "ours_seed7",
+    "source_sha256": "f092c33efaf5d3a53fbbea82e182f0679af46af79e45a95c0f0571cc615f4ab4",
+    "sha256": "235aa8491ecf0995b69fe761c34c36c15dc868ebd387237cfe707b7c925f6963",
+    "state_dict_exact": true,
+    "epoch": 33
+  },
+  {
+    "model": "pair_interactions_seed11",
+    "source_sha256": "cbb0e880b88c574408de7bbfd97d2437ae9fb98bf7d3b9cbb81ba271385d0440",
+    "sha256": "b14178dd2d3af6b32d3314829c76e5f8625e0e1ed96650ac942b7dfcf559987a",
+    "state_dict_exact": true,
+    "epoch": 39
+  },
+  {
+    "model": "pair_interactions_seed23",
+    "source_sha256": "722a019df0b276005c6ff9ea36a85b64601dcb9c4dcd56641b2f81c65dc79328",
+    "sha256": "ba57ff196a00cbe351ab84fd2e36ffddc27509e1d910f63a71111a3807551a70",
+    "state_dict_exact": true,
+    "epoch": 36
+  },
+  {
+    "model": "pair_interactions_seed7",
+    "source_sha256": "59bc4ebebf194f64795c1bfecd36e39d858c669b550c36ce318e6d346ca2df12",
+    "sha256": "c2eb194f55cec287314086465b54c4c7915a704a60de9061441ab484d0f51061",
+    "state_dict_exact": true,
+    "epoch": 33
+  },
+  {
+    "model": "ours_seed31",
+    "source_sha256": "89e83e54707e8cf6cdac57a12b9ad6826372727cb7dc60b9fb1d8d72aa8f373e",
+    "sha256": "65befaa242b9a6c7aecb89f1b74a4988ac7aeb492e4e11ffff84c3987f3cb116",
+    "state_dict_exact": true,
+    "epoch": 36
+  },
+  {
+    "model": "ours_seed43",
+    "source_sha256": "e904760263247ffa7dad4809981c5086975ea8eb62b2d0fc3686e58aa24f36a4",
+    "sha256": "8f75bed93db9627901de8d141f6176f765b19268712c8a0b38039de248bfee3f",
+    "state_dict_exact": true,
+    "epoch": 44
+  }
+]

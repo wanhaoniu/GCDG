@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Architecture ablations.}
+  \label{tab:stage2_architecture_ablation}
+  \small
+  \setlength{\tabcolsep}{4.5pt}
+  \begin{tabular}{cccc}
+    \toprule
+    Variant & AP $\uparrow$ & F1 $\uparrow$ & Blocker IoU $\uparrow$ \\
+    \midrule
+    Edge-context model & 40.0 $\pm$ 0.3 & 43.5 $\pm$ 1.1 & 30.7 $\pm$ 1.1 \\
+    w/o edge-context aggregation & 34.5 $\pm$ 0.7 & 39.0 $\pm$ 0.1 & 26.1 $\pm$ 0.3 \\
+    w/o OG edge attributes & 39.3 $\pm$ 0.8 & 42.9 $\pm$ 0.4 & 30.1 $\pm$ 0.5 \\
+    w/o raw decoder skip & 40.1 $\pm$ 0.9 & 43.5 $\pm$ 1.0 & 30.6 $\pm$ 1.0 \\
+    + pair interactions & 40.6 $\pm$ 0.6 & 44.3 $\pm$ 0.1 & 31.4 $\pm$ 0.1 \\
+    + generic OO/GG & 39.2 $\pm$ 0.6 & 43.3 $\pm$ 0.3 & 30.2 $\pm$ 0.3 \\
+    \bottomrule
+  \end{tabular}
+  \vspace{2pt}
+\end{table}

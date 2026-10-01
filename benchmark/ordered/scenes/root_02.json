@@ -1,0 +1,1986 @@
+{
+  "scene_id": "ordered15_dev_02_02",
+  "target_ids": [
+    "obj_01",
+    "obj_05",
+    "obj_07",
+    "obj_09",
+    "obj_13",
+    "obj_08",
+    "obj_06",
+    "obj_14",
+    "obj_03",
+    "obj_10"
+  ],
+  "object_ids": [
+    "obj_00",
+    "obj_01",
+    "obj_02",
+    "obj_03",
+    "obj_04",
+    "obj_05",
+    "obj_06",
+    "obj_07",
+    "obj_08",
+    "obj_09",
+    "obj_10",
+    "obj_11",
+    "obj_12",
+    "obj_13",
+    "obj_14"
+  ],
+  "object_mesh_names": [
+    "7-Clamp",
+    "10-meat_can",
+    "40-Pringles",
+    "33-Key",
+    "35-Laugh_Out_Loud_Joke_Book",
+    "34-Nail",
+    "2-Starkist_Tuna",
+    "8-Plastic_Banana",
+    "19-Elmers_Glue",
+    "36-Adjustable_Wrench",
+    "12-Baseball",
+    "9-Mug",
+    "15-28 Bottle",
+    "1-Cheez-it",
+    "38-Rolodex_Jumbo_Pencil_Cup"
+  ],
+  "object_poses": [
+    [
+      -0.010753723399265837,
+      -0.00138810422805998,
+      0.00961585683394456,
+      0.49151636988701725,
+      0.00941460675327082,
+      -0.04390255718298377,
+      0.869710060184178
+    ],
+    [
+      -0.03982235974003834,
+      0.05224316758351095,
+      0.013809349496661821,
+      0.011333198655143654,
+      -0.7475683479907043,
+      0.6640501569444313,
+      -0.00710723242673428
+    ],
+    [
+      -0.03781743910240307,
+      -0.05875298524982984,
+      0.020985493292815828,
+      0.5636955404004016,
+      -0.42574032399858347,
+      -0.42848175048202886,
+      -0.5633790054289721
+    ],
+    [
+      0.051186754330736106,
+      0.009613625199485842,
+      0.0006510685584770393,
+      -0.1632004612176371,
+      -0.16296981320922968,
+      -0.6879636326578076,
+      -0.6881224379288713
+    ],
+    [
+      0.0633319693569609,
+      0.03251796233447954,
+      0.023805153236489796,
+      -0.2119792462399185,
+      0.897109827103768,
+      -0.37187728491063626,
+      0.10938940645645584
+    ],
+    [
+      0.039242953260700396,
+      -0.01778479552361914,
+      0.0019893810047262226,
+      0.16519879371118626,
+      0.40928513515262993,
+      0.8734049695886901,
+      0.20581252585117707
+    ],
+    [
+      -0.043631578585678676,
+      -0.007961650015155664,
+      0.01837961409926559,
+      -0.8499136180538494,
+      0.42357713970549926,
+      -0.15636417107395076,
+      0.27162381075649417
+    ],
+    [
+      -0.08395837678960706,
+      0.00399454527939941,
+      0.035253806473550885,
+      0.08423993388218669,
+      0.4631231551025786,
+      -0.3640634253239057,
+      0.803665601533861
+    ],
+    [
+      0.030694008820626714,
+      0.003596703955958508,
+      0.012321979562016618,
+      -0.771236437371214,
+      -0.03142301814692863,
+      0.2623624353962839,
+      -0.5791138956150392
+    ],
+    [
+      0.015993955340757093,
+      -0.0017387090819313276,
+      0.015887062946787878,
+      -0.7292369871427649,
+      0.468059728427653,
+      -0.3790344578087441,
+      0.32475588832353136
+    ],
+    [
+      0.09203272981075224,
+      -0.028512607022468352,
+      0.01806676879353336,
+      -0.46501075504193684,
+      -0.29304485032329514,
+      -0.3658210870375843,
+      0.7510423727546698
+    ],
+    [
+      0.053981840942581676,
+      -0.04852040220495271,
+      0.030039869107004045,
+      0.32971971371292946,
+      0.1685999472682403,
+      -0.927573208712526,
+      -0.0496680042779956
+    ],
+    [
+      0.02087394396109025,
+      0.004567156489910282,
+      0.03624717058568205,
+      -0.8681014834535167,
+      -0.18555356338586826,
+      -0.27388187596902397,
+      0.3700789207132677
+    ],
+    [
+      -0.0033234894917343063,
+      -0.031522507602361936,
+      0.06526661773918475,
+      -0.7652638231000201,
+      -0.05460808548615473,
+      0.00685486346005501,
+      0.6413596876175045
+    ],
+    [
+      -0.06858802471695437,
+      0.03486531144098992,
+      0.04742131277296095,
+      0.6635016570670148,
+      -0.3820587174737383,
+      0.5144985883843086,
+      0.3861190101797631
+    ]
+  ],
+  "object_scales": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bin_size": [
+    0.22,
+    0.16,
+    0.2
+  ],
+  "wall_thickness": 0.01,
+  "objects": [
+    {
+      "object_id": "obj_00",
+      "instance_id": "obj_00",
+      "asset_name": "7-Clamp",
+      "mesh_id": "7-Clamp",
+      "scale": 1.0,
+      "spec": {
+        "name": "7-Clamp",
+        "primitive_type": "box",
+        "size": [
+          0.040255,
+          0.029694,
+          0.008887
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/7-Clamp/textured.obj",
+        "collision_mesh_paths": [
+          "assets/collision/7-Clamp/piece_00.obj",
+          "assets/collision/7-Clamp/piece_01.obj",
+          "assets/collision/7-Clamp/piece_02.obj",
+          "assets/collision/7-Clamp/piece_03.obj",
+          "assets/collision/7-Clamp/piece_04.obj",
+          "assets/collision/7-Clamp/piece_05.obj",
+          "assets/collision/7-Clamp/piece_06.obj",
+          "assets/collision/7-Clamp/piece_07.obj"
+        ],
+        "texture_path": "assets/visual/7-Clamp/texture_map.png",
+        "mesh_scale": [
+          0.004881199733811907,
+          0.004881199733811907,
+          0.004881199733811907
+        ],
+        "mesh_offset": [
+          -2.2209458788697038e-07,
+          -1.5375779161489015e-07,
+          1.0494579427699322e-07
+        ],
+        "proxy_quaternion_wxyz": null,
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight box proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 8 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          -0.010753723399265837,
+          -0.00138810422805998,
+          0.00961585683394456
+        ],
+        "quaternion_wxyz": [
+          0.49151636988701725,
+          0.00941460675327082,
+          -0.04390255718298377,
+          0.869710060184178
+        ]
+      },
+      "position": [
+        -0.010753723399265837,
+        -0.00138810422805998,
+        0.00961585683394456
+      ],
+      "orientation": [
+        0.49151636988701725,
+        0.00941460675327082,
+        -0.04390255718298377,
+        0.869710060184178
+      ],
+      "bbox_3d": {
+        "center": [
+          -0.010753723399265837,
+          -0.00138810422805998,
+          0.00961585683394456
+        ],
+        "quaternion_wxyz": [
+          0.49151636988701725,
+          0.00941460675327082,
+          -0.04390255718298377,
+          0.869710060184178
+        ],
+        "half_extents": [
+          0.040255,
+          0.029694,
+          0.008887
+        ],
+        "primitive_type": "box"
+      },
+      "geometry": {
+        "primitive_type": "box",
+        "proxy_half_extents": [
+          0.040255,
+          0.029694,
+          0.008887
+        ],
+        "bounding_radius": 0.0508052893899838
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_01",
+      "instance_id": "obj_01",
+      "asset_name": "10-meat_can",
+      "mesh_id": "10-meat_can",
+      "scale": 1.0,
+      "spec": {
+        "name": "10-meat_can",
+        "primitive_type": "cylinder",
+        "size": [
+          0.024808,
+          0.02039
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/10-meat_can/textured.obj",
+        "collision_mesh_paths": [
+          "assets/collision/10-meat_can/piece_00.obj",
+          "assets/collision/10-meat_can/piece_01.obj",
+          "assets/collision/10-meat_can/piece_02.obj",
+          "assets/collision/10-meat_can/piece_03.obj",
+          "assets/collision/10-meat_can/piece_04.obj",
+          "assets/collision/10-meat_can/piece_05.obj"
+        ],
+        "texture_path": "assets/visual/10-meat_can/texture_map.png",
+        "mesh_scale": [
+          0.004881199733811907,
+          0.004881199733811907,
+          0.004881199733811907
+        ],
+        "mesh_offset": [
+          2.4161938682277944e-07,
+          2.440599866900266e-07,
+          4.14901977377814e-08
+        ],
+        "proxy_quaternion_wxyz": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight cylinder proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 6 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          -0.03982235974003834,
+          0.05224316758351095,
+          0.013809349496661821
+        ],
+        "quaternion_wxyz": [
+          0.011333198655143654,
+          -0.7475683479907043,
+          0.6640501569444313,
+          -0.00710723242673428
+        ]
+      },
+      "position": [
+        -0.03982235974003834,
+        0.05224316758351095,
+        0.013809349496661821
+      ],
+      "orientation": [
+        0.011333198655143654,
+        -0.7475683479907043,
+        0.6640501569444313,
+        -0.00710723242673428
+      ],
+      "bbox_3d": {
+        "center": [
+          -0.03982235974003834,
+          0.05224316758351095,
+          0.013809349496661821
+        ],
+        "quaternion_wxyz": [
+          0.011333198655143654,
+          -0.7475683479907043,
+          0.6640501569444313,
+          -0.00710723242673428
+        ],
+        "half_extents": [
+          0.024808,
+          0.02039000000000001,
+          0.02480800000000001
+        ],
+        "primitive_type": "cylinder"
+      },
+      "geometry": {
+        "primitive_type": "cylinder",
+        "proxy_half_extents": [
+          0.024808,
+          0.02039000000000001,
+          0.02480800000000001
+        ],
+        "bounding_radius": 0.03211213110336964
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_02",
+      "instance_id": "obj_02",
+      "asset_name": "40-Pringles",
+      "mesh_id": "40-Pringles",
+      "scale": 1.0,
+      "spec": {
+        "name": "40-Pringles",
+        "primitive_type": "cylinder",
+        "size": [
+          0.020441,
+          0.070801
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/40-Pringles/Pringles.obj",
+        "collision_mesh_paths": [
+          "assets/collision/40-Pringles/piece_00.obj"
+        ],
+        "texture_path": "assets/icra2026_local_proxy_textures/40-Pringles__texture.png",
+        "mesh_scale": [
+          0.48811997338119073,
+          0.48811997338119073,
+          0.48811997338119073
+        ],
+        "mesh_offset": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight cylinder proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 1 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          -0.03781743910240307,
+          -0.05875298524982984,
+          0.020985493292815828
+        ],
+        "quaternion_wxyz": [
+          0.5636955404004016,
+          -0.42574032399858347,
+          -0.42848175048202886,
+          -0.5633790054289721
+        ]
+      },
+      "position": [
+        -0.03781743910240307,
+        -0.05875298524982984,
+        0.020985493292815828
+      ],
+      "orientation": [
+        0.5636955404004016,
+        -0.42574032399858347,
+        -0.42848175048202886,
+        -0.5633790054289721
+      ],
+      "bbox_3d": {
+        "center": [
+          -0.03781743910240307,
+          -0.05875298524982984,
+          0.020985493292815828
+        ],
+        "quaternion_wxyz": [
+          0.5636955404004016,
+          -0.42574032399858347,
+          -0.42848175048202886,
+          -0.5633790054289721
+        ],
+        "half_extents": [
+          0.020441,
+          0.07080100000000002,
+          0.02044100000000002
+        ],
+        "primitive_type": "cylinder"
+      },
+      "geometry": {
+        "primitive_type": "cylinder",
+        "proxy_half_extents": [
+          0.020441,
+          0.07080100000000002,
+          0.02044100000000002
+        ],
+        "bounding_radius": 0.07369271390035789
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_03",
+      "instance_id": "obj_03",
+      "asset_name": "33-Key",
+      "mesh_id": "33-Key",
+      "scale": 1.0,
+      "spec": {
+        "name": "33-Key",
+        "primitive_type": "box",
+        "size": [
+          0.006296,
+          0.002441,
+          0.013721
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/33-Key/Key.obj",
+        "collision_mesh_paths": [
+          "assets/collision/33-Key/piece_00.obj",
+          "assets/collision/33-Key/piece_01.obj",
+          "assets/collision/33-Key/piece_02.obj",
+          "assets/collision/33-Key/piece_03.obj"
+        ],
+        "texture_path": null,
+        "mesh_scale": [
+          0.48811997338119073,
+          0.48811997338119073,
+          0.48811997338119073
+        ],
+        "mesh_offset": [
+          -0.0,
+          -2.440599866906013e-07,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": null,
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight box proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation. Physics settling includes 4 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          0.051186754330736106,
+          0.009613625199485842,
+          0.0006510685584770393
+        ],
+        "quaternion_wxyz": [
+          -0.1632004612176371,
+          -0.16296981320922968,
+          -0.6879636326578076,
+          -0.6881224379288713
+        ]
+      },
+      "position": [
+        0.051186754330736106,
+        0.009613625199485842,
+        0.0006510685584770393
+      ],
+      "orientation": [
+        -0.1632004612176371,
+        -0.16296981320922968,
+        -0.6879636326578076,
+        -0.6881224379288713
+      ],
+      "bbox_3d": {
+        "center": [
+          0.051186754330736106,
+          0.009613625199485842,
+          0.0006510685584770393
+        ],
+        "quaternion_wxyz": [
+          -0.1632004612176371,
+          -0.16296981320922968,
+          -0.6879636326578076,
+          -0.6881224379288713
+        ],
+        "half_extents": [
+          0.006296,
+          0.002441,
+          0.013721
+        ],
+        "primitive_type": "box"
+      },
+      "geometry": {
+        "primitive_type": "box",
+        "proxy_half_extents": [
+          0.006296,
+          0.002441,
+          0.013721
+        ],
+        "bounding_radius": 0.015292610568506608
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_04",
+      "instance_id": "obj_04",
+      "asset_name": "35-Laugh_Out_Loud_Joke_Book",
+      "mesh_id": "35-Laugh_Out_Loud_Joke_Book",
+      "scale": 1.0,
+      "spec": {
+        "name": "35-Laugh_Out_Loud_Joke_Book",
+        "primitive_type": "box",
+        "size": [
+          0.026847,
+          0.043687,
+          0.002441
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/35-Laugh_Out_Loud_Joke_Book/laugh_out_loud_joke_book.obj",
+        "collision_mesh_paths": [
+          "assets/collision/35-Laugh_Out_Loud_Joke_Book/piece_00.obj"
+        ],
+        "texture_path": "assets/visual/35-Laugh_Out_Loud_Joke_Book/laugh_out_loud_joke_book.png",
+        "mesh_scale": [
+          0.48811997338119073,
+          0.48811997338119073,
+          0.48811997338119073
+        ],
+        "mesh_offset": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": null,
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight box proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 1 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          0.0633319693569609,
+          0.03251796233447954,
+          0.023805153236489796
+        ],
+        "quaternion_wxyz": [
+          -0.2119792462399185,
+          0.897109827103768,
+          -0.37187728491063626,
+          0.10938940645645584
+        ]
+      },
+      "position": [
+        0.0633319693569609,
+        0.03251796233447954,
+        0.023805153236489796
+      ],
+      "orientation": [
+        -0.2119792462399185,
+        0.897109827103768,
+        -0.37187728491063626,
+        0.10938940645645584
+      ],
+      "bbox_3d": {
+        "center": [
+          0.0633319693569609,
+          0.03251796233447954,
+          0.023805153236489796
+        ],
+        "quaternion_wxyz": [
+          -0.2119792462399185,
+          0.897109827103768,
+          -0.37187728491063626,
+          0.10938940645645584
+        ],
+        "half_extents": [
+          0.026847,
+          0.043687,
+          0.002441
+        ],
+        "primitive_type": "box"
+      },
+      "geometry": {
+        "primitive_type": "box",
+        "proxy_half_extents": [
+          0.026847,
+          0.043687,
+          0.002441
+        ],
+        "bounding_radius": 0.051334918515567936
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_05",
+      "instance_id": "obj_05",
+      "asset_name": "34-Nail",
+      "mesh_id": "34-Nail",
+      "scale": 1.0,
+      "spec": {
+        "name": "34-Nail",
+        "primitive_type": "box",
+        "size": [
+          0.009257,
+          0.002929,
+          0.002929
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/34-Nail/Nail.obj",
+        "collision_mesh_paths": [
+          "assets/collision/34-Nail/piece_00.obj",
+          "assets/collision/34-Nail/piece_01.obj"
+        ],
+        "texture_path": null,
+        "mesh_scale": [
+          0.48811997338119073,
+          0.48811997338119073,
+          0.48811997338119073
+        ],
+        "mesh_offset": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": null,
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight box proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation. Physics settling includes 2 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          0.039242953260700396,
+          -0.01778479552361914,
+          0.0019893810047262226
+        ],
+        "quaternion_wxyz": [
+          0.16519879371118626,
+          0.40928513515262993,
+          0.8734049695886901,
+          0.20581252585117707
+        ]
+      },
+      "position": [
+        0.039242953260700396,
+        -0.01778479552361914,
+        0.0019893810047262226
+      ],
+      "orientation": [
+        0.16519879371118626,
+        0.40928513515262993,
+        0.8734049695886901,
+        0.20581252585117707
+      ],
+      "bbox_3d": {
+        "center": [
+          0.039242953260700396,
+          -0.01778479552361914,
+          0.0019893810047262226
+        ],
+        "quaternion_wxyz": [
+          0.16519879371118626,
+          0.40928513515262993,
+          0.8734049695886901,
+          0.20581252585117707
+        ],
+        "half_extents": [
+          0.009257,
+          0.002929,
+          0.002929
+        ],
+        "primitive_type": "box"
+      },
+      "geometry": {
+        "primitive_type": "box",
+        "proxy_half_extents": [
+          0.009257,
+          0.002929,
+          0.002929
+        ],
+        "bounding_radius": 0.010141505361631477
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_06",
+      "instance_id": "obj_06",
+      "asset_name": "2-Starkist_Tuna",
+      "mesh_id": "2-Starkist_Tuna",
+      "scale": 1.0,
+      "spec": {
+        "name": "2-Starkist_Tuna",
+        "primitive_type": "cylinder",
+        "size": [
+          0.020882,
+          0.008185
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/2-Starkist_Tuna/textured.obj",
+        "collision_mesh_paths": [
+          "assets/collision/2-Starkist_Tuna/piece_00.obj",
+          "assets/collision/2-Starkist_Tuna/piece_01.obj",
+          "assets/collision/2-Starkist_Tuna/piece_02.obj",
+          "assets/collision/2-Starkist_Tuna/piece_03.obj"
+        ],
+        "texture_path": "assets/visual/2-Starkist_Tuna/texture_map.png",
+        "mesh_scale": [
+          0.004881199733811907,
+          0.004881199733811907,
+          0.004881199733811907
+        ],
+        "mesh_offset": [
+          -2.440599866900266e-07,
+          -0.0,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight cylinder proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 4 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          -0.043631578585678676,
+          -0.007961650015155664,
+          0.01837961409926559
+        ],
+        "quaternion_wxyz": [
+          -0.8499136180538494,
+          0.42357713970549926,
+          -0.15636417107395076,
+          0.27162381075649417
+        ]
+      },
+      "position": [
+        -0.043631578585678676,
+        -0.007961650015155664,
+        0.01837961409926559
+      ],
+      "orientation": [
+        -0.8499136180538494,
+        0.42357713970549926,
+        -0.15636417107395076,
+        0.27162381075649417
+      ],
+      "bbox_3d": {
+        "center": [
+          -0.043631578585678676,
+          -0.007961650015155664,
+          0.01837961409926559
+        ],
+        "quaternion_wxyz": [
+          -0.8499136180538494,
+          0.42357713970549926,
+          -0.15636417107395076,
+          0.27162381075649417
+        ],
+        "half_extents": [
+          0.020882,
+          0.008185000000000007,
+          0.020882000000000008
+        ],
+        "primitive_type": "cylinder"
+      },
+      "geometry": {
+        "primitive_type": "cylinder",
+        "proxy_half_extents": [
+          0.020882,
+          0.008185000000000007,
+          0.020882000000000008
+        ],
+        "bounding_radius": 0.02242882406636603
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_07",
+      "instance_id": "obj_07",
+      "asset_name": "8-Plastic_Banana",
+      "mesh_id": "8-Plastic_Banana",
+      "scale": 1.0,
+      "spec": {
+        "name": "8-Plastic_Banana",
+        "primitive_type": "box",
+        "size": [
+          0.048122,
+          0.009433,
+          0.018077
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/8-Plastic_Banana/textured.obj",
+        "collision_mesh_paths": [
+          "assets/collision/8-Plastic_Banana/piece_00.obj",
+          "assets/collision/8-Plastic_Banana/piece_01.obj",
+          "assets/collision/8-Plastic_Banana/piece_02.obj"
+        ],
+        "texture_path": "assets/visual/8-Plastic_Banana/texture_map.png",
+        "mesh_scale": [
+          0.004881199733811907,
+          0.004881199733811907,
+          0.004881199733811907
+        ],
+        "mesh_offset": [
+          -1.4399539214806946e-07,
+          2.4405998669056847e-07,
+          1.7816379028410958e-07
+        ],
+        "proxy_quaternion_wxyz": null,
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight box proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 3 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          -0.08395837678960706,
+          0.00399454527939941,
+          0.035253806473550885
+        ],
+        "quaternion_wxyz": [
+          0.08423993388218669,
+          0.4631231551025786,
+          -0.3640634253239057,
+          0.803665601533861
+        ]
+      },
+      "position": [
+        -0.08395837678960706,
+        0.00399454527939941,
+        0.035253806473550885
+      ],
+      "orientation": [
+        0.08423993388218669,
+        0.4631231551025786,
+        -0.3640634253239057,
+        0.803665601533861
+      ],
+      "bbox_3d": {
+        "center": [
+          -0.08395837678960706,
+          0.00399454527939941,
+          0.035253806473550885
+        ],
+        "quaternion_wxyz": [
+          0.08423993388218669,
+          0.4631231551025786,
+          -0.3640634253239057,
+          0.803665601533861
+        ],
+        "half_extents": [
+          0.048122,
+          0.009433,
+          0.018077
+        ],
+        "primitive_type": "box"
+      },
+      "geometry": {
+        "primitive_type": "box",
+        "proxy_half_extents": [
+          0.048122,
+          0.009433,
+          0.018077
+        ],
+        "bounding_radius": 0.052263623123545495
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_08",
+      "instance_id": "obj_08",
+      "asset_name": "19-Elmers_Glue",
+      "mesh_id": "19-Elmers_Glue",
+      "scale": 1.0,
+      "spec": {
+        "name": "19-Elmers_Glue",
+        "primitive_type": "cylinder",
+        "size": [
+          0.01576,
+          0.034901
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/19-Elmers_Glue/Elemers_Glue.obj",
+        "collision_mesh_paths": [
+          "assets/collision/19-Elmers_Glue/piece_00.obj",
+          "assets/collision/19-Elmers_Glue/piece_01.obj"
+        ],
+        "texture_path": "assets/visual/19-Elmers_Glue/texture.png",
+        "mesh_scale": [
+          0.48811997338119073,
+          0.48811997338119073,
+          0.48811997338119073
+        ],
+        "mesh_offset": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight cylinder proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 2 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          0.030694008820626714,
+          0.003596703955958508,
+          0.012321979562016618
+        ],
+        "quaternion_wxyz": [
+          -0.771236437371214,
+          -0.03142301814692863,
+          0.2623624353962839,
+          -0.5791138956150392
+        ]
+      },
+      "position": [
+        0.030694008820626714,
+        0.003596703955958508,
+        0.012321979562016618
+      ],
+      "orientation": [
+        -0.771236437371214,
+        -0.03142301814692863,
+        0.2623624353962839,
+        -0.5791138956150392
+      ],
+      "bbox_3d": {
+        "center": [
+          0.030694008820626714,
+          0.003596703955958508,
+          0.012321979562016618
+        ],
+        "quaternion_wxyz": [
+          -0.771236437371214,
+          -0.03142301814692863,
+          0.2623624353962839,
+          -0.5791138956150392
+        ],
+        "half_extents": [
+          0.01576,
+          0.034901000000000015,
+          0.01576000000000001
+        ],
+        "primitive_type": "cylinder"
+      },
+      "geometry": {
+        "primitive_type": "cylinder",
+        "proxy_half_extents": [
+          0.01576,
+          0.034901000000000015,
+          0.01576000000000001
+        ],
+        "bounding_radius": 0.03829435207703611
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_09",
+      "instance_id": "obj_09",
+      "asset_name": "36-Adjustable_Wrench",
+      "mesh_id": "36-Adjustable_Wrench",
+      "scale": 1.0,
+      "spec": {
+        "name": "36-Adjustable_Wrench",
+        "primitive_type": "box",
+        "size": [
+          0.049389,
+          0.003576,
+          0.015355
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/36-Adjustable_Wrench/Adjustable_Wrench.obj",
+        "collision_mesh_paths": [
+          "assets/collision/36-Adjustable_Wrench/piece_00.obj",
+          "assets/collision/36-Adjustable_Wrench/piece_01.obj",
+          "assets/collision/36-Adjustable_Wrench/piece_02.obj",
+          "assets/collision/36-Adjustable_Wrench/piece_03.obj"
+        ],
+        "texture_path": "assets/visual/36-Adjustable_Wrench/texture.png",
+        "mesh_scale": [
+          0.48811997338119073,
+          0.48811997338119073,
+          0.48811997338119073
+        ],
+        "mesh_offset": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": null,
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight box proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 4 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          0.015993955340757093,
+          -0.0017387090819313276,
+          0.015887062946787878
+        ],
+        "quaternion_wxyz": [
+          -0.7292369871427649,
+          0.468059728427653,
+          -0.3790344578087441,
+          0.32475588832353136
+        ]
+      },
+      "position": [
+        0.015993955340757093,
+        -0.0017387090819313276,
+        0.015887062946787878
+      ],
+      "orientation": [
+        -0.7292369871427649,
+        0.468059728427653,
+        -0.3790344578087441,
+        0.32475588832353136
+      ],
+      "bbox_3d": {
+        "center": [
+          0.015993955340757093,
+          -0.0017387090819313276,
+          0.015887062946787878
+        ],
+        "quaternion_wxyz": [
+          -0.7292369871427649,
+          0.468059728427653,
+          -0.3790344578087441,
+          0.32475588832353136
+        ],
+        "half_extents": [
+          0.049389,
+          0.003576,
+          0.015355
+        ],
+        "primitive_type": "box"
+      },
+      "geometry": {
+        "primitive_type": "box",
+        "proxy_half_extents": [
+          0.049389,
+          0.003576,
+          0.015355
+        ],
+        "bounding_radius": 0.05184435477465218
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_10",
+      "instance_id": "obj_10",
+      "asset_name": "12-Baseball",
+      "mesh_id": "12-Baseball",
+      "scale": 1.0,
+      "spec": {
+        "name": "12-Baseball",
+        "primitive_type": "sphere",
+        "size": [
+          0.01799
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/12-Baseball/Baseball.obj",
+        "collision_mesh_paths": [
+          "assets/collision/12-Baseball/piece_00.obj"
+        ],
+        "texture_path": "assets/visual/12-Baseball/texture.png",
+        "mesh_scale": [
+          0.48811997338119073,
+          0.48811997338119073,
+          0.48811997338119073
+        ],
+        "mesh_offset": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": null,
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight sphere proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 1 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          0.09203272981075224,
+          -0.028512607022468352,
+          0.01806676879353336
+        ],
+        "quaternion_wxyz": [
+          -0.46501075504193684,
+          -0.29304485032329514,
+          -0.3658210870375843,
+          0.7510423727546698
+        ]
+      },
+      "position": [
+        0.09203272981075224,
+        -0.028512607022468352,
+        0.01806676879353336
+      ],
+      "orientation": [
+        -0.46501075504193684,
+        -0.29304485032329514,
+        -0.3658210870375843,
+        0.7510423727546698
+      ],
+      "bbox_3d": {
+        "center": [
+          0.09203272981075224,
+          -0.028512607022468352,
+          0.01806676879353336
+        ],
+        "quaternion_wxyz": [
+          -0.46501075504193684,
+          -0.29304485032329514,
+          -0.3658210870375843,
+          0.7510423727546698
+        ],
+        "half_extents": [
+          0.01799,
+          0.01799,
+          0.01799
+        ],
+        "primitive_type": "sphere"
+      },
+      "geometry": {
+        "primitive_type": "sphere",
+        "proxy_half_extents": [
+          0.01799,
+          0.01799,
+          0.01799
+        ],
+        "bounding_radius": 0.01799
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_11",
+      "instance_id": "obj_11",
+      "asset_name": "9-Mug",
+      "mesh_id": "9-Mug",
+      "scale": 1.0,
+      "spec": {
+        "name": "9-Mug",
+        "primitive_type": "cylinder",
+        "size": [
+          0.028553,
+          0.019843
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/9-Mug/textured.obj",
+        "collision_mesh_paths": [
+          "assets/collision/9-Mug/piece_00.obj",
+          "assets/collision/9-Mug/piece_01.obj",
+          "assets/collision/9-Mug/piece_02.obj",
+          "assets/collision/9-Mug/piece_03.obj",
+          "assets/collision/9-Mug/piece_04.obj",
+          "assets/collision/9-Mug/piece_05.obj",
+          "assets/collision/9-Mug/piece_06.obj",
+          "assets/collision/9-Mug/piece_07.obj"
+        ],
+        "texture_path": "assets/visual/9-Mug/texture_map.png",
+        "mesh_scale": [
+          0.004881199733811907,
+          0.004881199733811907,
+          0.004881199733811907
+        ],
+        "mesh_offset": [
+          -8.053979560831572e-08,
+          2.440599866900266e-07,
+          1.1714879361268678e-07
+        ],
+        "proxy_quaternion_wxyz": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight cylinder proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 8 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          0.053981840942581676,
+          -0.04852040220495271,
+          0.030039869107004045
+        ],
+        "quaternion_wxyz": [
+          0.32971971371292946,
+          0.1685999472682403,
+          -0.927573208712526,
+          -0.0496680042779956
+        ]
+      },
+      "position": [
+        0.053981840942581676,
+        -0.04852040220495271,
+        0.030039869107004045
+      ],
+      "orientation": [
+        0.32971971371292946,
+        0.1685999472682403,
+        -0.927573208712526,
+        -0.0496680042779956
+      ],
+      "bbox_3d": {
+        "center": [
+          0.053981840942581676,
+          -0.04852040220495271,
+          0.030039869107004045
+        ],
+        "quaternion_wxyz": [
+          0.32971971371292946,
+          0.1685999472682403,
+          -0.927573208712526,
+          -0.0496680042779956
+        ],
+        "half_extents": [
+          0.028553,
+          0.01984300000000001,
+          0.02855300000000001
+        ],
+        "primitive_type": "cylinder"
+      },
+      "geometry": {
+        "primitive_type": "cylinder",
+        "proxy_half_extents": [
+          0.028553,
+          0.01984300000000001,
+          0.02855300000000001
+        ],
+        "bounding_radius": 0.03477094272521238
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_12",
+      "instance_id": "obj_12",
+      "asset_name": "15-28 Bottle",
+      "mesh_id": "15-28 Bottle",
+      "scale": 1.0,
+      "spec": {
+        "name": "15-28 Bottle",
+        "primitive_type": "cylinder",
+        "size": [
+          0.014888,
+          0.052168
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/15-28 Bottle/cocacolaempty.obj",
+        "collision_mesh_paths": [
+          "assets/collision/15-28 Bottle/piece_00.obj",
+          "assets/collision/15-28 Bottle/piece_01.obj",
+          "assets/collision/15-28 Bottle/piece_02.obj",
+          "assets/collision/15-28 Bottle/piece_03.obj",
+          "assets/collision/15-28 Bottle/piece_04.obj"
+        ],
+        "texture_path": "assets/icra2026_local_proxy_textures/15-28 Bottle__coca_texture.png",
+        "mesh_scale": [
+          0.48811997338119073,
+          0.48811997338119073,
+          0.48811997338119073
+        ],
+        "mesh_offset": [
+          -0.0,
+          -0.00030556310333662616,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight cylinder proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 5 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          0.02087394396109025,
+          0.004567156489910282,
+          0.03624717058568205
+        ],
+        "quaternion_wxyz": [
+          -0.8681014834535167,
+          -0.18555356338586826,
+          -0.27388187596902397,
+          0.3700789207132677
+        ]
+      },
+      "position": [
+        0.02087394396109025,
+        0.004567156489910282,
+        0.03624717058568205
+      ],
+      "orientation": [
+        -0.8681014834535167,
+        -0.18555356338586826,
+        -0.27388187596902397,
+        0.3700789207132677
+      ],
+      "bbox_3d": {
+        "center": [
+          0.02087394396109025,
+          0.004567156489910282,
+          0.03624717058568205
+        ],
+        "quaternion_wxyz": [
+          -0.8681014834535167,
+          -0.18555356338586826,
+          -0.27388187596902397,
+          0.3700789207132677
+        ],
+        "half_extents": [
+          0.014888,
+          0.05216800000000001,
+          0.014888000000000016
+        ],
+        "primitive_type": "cylinder"
+      },
+      "geometry": {
+        "primitive_type": "cylinder",
+        "proxy_half_extents": [
+          0.014888,
+          0.05216800000000001,
+          0.014888000000000016
+        ],
+        "bounding_radius": 0.05425083195675436
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_13",
+      "instance_id": "obj_13",
+      "asset_name": "1-Cheez-it",
+      "mesh_id": "1-Cheez-it",
+      "scale": 1.0,
+      "spec": {
+        "name": "1-Cheez-it",
+        "primitive_type": "box",
+        "size": [
+          0.040035,
+          0.052091,
+          0.017524
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/1-Cheez-it/textured.obj",
+        "collision_mesh_paths": [
+          "assets/collision/1-Cheez-it/piece_00.obj",
+          "assets/collision/1-Cheez-it/piece_01.obj"
+        ],
+        "texture_path": "assets/visual/1-Cheez-it/texture_map.png",
+        "mesh_scale": [
+          0.004881199733811907,
+          0.004881199733811907,
+          0.004881199733811907
+        ],
+        "mesh_offset": [
+          -0.0,
+          2.4405998669436196e-07,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": null,
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight box proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 2 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          -0.0033234894917343063,
+          -0.031522507602361936,
+          0.06526661773918475
+        ],
+        "quaternion_wxyz": [
+          -0.7652638231000201,
+          -0.05460808548615473,
+          0.00685486346005501,
+          0.6413596876175045
+        ]
+      },
+      "position": [
+        -0.0033234894917343063,
+        -0.031522507602361936,
+        0.06526661773918475
+      ],
+      "orientation": [
+        -0.7652638231000201,
+        -0.05460808548615473,
+        0.00685486346005501,
+        0.6413596876175045
+      ],
+      "bbox_3d": {
+        "center": [
+          -0.0033234894917343063,
+          -0.031522507602361936,
+          0.06526661773918475
+        ],
+        "quaternion_wxyz": [
+          -0.7652638231000201,
+          -0.05460808548615473,
+          0.00685486346005501,
+          0.6413596876175045
+        ],
+        "half_extents": [
+          0.040035,
+          0.052091,
+          0.017524
+        ],
+        "primitive_type": "box"
+      },
+      "geometry": {
+        "primitive_type": "box",
+        "proxy_half_extents": [
+          0.040035,
+          0.052091,
+          0.017524
+        ],
+        "bounding_radius": 0.0679953239715791
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    },
+    {
+      "object_id": "obj_14",
+      "instance_id": "obj_14",
+      "asset_name": "38-Rolodex_Jumbo_Pencil_Cup",
+      "mesh_id": "38-Rolodex_Jumbo_Pencil_Cup",
+      "scale": 1.0,
+      "spec": {
+        "name": "38-Rolodex_Jumbo_Pencil_Cup",
+        "primitive_type": "cylinder",
+        "size": [
+          0.026656,
+          0.032855
+        ],
+        "mass": 0.1,
+        "rgba": [
+          0.7,
+          0.7,
+          0.7,
+          1.0
+        ],
+        "mesh_path": "assets/visual/38-Rolodex_Jumbo_Pencil_Cup/Rolodex_Jumbo_Pencil_Cup.obj",
+        "collision_mesh_paths": [
+          "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_00.obj",
+          "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_01.obj",
+          "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_02.obj",
+          "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_03.obj",
+          "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_04.obj",
+          "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_05.obj",
+          "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_06.obj",
+          "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_07.obj"
+        ],
+        "texture_path": "assets/visual/38-Rolodex_Jumbo_Pencil_Cup/texture.png",
+        "mesh_scale": [
+          0.48811997338119073,
+          0.48811997338119073,
+          0.48811997338119073
+        ],
+        "mesh_offset": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "proxy_quaternion_wxyz": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "notes": "Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight cylinder proxy derived from the mesh bounds, while observation rendering keeps the normalized and centered mesh for proposal generation with texture rendering. Physics settling includes 8 convex collision meshes from CoACD. Relative object sizes are preserved with a shared global scale chosen for bin-clutter compatibility. Verify against the official CEPB release before final dataset generation."
+      },
+      "pose": {
+        "position": [
+          -0.06858802471695437,
+          0.03486531144098992,
+          0.04742131277296095
+        ],
+        "quaternion_wxyz": [
+          0.6635016570670148,
+          -0.3820587174737383,
+          0.5144985883843086,
+          0.3861190101797631
+        ]
+      },
+      "position": [
+        -0.06858802471695437,
+        0.03486531144098992,
+        0.04742131277296095
+      ],
+      "orientation": [
+        0.6635016570670148,
+        -0.3820587174737383,
+        0.5144985883843086,
+        0.3861190101797631
+      ],
+      "bbox_3d": {
+        "center": [
+          -0.06858802471695437,
+          0.03486531144098992,
+          0.04742131277296095
+        ],
+        "quaternion_wxyz": [
+          0.6635016570670148,
+          -0.3820587174737383,
+          0.5144985883843086,
+          0.3861190101797631
+        ],
+        "half_extents": [
+          0.026656,
+          0.032855000000000016,
+          0.026656000000000013
+        ],
+        "primitive_type": "cylinder"
+      },
+      "geometry": {
+        "primitive_type": "cylinder",
+        "proxy_half_extents": [
+          0.026656,
+          0.032855000000000016,
+          0.026656000000000013
+        ],
+        "bounding_radius": 0.04230831314292736
+      },
+      "physical_attr": {
+        "mass": 0.1
+      }
+    }
+  ],
+  "metadata": {
+    "asset_catalog": "icra2026_local_proxy",
+    "physics_stable": true,
+    "stable": true,
+    "in_bin": true,
+    "out_of_bin_object_ids": [],
+    "generation_mode": "wave_drop_pile",
+    "wave_drop_attempts": [
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "wave_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "recent_max_velocity": 0.02074085231339369,
+    "settle_steps": 9000,
+    "stability_window": 250,
+    "velocity_threshold": 0.04,
+    "timestep": 0.002,
+    "dense_layer_audit": {
+      "accepted": true,
+      "acceptance_checks": {
+        "complete_object_count": true,
+        "generator_stable": true,
+        "audit_stable": true,
+        "generator_in_bin": true,
+        "audit_in_bin": true,
+        "upper_layer_fraction": true,
+        "upper_layer_objects": true,
+        "max_support_depth": true,
+        "object_contact_pairs": true,
+        "pile_height": true
+      },
+      "acceptance_thresholds": {
+        "min_upper_layer_fraction": 0.25,
+        "min_upper_layer_objects": 5,
+        "min_max_support_depth": 2,
+        "min_object_contact_pairs": 8,
+        "min_pile_height_m": 0.095
+      },
+      "num_objects": 15,
+      "floor_contact_object_ids": [
+        "obj_00",
+        "obj_01",
+        "obj_02",
+        "obj_03",
+        "obj_04",
+        "obj_05",
+        "obj_06",
+        "obj_07",
+        "obj_08",
+        "obj_09",
+        "obj_10",
+        "obj_11"
+      ],
+      "wall_contact_object_ids": [
+        "obj_04",
+        "obj_07",
+        "obj_10",
+        "obj_14"
+      ],
+      "object_contact_pairs": [
+        [
+          "obj_00",
+          "obj_06"
+        ],
+        [
+          "obj_00",
+          "obj_09"
+        ],
+        [
+          "obj_00",
+          "obj_12"
+        ],
+        [
+          "obj_01",
+          "obj_14"
+        ],
+        [
+          "obj_02",
+          "obj_09"
+        ],
+        [
+          "obj_02",
+          "obj_11"
+        ],
+        [
+          "obj_02",
+          "obj_13"
+        ],
+        [
+          "obj_03",
+          "obj_04"
+        ],
+        [
+          "obj_04",
+          "obj_08"
+        ],
+        [
+          "obj_05",
+          "obj_09"
+        ],
+        [
+          "obj_06",
+          "obj_07"
+        ],
+        [
+          "obj_07",
+          "obj_14"
+        ],
+        [
+          "obj_08",
+          "obj_09"
+        ],
+        [
+          "obj_08",
+          "obj_12"
+        ],
+        [
+          "obj_09",
+          "obj_11"
+        ],
+        [
+          "obj_09",
+          "obj_12"
+        ],
+        [
+          "obj_11",
+          "obj_13"
+        ],
+        [
+          "obj_12",
+          "obj_13"
+        ],
+        [
+          "obj_13",
+          "obj_14"
+        ]
+      ],
+      "support_edges": [
+        [
+          "obj_00",
+          "obj_06"
+        ],
+        [
+          "obj_00",
+          "obj_09"
+        ],
+        [
+          "obj_00",
+          "obj_12"
+        ],
+        [
+          "obj_01",
+          "obj_14"
+        ],
+        [
+          "obj_02",
+          "obj_13"
+        ],
+        [
+          "obj_03",
+          "obj_04"
+        ],
+        [
+          "obj_05",
+          "obj_09"
+        ],
+        [
+          "obj_06",
+          "obj_07"
+        ],
+        [
+          "obj_07",
+          "obj_14"
+        ],
+        [
+          "obj_08",
+          "obj_04"
+        ],
+        [
+          "obj_08",
+          "obj_12"
+        ],
+        [
+          "obj_09",
+          "obj_02"
+        ],
+        [
+          "obj_09",
+          "obj_11"
+        ],
+        [
+          "obj_09",
+          "obj_12"
+        ],
+        [
+          "obj_11",
+          "obj_13"
+        ],
+        [
+          "obj_12",
+          "obj_13"
+        ],
+        [
+          "obj_14",
+          "obj_13"
+        ]
+      ],
+      "support_depth_by_object": {
+        "obj_01": 0,
+        "obj_13": 4,
+        "obj_11": 2,
+        "obj_00": 0,
+        "obj_12": 2,
+        "obj_03": 0,
+        "obj_07": 2,
+        "obj_14": 3,
+        "obj_10": 0,
+        "obj_04": 1,
+        "obj_06": 1,
+        "obj_02": 2,
+        "obj_08": 0,
+        "obj_05": 0,
+        "obj_09": 1
+      },
+      "layer_counts": {
+        "0": 6,
+        "4": 1,
+        "2": 4,
+        "3": 1,
+        "1": 3
+      },
+      "upper_layer_object_ids": [
+        "obj_02",
+        "obj_04",
+        "obj_06",
+        "obj_07",
+        "obj_09",
+        "obj_11",
+        "obj_12",
+        "obj_13",
+        "obj_14"
+      ],
+      "unresolved_object_ids": [],
+      "upper_layer_fraction": 0.6,
+      "max_support_depth": 4,
+      "pile_height_m": 0.10698314025532768,
+      "audit_recent_max_linear_velocity_mps": 0.010819925721530451,
+      "audit_out_of_bin_object_ids": [],
+      "num_contacts": 46
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "packages": 11,
+  "bytes": 1681693322,
+  "sha256_pass": true,
+  "index_rows": {
+    "train": 9090,
+    "val": 1950,
+    "test": 1945
+  },
+  "models_sha256": "d6b2d7b7b48196900632debe278a6edfefd8b1a2f5629f0f7e0276909d035d46"
+}

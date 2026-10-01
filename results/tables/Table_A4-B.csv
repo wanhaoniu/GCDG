@@ -1,0 +1,6 @@
+﻿Method,Seq. (%),Targets,Comp. (%),Reloc.,R/retr.,Terminal reasons
+Direct,0,1.81/10,18.1,3.44,1.90,with failures 16
+Nearest,6,5.25/10,52.5,50.00,9.52,with failures 15; complete 1
+Mechanical,0,5.44/10,54.4,27.06,4.98,with failures 16
+X-Ray,19,8.06/10,80.6,17.56,2.18,with failures 12; unstable 1; complete 3
+Ours,25,8.56/10,85.6,11.44,1.34,with failures 12; complete 4

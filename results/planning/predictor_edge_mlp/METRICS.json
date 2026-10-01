@@ -1,0 +1,25 @@
+{
+  "overall": {
+    "num_results": 1945,
+    "target_retrieval_success_rate": 0.2051413881748072,
+    "mean_num_removals": 2.1917737789203087,
+    "mean_excess_removal": 1.7598971722365038,
+    "mean_blocker_set_iou": 0.6001297588444139,
+    "mean_planning_time_sec": 0.0013680464045831738
+  },
+  "by_planner": {
+    "budgeted_dependency_closed_loop": {
+      "num_samples": 1945,
+      "target_retrieval_success_rate": 0.2051413881748072,
+      "mean_num_removals": 2.1917737789203087,
+      "mean_excess_removal": 1.7598971722365038,
+      "mean_optimality_gap": 1.5754070265638371,
+      "mean_blocker_set_precision": 0.06954584404455892,
+      "mean_blocker_set_recall": 0.19177377892030853,
+      "mean_blocker_set_f1": 0.09764230627983875,
+      "mean_blocker_set_iou": 0.6001297588444139,
+      "selected_grasp_feasibility_after_removals": 0.2051413881748072,
+      "mean_planning_time_sec": 0.0013680464045831738
+    }
+  }
+}

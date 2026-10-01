@@ -1,0 +1,4 @@
+﻿Method,Trials,Success runs,Removals runs,Mean success / removals
+Direct,20,6 / 7 / 9,0 / 0 / 0,7.3 ± 1.5 / 0.0 ± 0.0
+Mechanical,20,15 / 14 / 16,7 / 7 / 8,15.0 ± 1.0 / 7.3 ± 0.6
+Ours,20,18 / 18 / 19,4 / 5 / 5,18.3 ± 0.6 / 4.7 ± 0.6

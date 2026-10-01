@@ -1,0 +1,1399 @@
+objects:
+- name: 1-Cheez-it
+  primitive_type: box
+  size:
+  - 0.040035
+  - 0.052091
+  - 0.017524
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/1-Cheez-it/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/1-Cheez-it/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/1-Cheez-it/piece_01.obj
+  texture_path: icra2026_local_proxy_models/1-Cheez-it/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - -0.0
+  - 2.4405998669436196e-07
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 2 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 10-meat_can
+  primitive_type: cylinder
+  size:
+  - 0.024808
+  - 0.02039
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/10-meat_can/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/10-meat_can/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/10-meat_can/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/10-meat_can/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/10-meat_can/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/10-meat_can/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/10-meat_can/piece_05.obj
+  texture_path: icra2026_local_proxy_models/10-meat_can/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - 2.4161938682277944e-07
+  - 2.440599866900266e-07
+  - 4.14901977377814e-08
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 6 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 11-Padlock
+  primitive_type: box
+  size:
+  - 0.014644
+  - 0.014644
+  - 0.014644
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: null
+  collision_mesh_paths: null
+  texture_path: null
+  mesh_scale: null
+  mesh_offset: null
+  proxy_quaternion_wxyz: null
+  notes: Original local asset is DAE, so both physics and rendering currently fall
+    back to a box proxy for this object. Verify or convert the mesh before final dataset
+    generation.
+- name: 12-Baseball
+  primitive_type: sphere
+  size:
+  - 0.01799
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/12-Baseball/Baseball.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/12-Baseball/piece_00.obj
+  texture_path: icra2026_local_proxy_models/12-Baseball/texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    sphere proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 1 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 13-Bowl
+  primitive_type: cylinder
+  size:
+  - 0.039407
+  - 0.013425
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/13-Bowl/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/13-Bowl/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/13-Bowl/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/13-Bowl/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/13-Bowl/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/13-Bowl/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/13-Bowl/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/13-Bowl/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/13-Bowl/piece_07.obj
+  texture_path: icra2026_local_proxy_models/13-Bowl/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - -0.0
+  - -2.440599866911104e-07
+  - -2.440599866900266e-07
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 8 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 14-Sleeve
+  primitive_type: box
+  size:
+  - 0.09761
+  - 0.112268
+  - 0.097596
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/14-Sleeve/sleeve.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/14-Sleeve/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/14-Sleeve/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/14-Sleeve/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/14-Sleeve/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/14-Sleeve/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/14-Sleeve/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/14-Sleeve/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/14-Sleeve/piece_07.obj
+  texture_path: null
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation. Physics settling includes
+    8 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 15-28 Bottle
+  primitive_type: cylinder
+  size:
+  - 0.014888
+  - 0.052168
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/15-28 Bottle/cocacolaempty.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/15-28 Bottle/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/15-28 Bottle/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/15-28 Bottle/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/15-28 Bottle/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/15-28 Bottle/piece_04.obj
+  texture_path: icra2026_local_proxy_textures/15-28 Bottle__coca_texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.00030556310333662616
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 5 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 16-ICRA_Duckie
+  primitive_type: box
+  size:
+  - 0.017695
+  - 0.025686
+  - 0.024293
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/16-ICRA_Duckie/ICRA_Duckie.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/16-ICRA_Duckie/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/16-ICRA_Duckie/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/16-ICRA_Duckie/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/16-ICRA_Duckie/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/16-ICRA_Duckie/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/16-ICRA_Duckie/piece_05.obj
+  texture_path: icra2026_local_proxy_models/16-ICRA_Duckie/texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 6 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 17-Kygen_Squeakin_Eggs_Plush_Puppies
+  primitive_type: box
+  size:
+  - 0.060479
+  - 0.022796
+  - 0.025292
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/17-Kygen_Squeakin_Eggs_Plush_Puppies/puppies2.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/17-Kygen_Squeakin_Eggs_Plush_Puppies/piece_00.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - 0.00308247763190222
+  - -0.010324957736945636
+  - -0.005334419129096341
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation. Physics settling includes
+    1 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 18-Dice
+  primitive_type: box
+  size:
+  - 0.004881
+  - 0.004881
+  - 0.004881
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/18-Dice/Dice.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/18-Dice/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/18-Dice/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/18-Dice/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/18-Dice/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/18-Dice/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/18-Dice/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/18-Dice/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/18-Dice/piece_07.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation. Physics settling includes
+    8 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 19-Elmers_Glue
+  primitive_type: cylinder
+  size:
+  - 0.01576
+  - 0.034901
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/19-Elmers_Glue/Elemers_Glue.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/19-Elmers_Glue/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/19-Elmers_Glue/piece_01.obj
+  texture_path: icra2026_local_proxy_models/19-Elmers_Glue/texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 2 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 2-Starkist_Tuna
+  primitive_type: cylinder
+  size:
+  - 0.020882
+  - 0.008185
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/2-Starkist_Tuna/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/2-Starkist_Tuna/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/2-Starkist_Tuna/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/2-Starkist_Tuna/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/2-Starkist_Tuna/piece_03.obj
+  texture_path: icra2026_local_proxy_models/2-Starkist_Tuna/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - -2.440599866900266e-07
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 4 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 20-Scotch_Duct_Tape
+  primitive_type: cylinder
+  size:
+  - 0.025626
+  - 0.011774
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/20-Scotch_Duct_Tape/Scotch_Duct_Tape.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/20-Scotch_Duct_Tape/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/20-Scotch_Duct_Tape/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/20-Scotch_Duct_Tape/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/20-Scotch_Duct_Tape/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/20-Scotch_Duct_Tape/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/20-Scotch_Duct_Tape/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/20-Scotch_Duct_Tape/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/20-Scotch_Duct_Tape/piece_07.obj
+  texture_path: icra2026_local_proxy_models/20-Scotch_Duct_Tape/texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 8 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 21_Haribo_gold_bear
+  primitive_type: box
+  size:
+  - 0.03737
+  - 0.044013
+  - 0.011001
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/21_Haribo_gold_bear/haribo_gold_bear.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/21_Haribo_gold_bear/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/21_Haribo_gold_bear/piece_01.obj
+  texture_path: icra2026_local_proxy_textures/21_Haribo_gold_bear__haribo_front.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - 0.00023112480739599463
+  - 4.8323877364738794e-05
+  - 0.00010104083448990676
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 2 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 22-E27_adapter
+  primitive_type: cylinder
+  size:
+  - 0.009518
+  - 0.014155
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/22-E27_adapter/E27_adapter.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/22-E27_adapter/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/22-E27_adapter/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/22-E27_adapter/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/22-E27_adapter/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/22-E27_adapter/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/22-E27_adapter/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/22-E27_adapter/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/22-E27_adapter/piece_07.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation. Physics settling includes
+    8 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 23-GU24_adapter
+  primitive_type: cylinder
+  size:
+  - 0.008054
+  - 0.010251
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/23-GU24_adapter/GU24_adapter.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/23-GU24_adapter/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/23-GU24_adapter/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/23-GU24_adapter/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/23-GU24_adapter/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/23-GU24_adapter/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/23-GU24_adapter/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/23-GU24_adapter/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/23-GU24_adapter/piece_07.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation. Physics settling includes
+    8 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 24-Spoon
+  primitive_type: box
+  size:
+  - 0.010569
+  - 0.047768
+  - 0.004866
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/24-Spoon/Spoon 1.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/24-Spoon/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/24-Spoon/piece_01.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation. Physics settling includes
+    2 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 25-Flat_Screwdriver
+  primitive_type: box
+  size:
+  - 0.037317
+  - 0.005975
+  - 0.006367
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/25-Flat_Screwdriver/Flat_Screwdriver.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/25-Flat_Screwdriver/piece_00.obj
+  texture_path: icra2026_local_proxy_models/25-Flat_Screwdriver/texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 1 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 26-Plastic_Strawberry
+  primitive_type: box
+  size:
+  - 0.011037
+  - 0.011053
+  - 0.011147
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/26-Plastic_Strawberry/Plastic_Strawberry.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/26-Plastic_Strawberry/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/26-Plastic_Strawberry/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/26-Plastic_Strawberry/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/26-Plastic_Strawberry/piece_03.obj
+  texture_path: icra2026_local_proxy_models/26-Plastic_Strawberry/texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 4 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 27-Kong_Duck_Dog_Toy
+  primitive_type: box
+  size:
+  - 0.026292
+  - 0.03808
+  - 0.017081
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/27-Kong_Duck_Dog_Toy/Kong_Duck_Dog_Toy.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/27-Kong_Duck_Dog_Toy/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/27-Kong_Duck_Dog_Toy/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/27-Kong_Duck_Dog_Toy/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/27-Kong_Duck_Dog_Toy/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/27-Kong_Duck_Dog_Toy/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/27-Kong_Duck_Dog_Toy/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/27-Kong_Duck_Dog_Toy/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/27-Kong_Duck_Dog_Toy/piece_07.obj
+  texture_path: icra2026_local_proxy_models/27-Kong_Duck_Dog_Toy/texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0003389993215132373
+  - -0.0026880766934102166
+  - -0.003135194589027388
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 8 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 29-Paper_Towels
+  primitive_type: cylinder
+  size:
+  - 0.024406
+  - 0.059795
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/29-Paper_Towels/Kleenex_Paper_Towels.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/29-Paper_Towels/piece_00.obj
+  texture_path: icra2026_local_proxy_models/29-Paper_Towels/paper_towel.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 1 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 3-Scissors
+  primitive_type: box
+  size:
+  - 0.049446
+  - 0.021363
+  - 0.003821
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/3-Scissors/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/3-Scissors/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/3-Scissors/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/3-Scissors/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/3-Scissors/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/3-Scissors/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/3-Scissors/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/3-Scissors/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/3-Scissors/piece_07.obj
+  texture_path: icra2026_local_proxy_models/3-Scissors/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - -2.2941638749087936e-07
+  - 1.3667359254632818e-07
+  - -2.3185698735622973e-07
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 8 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 30-Stabilo_OHPen
+  primitive_type: box
+  size:
+  - 0.037341
+  - 0.003661
+  - 0.014155
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/30-Stabilo_OHPen/stabilo_box.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/30-Stabilo_OHPen/piece_00.obj
+  texture_path: icra2026_local_proxy_textures/30-Stabilo_OHPen__stabilo_front_box.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - 0.00489807892249143
+  - -0.00043460738069941096
+  - 2.39666906930174e-06
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 1 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 31-Plastic_White_Cup
+  primitive_type: cylinder
+  size:
+  - 0.022344
+  - 0.022743
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/31-Plastic_White_Cup/Plastic_White_Cup.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/31-Plastic_White_Cup/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/31-Plastic_White_Cup/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/31-Plastic_White_Cup/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/31-Plastic_White_Cup/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/31-Plastic_White_Cup/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/31-Plastic_White_Cup/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/31-Plastic_White_Cup/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/31-Plastic_White_Cup/piece_07.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation. Physics settling includes
+    8 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 32-Wine_Glass
+  primitive_type: cylinder
+  size:
+  - 0.018483
+  - 0.034766
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/32-Wine_Glass/Wine_Glass.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/32-Wine_Glass/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/32-Wine_Glass/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/32-Wine_Glass/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/32-Wine_Glass/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/32-Wine_Glass/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/32-Wine_Glass/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/32-Wine_Glass/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/32-Wine_Glass/piece_07.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation. Physics settling includes
+    8 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 33-Key
+  primitive_type: box
+  size:
+  - 0.006296
+  - 0.002441
+  - 0.013721
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/33-Key/Key.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/33-Key/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/33-Key/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/33-Key/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/33-Key/piece_03.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -2.440599866906013e-07
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation. Physics settling includes
+    4 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 34-Nail
+  primitive_type: box
+  size:
+  - 0.009257
+  - 0.002929
+  - 0.002929
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/34-Nail/Nail.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/34-Nail/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/34-Nail/piece_01.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation. Physics settling includes
+    2 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 35-Laugh_Out_Loud_Joke_Book
+  primitive_type: box
+  size:
+  - 0.026847
+  - 0.043687
+  - 0.002441
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/35-Laugh_Out_Loud_Joke_Book/laugh_out_loud_joke_book.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/35-Laugh_Out_Loud_Joke_Book/piece_00.obj
+  texture_path: icra2026_local_proxy_models/35-Laugh_Out_Loud_Joke_Book/laugh_out_loud_joke_book.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 1 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 36-Adjustable_Wrench
+  primitive_type: box
+  size:
+  - 0.049389
+  - 0.003576
+  - 0.015355
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/36-Adjustable_Wrench/Adjustable_Wrench.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/36-Adjustable_Wrench/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/36-Adjustable_Wrench/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/36-Adjustable_Wrench/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/36-Adjustable_Wrench/piece_03.obj
+  texture_path: icra2026_local_proxy_models/36-Adjustable_Wrench/texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 4 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 37-T-shirt
+  primitive_type: box
+  size:
+  - 0.051344
+  - 0.064454
+  - 0.009311
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/37-T-shirt/T-shirt.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/37-T-shirt/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/37-T-shirt/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/37-T-shirt/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/37-T-shirt/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/37-T-shirt/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/37-T-shirt/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/37-T-shirt/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/37-T-shirt/piece_07.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0018219078006452942
+  - 0.0009720909269886381
+  - 0.00012447059321220365
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation. Physics settling includes
+    8 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 38-Rolodex_Jumbo_Pencil_Cup
+  primitive_type: cylinder
+  size:
+  - 0.026656
+  - 0.032855
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/38-Rolodex_Jumbo_Pencil_Cup/Rolodex_Jumbo_Pencil_Cup.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/38-Rolodex_Jumbo_Pencil_Cup/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/38-Rolodex_Jumbo_Pencil_Cup/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/38-Rolodex_Jumbo_Pencil_Cup/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/38-Rolodex_Jumbo_Pencil_Cup/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/38-Rolodex_Jumbo_Pencil_Cup/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/38-Rolodex_Jumbo_Pencil_Cup/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/38-Rolodex_Jumbo_Pencil_Cup/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/38-Rolodex_Jumbo_Pencil_Cup/piece_07.obj
+  texture_path: icra2026_local_proxy_models/38-Rolodex_Jumbo_Pencil_Cup/texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 8 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 39-Glove
+  primitive_type: box
+  size:
+  - 0.023804
+  - 0.036852
+  - 0.009648
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/39-Glove/Glove.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/39-Glove/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/39-Glove/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/39-Glove/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/39-Glove/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/39-Glove/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/39-Glove/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/39-Glove/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/39-Glove/piece_07.obj
+  texture_path: null
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation. Physics settling includes
+    8 convex collision meshes from CoACD. Relative object sizes are preserved with
+    a shared global scale chosen for bin-clutter compatibility. Verify against the
+    official CEPB release before final dataset generation.
+- name: 4-Frenchs_Mustard
+  primitive_type: cylinder
+  size:
+  - 0.023436
+  - 0.046689
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/4-Frenchs_Mustard/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/4-Frenchs_Mustard/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/4-Frenchs_Mustard/piece_01.obj
+  texture_path: icra2026_local_proxy_models/4-Frenchs_Mustard/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - 2.3917878695553235e-07
+  - -2.440599866900266e-07
+  - -1.1714879361160293e-07
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 2 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 40-Pringles
+  primitive_type: cylinder
+  size:
+  - 0.020441
+  - 0.070801
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/40-Pringles/Pringles.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/40-Pringles/piece_00.obj
+  texture_path: icra2026_local_proxy_textures/40-Pringles__texture.png
+  mesh_scale:
+  - 0.48811997338119073
+  - 0.48811997338119073
+  - 0.48811997338119073
+  mesh_offset:
+  - -0.0
+  - -0.0
+  - -0.0
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 1 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 5-Tomato_Soup
+  primitive_type: cylinder
+  size:
+  - 0.016526
+  - 0.024859
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/5-Tomato_Soup/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/5-Tomato_Soup/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/5-Tomato_Soup/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/5-Tomato_Soup/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/5-Tomato_Soup/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/5-Tomato_Soup/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/5-Tomato_Soup/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/5-Tomato_Soup/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/5-Tomato_Soup/piece_07.obj
+  texture_path: icra2026_local_proxy_models/5-Tomato_Soup/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - 5.613379693909629e-08
+  - -2.4405998669219424e-07
+  - 2.2697578762146458e-07
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 8 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 6-Foam_Brick
+  primitive_type: box
+  size:
+  - 0.019006
+  - 0.012494
+  - 0.012828
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/6-Foam_Brick/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/6-Foam_Brick/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/6-Foam_Brick/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/6-Foam_Brick/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/6-Foam_Brick/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/6-Foam_Brick/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/6-Foam_Brick/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/6-Foam_Brick/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/6-Foam_Brick/piece_07.obj
+  texture_path: icra2026_local_proxy_models/6-Foam_Brick/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - -0.0
+  - -2.440599866900266e-07
+  - -0.0
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 8 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 7-Clamp
+  primitive_type: box
+  size:
+  - 0.040255
+  - 0.029694
+  - 0.008887
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/7-Clamp/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/7-Clamp/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/7-Clamp/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/7-Clamp/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/7-Clamp/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/7-Clamp/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/7-Clamp/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/7-Clamp/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/7-Clamp/piece_07.obj
+  texture_path: icra2026_local_proxy_models/7-Clamp/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - -2.2209458788697038e-07
+  - -1.5375779161489015e-07
+  - 1.0494579427699322e-07
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 8 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 8-Plastic_Banana
+  primitive_type: box
+  size:
+  - 0.048122
+  - 0.009433
+  - 0.018077
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/8-Plastic_Banana/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/8-Plastic_Banana/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/8-Plastic_Banana/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/8-Plastic_Banana/piece_02.obj
+  texture_path: icra2026_local_proxy_models/8-Plastic_Banana/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - -1.4399539214806946e-07
+  - 2.4405998669056847e-07
+  - 1.7816379028410958e-07
+  proxy_quaternion_wxyz: null
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    box proxy derived from the mesh bounds, while observation rendering keeps the
+    normalized and centered mesh for proposal generation with texture rendering. Physics
+    settling includes 3 convex collision meshes from CoACD. Relative object sizes
+    are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.
+- name: 9-Mug
+  primitive_type: cylinder
+  size:
+  - 0.028553
+  - 0.019843
+  mass: 0.1
+  rgba:
+  - 0.7
+  - 0.7
+  - 0.7
+  - 1.0
+  mesh_path: icra2026_local_proxy_models/9-Mug/textured.obj
+  collision_mesh_paths:
+  - icra2026_local_proxy_collision_meshes/9-Mug/piece_00.obj
+  - icra2026_local_proxy_collision_meshes/9-Mug/piece_01.obj
+  - icra2026_local_proxy_collision_meshes/9-Mug/piece_02.obj
+  - icra2026_local_proxy_collision_meshes/9-Mug/piece_03.obj
+  - icra2026_local_proxy_collision_meshes/9-Mug/piece_04.obj
+  - icra2026_local_proxy_collision_meshes/9-Mug/piece_05.obj
+  - icra2026_local_proxy_collision_meshes/9-Mug/piece_06.obj
+  - icra2026_local_proxy_collision_meshes/9-Mug/piece_07.obj
+  texture_path: icra2026_local_proxy_models/9-Mug/texture_map.png
+  mesh_scale:
+  - 0.004881199733811907
+  - 0.004881199733811907
+  - 0.004881199733811907
+  mesh_offset:
+  - -8.053979560831572e-08
+  - 2.440599866900266e-07
+  - 1.1714879361268678e-07
+  proxy_quaternion_wxyz:
+  - 0.7071067811865475
+  - -0.7071067811865475
+  - 0.0
+  - 0.0
+  notes: Imported from the local ICRA2026 mesh workspace. Metadata keeps a lightweight
+    cylinder proxy derived from the mesh bounds, while observation rendering keeps
+    the normalized and centered mesh for proposal generation with texture rendering.
+    Physics settling includes 8 convex collision meshes from CoACD. Relative object
+    sizes are preserved with a shared global scale chosen for bin-clutter compatibility.
+    Verify against the official CEPB release before final dataset generation.

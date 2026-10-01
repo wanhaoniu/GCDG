@@ -1,0 +1,29 @@
+consider_robot_body: false
+consider_container_collision: true
+enable_closing_check: false
+robot_base_position:
+- -0.35
+- 0.0
+- 0.32
+workspace_center:
+- 0.0
+- 0.0
+- 0.18
+reach_radius: 0.55
+min_height: 0.0
+max_height: 0.45
+pregrasp_offset: 0.1
+lift_height: 0.14
+arm_corridor_radius: 0.05
+parallel_jaw_tool_radius: 0.006
+suction_tool_radius: 0.004
+container_wall_clearance: 0.004
+approach_object_shrink_margin: 0.005
+lift_object_shrink_margin: 0.01
+parallel_jaw:
+  max_width: 0.1
+  finger_depth: 0.05
+  closing_clearance: 0.016
+suction:
+  cup_radius: 0.018
+  seal_tolerance: 0.012

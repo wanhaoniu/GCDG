@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GCDG: grasp-conditioned dependency graphs for minimal-intervention target retrieval. Code, 500-scene benchmark and trained models.">
+  <meta property="og:title" content="GCDG — Minimal-Intervention Target Retrieval">
+  <meta property="og:description" content="Reason about blockers for each candidate grasp. Explore the method, dense-scene benchmark and open-source implementation.">
+  <meta property="og:image" content="https://wanhaoniu.github.io/GCDG/assets/overview.jpg">
+  <title>GCDG · Minimal-Intervention Target Retrieval</title>
+  <link rel="stylesheet" href="style.css"><link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><a class="brand" href="#">GCDG<span> / CoRL</span></a><nav aria-label="Main navigation"><a href="#method">Method</a><a href="#benchmark">Benchmark</a><a href="#results">Results</a><a href="https://github.com/wanhaoniu/GCDG">GitHub ↗</a></nav></header>
+<main id="main">
+<section class="hero">
+  <p class="eyebrow">GRASP-CONDITIONED DEPENDENCY GRAPHS</p>
+  <h1>Minimal-Intervention Target Retrieval<br class="wide"> in Cluttered Scenes</h1>
+  <p class="subtitle">Which objects block <em>this</em> grasp?</p>
+  <p class="authors"><a href="https://openreview.net/profile?id=~Wanhao_Niu1">Wanhao Niu</a><sup>1,*</sup>, <a href="https://openreview.net/profile?id=~Qiyan_Ke1">Qiyan Ke</a><sup>1,*</sup>, <a href="https://openreview.net/profile?id=~Yuan_Sun14">Yuan Sun</a><sup>2</sup>, Chongrui Zhang<sup>3</sup>,<br> <a href="https://openreview.net/profile?id=~Huaidong_Zhou1">Huaidong Zhou</a><sup>1,†</sup>, <a href="https://openreview.net/profile?id=~Yongfeng_Rong1">Yongfeng Rong</a><sup>1</sup>, <a href="https://openreview.net/profile?id=~Shuang_Zhang5">Shuang Zhang</a><sup>4</sup>, <a href="https://openreview.net/profile?id=~Fuchun_Sun1">Fuchun Sun</a><sup>1,†</sup></p>
+  <p class="affiliations"><sup>1</sup> Computer Science and Technology, Tsinghua University<br><sup>2</sup> Reliability and Systems Engineering, Beihang University<br><sup>3</sup> Mechanical Engineering, Tsinghua University · <sup>4</sup> Engineering, Hebei Normal University</p>
+  <p class="contributions">* Equal contribution &nbsp; † Corresponding authors</p>
+  <div class="actions"><a class="button primary" href="assets/paper.pdf">Read the paper <span>↗</span></a><a class="button" href="https://github.com/wanhaoniu/GCDG">Code <span>↗</span></a><a class="button" href="#benchmark">Get the benchmark <span>↓</span></a></div>
+  <figure class="overview"><img src="assets/overview.jpg" alt="GCDG overview: candidate grasps, object–grasp dependency prediction, and minimal-intervention target retrieval" width="2000" height="900"><figcaption>The same surrounding object can block one grasp while leaving another feasible. GCDG makes this dependence explicit.</figcaption></figure>
+</section>
+<section id="method" class="section">
+  <div class="section-label">01 / METHOD</div><div class="section-content"><h2>Reason about actions,<br>then remove only what matters.</h2>
+  <p>Minimal-intervention retrieval asks a robot to extract a target from clutter while limiting non-target removals. GCDG represents candidate grasps as action nodes and predicts typed dependencies on object–grasp edges. The planner compares candidate grasps through their blockers and updates its plan after every intervention.</p>
+  <div class="steps"><article><span>1</span><h3>Intervene</h3><p>Fix a target grasp. Remove one surrounding object and test whether approach, lift or full feasibility improves.</p></article><article><span>2</span><h3>Predict</h3><p>Use observed object features, grasp geometry and relational context to predict four dependency labels per edge.</p></article><article><span>3</span><h3>Retrieve</h3><p>Choose a grasp and a short blocker-removal prefix. Refresh the observation and replan after the scene changes.</p></article></div>
+  </div>
+</section>
+<section id="benchmark" class="section tinted">
+  <div class="section-label">02 / BENCHMARK</div><div class="section-content"><p class="eyebrow">GCDG DENSE BENCHMARK · V1.0</p><h2>Dense scenes.<br>Grasp-specific supervision.</h2>
+  <p>A benchmark for dependency prediction and minimal-intervention planning, with 25–27 objects per dense scene, parallel-jaw and suction proposals, typed intervention labels and minimal blocker sets.</p>
+  <div class="stats"><div><strong>500</strong><span>dense scenes</span></div><div><strong>12,985</strong><span>target samples</span></div><div><strong>313,228</strong><span>grasp candidates</span></div><div><strong>6.77M</strong><span>labeled edges</span></div></div>
+  <div class="table-wrap"><table><caption>Fixed scene-disjoint splits</caption><thead><tr><th>Split</th><th>Scenes</th><th>Target samples</th><th>Parallel-jaw</th><th>Suction</th></tr></thead><tbody><tr><th>Train</th><td>350</td><td>9,090</td><td>112,521</td><td>106,428</td></tr><tr><th>Validation</th><td>75</td><td>1,950</td><td>24,462</td><td>22,792</td></tr><tr><th>Test</th><td>75</td><td>1,945</td><td>24,321</td><td>22,704</td></tr></tbody></table></div>
+  <p>The annotation release includes fixed splits and SHA-256 manifests. Stored graph inputs can be used without running a simulator or a native grasp SDK. Third-party meshes, textures and native proposal backends are acquired separately.</p>
+  <div class="actions left"><a class="button primary" href="https://huggingface.co/datasets/WanhaoX25/GCDG-Benchmark">Download benchmark ↗</a><a class="text-link" href="https://github.com/wanhaoniu/GCDG/blob/main/benchmark/README.md">Read the data card →</a></div>
+  <pre><code>python scripts/download_benchmark.py --split all --output data --extract</code></pre>
+  </div>
+</section>
+<section id="results" class="section">
+  <div class="section-label">03 / EVALUATION</div><div class="section-content"><h2>From dependency prediction<br>to physical retrieval.</h2>
+  <p>Evaluate the representation, the planning trade-off and the execution interface separately. Each task has a fixed cohort and protocol.</p>
+  <div class="tabs" role="tablist" aria-label="Evaluation task"><button id="tab-prediction" role="tab" aria-selected="true" aria-controls="prediction">Prediction</button><button id="tab-physical" role="tab" aria-selected="false" aria-controls="physical" tabindex="-1">Physical retrieval</button><button id="tab-ordered" role="tab" aria-selected="false" aria-controls="ordered" tabindex="-1">Ordered retrieval</button></div>
+  <div id="prediction" role="tabpanel" aria-labelledby="tab-prediction"><p class="scope">75 test scenes · 1,945 target samples · mean ± sample SD over seeds 7/11/23</p><div class="table-wrap"><table><thead><tr><th>Method</th><th>AP (%) ↑</th><th>F1 (%) ↑</th><th>Blocker IoU (%) ↑</th></tr></thead><tbody id="prediction-rows"></tbody></table></div><p class="small">G2N2 is adapted to the common dependency-prediction interface. Full ablations and all seeds are included in the release.</p></div>
+  <div id="physical" role="tabpanel" aria-labelledby="tab-physical" hidden><p class="scope">10 dense test scenes · the same 256 targets per method · fixed model seed 7</p><div class="table-wrap"><table><thead><tr><th>Method</th><th>Retrieved ↑</th><th>Success (%) ↑</th><th>Mean removals ↓</th></tr></thead><tbody><tr><th>Direct</th><td>33 / 256</td><td>12.9</td><td>0.42</td></tr><tr><th>Nearest</th><td>52 / 256</td><td>20.3</td><td>4.81</td></tr><tr><th>Mechanical</th><td>94 / 256</td><td>36.7</td><td>3.61</td></tr><tr><th>X-Ray</th><td>124 / 256</td><td>48.4</td><td>3.36</td></tr><tr class="ours"><th>GCDG</th><td>131 / 256</td><td>51.2</td><td>2.53</td></tr></tbody></table></div><p class="small">Fresh initial scene for each target. Five-removal budget including shared fallback.</p></div>
+  <div id="ordered" role="tabpanel" aria-labelledby="tab-ordered" hidden><p class="scope">4 development scenes · 15 objects per scene · 4 target orders · 160 target trials per condition</p><div class="table-wrap"><table><thead><tr><th>Condition</th><th>Retrieved ↑</th><th>Relocations ↓</th><th>Complete sequences ↑</th></tr></thead><tbody id="ordered-rows"></tbody></table></div><p class="small">The paper uses seed 11, selected post hoc on the original-order development runs and fixed before the additional orders. All five seeds are shown here. Additional orders reuse the same four scenes; unattempted targets remain in the denominator.</p></div>
+  <a class="text-link" href="https://github.com/wanhaoniu/GCDG/tree/main/results/tables">Explore all 20 tables and underlying results →</a>
+  <figure class="robot"><img src="assets/robot.jpg" alt="Real-robot target-retrieval experiment from Figure 5 of the camera-ready paper" loading="lazy"><figcaption>Real-robot retrieval with the shared grasping interface. Hardware results use three recorded batches of twenty trials per method.</figcaption></figure>
+  </div>
+</section>
+<section id="reproduce" class="section tinted"><div class="section-label">04 / REPRODUCE</div><div class="section-content"><h2>Start with one graph.</h2><p>Inspect the included real benchmark sample, reproduce saved-result counts, or download the full dataset to train and evaluate the released architectures.</p><pre><code>git clone https://github.com/wanhaoniu/GCDG.git
+cd GCDG
+python -m pip install -e .
+python scripts/inspect_sample.py --dataset examples/benchmark
+python scripts/recount_ordered.py</code></pre><a class="text-link" href="https://github.com/wanhaoniu/GCDG/blob/main/REPRODUCING.md">Full reproduction guide →</a></div></section>
+<section class="section"><div class="section-label">05 / CITE</div><div class="section-content"><h2>Citation</h2><pre class="citation"><code>@misc{niu2026gcdg,
+  title={Minimal-Intervention Target Retrieval in Cluttered Scenes
+         with Grasp-Conditioned Dependency Graphs},
+  author={Niu, Wanhao and Ke, Qiyan and Sun, Yuan and Zhang, Chongrui
+          and Zhou, Huaidong and Rong, Yongfeng and Zhang, Shuang
+          and Sun, Fuchun},
+  year={2026},
+  url={https://github.com/wanhaoniu/GCDG}
+}</code></pre><h3>Acknowledgments</h3><p class="small">Supported by the Beijing Natural Science Foundation (Nos. L233006 and L253006), and the Joint Funds of the National Natural Science Foundation of China (No. U22A2057).</p><p class="small">Correspondence: <a href="mailto:hdzhou@tsinghua.edu.cn">Huaidong Zhou</a> and <a href="mailto:fcsun@tsinghua.edu.cn">Fuchun Sun</a>.</p></div></section>
+</main>
+<footer><span>GCDG · CoRL</span><span>Code: MIT &nbsp;·&nbsp; Original benchmark data: CC BY 4.0</span><a href="https://github.com/wanhaoniu/GCDG/blob/main/THIRD_PARTY.md">Third-party notices ↗</a></footer>
+<script src="results.js"></script><script src="site.js"></script>
+</body></html>

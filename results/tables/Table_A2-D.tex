@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Per-label average precision.}
+  \label{tab:stage2_per_label_ap}
+  \small
+  \setlength{\tabcolsep}{4.5pt}
+  \begin{tabular}{ccccc}
+    \toprule
+    Method & Progress-any & Sufficient & Approach & Lift \\
+    \midrule
+    Random & 1.43 $\pm$ 0.02 & 0.70 $\pm$ 0.01 & 0.95 $\pm$ 0.00 & 0.48 $\pm$ 0.00 \\
+    Center-dist. & 2.27 $\pm$ 0.00 & 0.81 $\pm$ 0.00 & 1.94 $\pm$ 0.00 & 0.48 $\pm$ 0.00 \\
+    Geometry & 3.25 $\pm$ 0.00 & 1.14 $\pm$ 0.00 & 2.85 $\pm$ 0.00 & 0.62 $\pm$ 0.00 \\
+    Edge-MLP & 31.51 $\pm$ 0.46 & 12.08 $\pm$ 0.84 & 37.07 $\pm$ 0.69 & 6.72 $\pm$ 0.69 \\
+    G2N2 & 38.34 $\pm$ 0.49 & 16.96 $\pm$ 1.10 & 44.40 $\pm$ 0.43 & 9.73 $\pm$ 0.91 \\
+    Ours & 39.96 $\pm$ 0.27 & 22.06 $\pm$ 0.67 & 44.04 $\pm$ 0.90 & 15.82 $\pm$ 1.03 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

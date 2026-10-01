@@ -1,0 +1,1115 @@
+{
+  "files": [
+    {
+      "path": "assets/visual/19-Elmers_Glue/Elemers_Glue.obj",
+      "bytes": 6910785,
+      "sha256": "1fa69e760f605761bcf5d7cf761a1edc030918edb4c06f718ad8d962e979e794"
+    },
+    {
+      "path": "assets/visual/19-Elmers_Glue/texture.png",
+      "bytes": 1196041,
+      "sha256": "4aa031bf179bd675a1fb5557359d74326bcaf334ae56935f55c1116510c448ab"
+    },
+    {
+      "path": "assets/collision/19-Elmers_Glue/piece_00.obj",
+      "bytes": 15458,
+      "sha256": "b4e4e788fe2c9db4db382189ae273c72993cb5b7f7e79a1f8283265eb897159c"
+    },
+    {
+      "path": "assets/collision/19-Elmers_Glue/piece_01.obj",
+      "bytes": 60010,
+      "sha256": "70101b2439bc8374f990b3739dca499730087f61f5d28ff1a56a2e98e3289b3d"
+    },
+    {
+      "path": "assets/visual/38-Rolodex_Jumbo_Pencil_Cup/Rolodex_Jumbo_Pencil_Cup.obj",
+      "bytes": 9448553,
+      "sha256": "e5246e196fefa8f3d2eb082df68f64f2dc9e3960de8895ad20d8884087613abe"
+    },
+    {
+      "path": "assets/visual/38-Rolodex_Jumbo_Pencil_Cup/texture.png",
+      "bytes": 1863333,
+      "sha256": "0e24ee78b6357cce76a21e8e413f6259d734a679d4a37237550d02ff49610564"
+    },
+    {
+      "path": "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_00.obj",
+      "bytes": 50149,
+      "sha256": "55919c5f1b195a53b06413160013d18d6bf3e1ffbf96064a78f7d41916bacf3e"
+    },
+    {
+      "path": "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_01.obj",
+      "bytes": 13410,
+      "sha256": "349a63c8e7b2b356d02a11404d4bcc0d7b3af60a5786da71dc9091a0d3fef5b1"
+    },
+    {
+      "path": "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_02.obj",
+      "bytes": 27355,
+      "sha256": "7a8a9a56bd2a7a42f559b3c40e3b667de728d922ff88d4e26517b566559b9114"
+    },
+    {
+      "path": "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_03.obj",
+      "bytes": 13532,
+      "sha256": "17903b398a8d3f7fc2bbabff9ea1f0e2620ab4577423335148ca7de146dcc3b3"
+    },
+    {
+      "path": "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_04.obj",
+      "bytes": 13886,
+      "sha256": "0ccfc31c26a2d76c7452fb3627310705b614b4bcdce68df898d80515715092ee"
+    },
+    {
+      "path": "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_05.obj",
+      "bytes": 19895,
+      "sha256": "801167978d9971aac976be4981a5c7b34c9a31ce4ed9a14d56f04e29447158b2"
+    },
+    {
+      "path": "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_06.obj",
+      "bytes": 20477,
+      "sha256": "a8ec620eba089dd2c2949c1ede9e68aef1dbd5a4843eabcd457d761b76cabe0a"
+    },
+    {
+      "path": "assets/collision/38-Rolodex_Jumbo_Pencil_Cup/piece_07.obj",
+      "bytes": 21115,
+      "sha256": "a0382388608c62d81d403573483d463b5c32a0819918dcf2a59243c945ff0556"
+    },
+    {
+      "path": "assets/visual/36-Adjustable_Wrench/Adjustable_Wrench.obj",
+      "bytes": 1714613,
+      "sha256": "a5bda8167abb1766bfe8168f2475b8dbfd7dc7fb982f5cf0bff06d859dc13c7b"
+    },
+    {
+      "path": "assets/visual/36-Adjustable_Wrench/texture.png",
+      "bytes": 4915699,
+      "sha256": "869ce3bb046dc7349e0a9408c76ca82a04e48ff433bba6b057696171bc9ed296"
+    },
+    {
+      "path": "assets/collision/36-Adjustable_Wrench/piece_00.obj",
+      "bytes": 5470,
+      "sha256": "b5f49490cba50d7b3d51f0ef5752e21d44853e38dbcb75b1db62f8386935806b"
+    },
+    {
+      "path": "assets/collision/36-Adjustable_Wrench/piece_01.obj",
+      "bytes": 6301,
+      "sha256": "45a768f042d12a9ce2da3c5d18ee3d6728de1caff24aedd869b9409bb89c2b44"
+    },
+    {
+      "path": "assets/collision/36-Adjustable_Wrench/piece_02.obj",
+      "bytes": 7139,
+      "sha256": "16821945ea836d6ff60043f5df6649c010471dd26f8462b957bc24bf43d1218c"
+    },
+    {
+      "path": "assets/collision/36-Adjustable_Wrench/piece_03.obj",
+      "bytes": 7207,
+      "sha256": "ed2a14cd358fa6074a16b0770c99e2c55177a1aea4e7605aec9ba94ae451eaa6"
+    },
+    {
+      "path": "assets/visual/22-E27_adapter/E27_adapter.obj",
+      "bytes": 109196,
+      "sha256": "bc0424983bbefa7cfcfd31a846b83f913c4973f146f0ad09ceaab9bcc8ce37cd"
+    },
+    {
+      "path": "assets/collision/22-E27_adapter/piece_00.obj",
+      "bytes": 22697,
+      "sha256": "d9d9f3aae02aaee91ee885c8b5e218d9f2b041317024f6ef85a0ed154fd60830"
+    },
+    {
+      "path": "assets/collision/22-E27_adapter/piece_01.obj",
+      "bytes": 13089,
+      "sha256": "135d81a1d338b926fc9c5fb42fbb57c5d4ade3adbf4f3c989e43886a59fdb45a"
+    },
+    {
+      "path": "assets/collision/22-E27_adapter/piece_02.obj",
+      "bytes": 12760,
+      "sha256": "36cb1eaf76089b0fd7fc0c5a9e76be1966a1cdfb0c2ed8ec1d4b5fa4221cbba7"
+    },
+    {
+      "path": "assets/collision/22-E27_adapter/piece_03.obj",
+      "bytes": 24346,
+      "sha256": "47c8ea07fb4225c45552aca9f1e03db952299942826dce2a42e4afbf9d35830d"
+    },
+    {
+      "path": "assets/collision/22-E27_adapter/piece_04.obj",
+      "bytes": 13260,
+      "sha256": "a0ae0d04d68d33d4bf61fbea4fd47190212750ee0a3a0c0572e279b4ee0e8e2a"
+    },
+    {
+      "path": "assets/collision/22-E27_adapter/piece_05.obj",
+      "bytes": 5313,
+      "sha256": "ddb72da2b77eb57e274cabce4c0851740866b7aad65def05aa32e1bf0b6aa7d1"
+    },
+    {
+      "path": "assets/collision/22-E27_adapter/piece_06.obj",
+      "bytes": 41765,
+      "sha256": "9e3bfe2317876207987031fcf6730cc95dbbc1dac40c8b2055f05a471a458ea9"
+    },
+    {
+      "path": "assets/collision/22-E27_adapter/piece_07.obj",
+      "bytes": 40493,
+      "sha256": "26086356811f2c71c9d35b5dfc67f7357ca489b8377b7cce032182171e748910"
+    },
+    {
+      "path": "assets/visual/9-Mug/textured.obj",
+      "bytes": 1494413,
+      "sha256": "5245cbd0a7e6ea9307a930ccd195395a0d1fbdadab565a30be75ab332fb629b7"
+    },
+    {
+      "path": "assets/visual/9-Mug/texture_map.png",
+      "bytes": 5777448,
+      "sha256": "1131a0ee591d59e0a77e55ff9d72aeac07af76a0f9ed09cbd01489498649ef1f"
+    },
+    {
+      "path": "assets/collision/9-Mug/piece_00.obj",
+      "bytes": 12025,
+      "sha256": "501f67342bbe8feecf9dd43ea04dc08b86922a1a51c891f70326a0622effaf63"
+    },
+    {
+      "path": "assets/collision/9-Mug/piece_01.obj",
+      "bytes": 20093,
+      "sha256": "b09ba16840ff9cdc2bf2e1f0fc59610654f497430e42a8611f9415036d964ffa"
+    },
+    {
+      "path": "assets/collision/9-Mug/piece_02.obj",
+      "bytes": 12638,
+      "sha256": "b9214d6052eae924d9c75730ac2ec3c57ea9458c7d7e39716017dcdf3fc30bb6"
+    },
+    {
+      "path": "assets/collision/9-Mug/piece_03.obj",
+      "bytes": 29018,
+      "sha256": "6fef41349382a456bbe6df20bf101ec67c244bf4357cf26b1e22164ed26be4dc"
+    },
+    {
+      "path": "assets/collision/9-Mug/piece_04.obj",
+      "bytes": 19920,
+      "sha256": "47b57ac973f8d9b3f6884ab1f5b9471057a5229fc3fbf75b957e3cc91c7c79eb"
+    },
+    {
+      "path": "assets/collision/9-Mug/piece_05.obj",
+      "bytes": 60803,
+      "sha256": "f7cbef5bd5356d2ef04484df80a94cf8aaaf7aa17b3daa78b231da0125d3e063"
+    },
+    {
+      "path": "assets/collision/9-Mug/piece_06.obj",
+      "bytes": 23607,
+      "sha256": "abfa97ef6b5e12ea4343f00a24fd9cf4f7477b5339b49c34e7f157c8c089c7b8"
+    },
+    {
+      "path": "assets/collision/9-Mug/piece_07.obj",
+      "bytes": 30383,
+      "sha256": "58cf189b724a5df07b811bf5946d07b209e1e9db0d7f24c213da87a2b8fab72a"
+    },
+    {
+      "path": "assets/visual/16-ICRA_Duckie/ICRA_Duckie.obj",
+      "bytes": 989481,
+      "sha256": "4507b73736ff14adaa347f709332f977ddc796ab547395cd1489adf443fc67f9"
+    },
+    {
+      "path": "assets/visual/16-ICRA_Duckie/texture.png",
+      "bytes": 106205,
+      "sha256": "7cb143065b7b31b878c32f616ebe7c59d762c2fb64ce254e1583fee1992d9d17"
+    },
+    {
+      "path": "assets/collision/16-ICRA_Duckie/piece_00.obj",
+      "bytes": 138709,
+      "sha256": "49f52fe9105c4486c11b9cd4ef38813a72e3f6fb0e57efd8965622934badb440"
+    },
+    {
+      "path": "assets/collision/16-ICRA_Duckie/piece_01.obj",
+      "bytes": 9863,
+      "sha256": "fc077ad520bb8c03247705f758c1aac7e7063880ce1379777efc3c3939b1c0e8"
+    },
+    {
+      "path": "assets/collision/16-ICRA_Duckie/piece_02.obj",
+      "bytes": 134931,
+      "sha256": "f093a129fc5275c99a3c4c60977fe3a014a7679af7dd7975dd613d7402e585be"
+    },
+    {
+      "path": "assets/collision/16-ICRA_Duckie/piece_03.obj",
+      "bytes": 12407,
+      "sha256": "f41b7fedd9a9b177dbd9ed755c1460348464cd3bf0646f57671fa53abaf7e87c"
+    },
+    {
+      "path": "assets/collision/16-ICRA_Duckie/piece_04.obj",
+      "bytes": 7345,
+      "sha256": "d58cf666560e11bae295562a6433b99083a499ccb44676abfae4e052b4139cf1"
+    },
+    {
+      "path": "assets/collision/16-ICRA_Duckie/piece_05.obj",
+      "bytes": 284577,
+      "sha256": "3b05200a90ecab73699ec2c4d2a596b1f68223b75f0a7654a0a10c0e51e5c1ae"
+    },
+    {
+      "path": "assets/visual/12-Baseball/Baseball.obj",
+      "bytes": 1695685,
+      "sha256": "ca1c6232434b4f3f5c1991f04e48d78f4de5f934d23abec4e8e9715e029d6ee2"
+    },
+    {
+      "path": "assets/visual/12-Baseball/texture.png",
+      "bytes": 5026900,
+      "sha256": "4441bf4cc4a0836ce90fa0509f8fe9fb6af7bfab6d4ccb4bd9bcd7f842512237"
+    },
+    {
+      "path": "assets/collision/12-Baseball/piece_00.obj",
+      "bytes": 780326,
+      "sha256": "784bdff462214d46cb1254ce98cb35b56ecefc4c26dafe2ba7819d3586d67dc0"
+    },
+    {
+      "path": "assets/visual/4-Frenchs_Mustard/textured.obj",
+      "bytes": 1434919,
+      "sha256": "ddb5b999e2f0d607d189296a80546581d85fd7ff42aa5bb6b15050b7675d2e2c"
+    },
+    {
+      "path": "assets/visual/4-Frenchs_Mustard/texture_map.png",
+      "bytes": 8912487,
+      "sha256": "1e0114f5ce3c98fbf7e14f7bd8c46a995b992d0a92b7370cb5fbd046e0e2c63d"
+    },
+    {
+      "path": "assets/collision/4-Frenchs_Mustard/piece_00.obj",
+      "bytes": 49197,
+      "sha256": "b8c78359d71010afd9ceb289a26f1a7d8e2ffd6171b440bd926d07b24bd321d2"
+    },
+    {
+      "path": "assets/collision/4-Frenchs_Mustard/piece_01.obj",
+      "bytes": 57176,
+      "sha256": "4b55993db58519614cc9b03b2ba3ca2a52e5dd274802d0dd124db6bd583c2d71"
+    },
+    {
+      "path": "assets/visual/20-Scotch_Duct_Tape/Scotch_Duct_Tape.obj",
+      "bytes": 21065,
+      "sha256": "50f5c77c0a41f78e3584e3971fd38202f27f4cdd1ef884fb3d7a4ad63d32bec5"
+    },
+    {
+      "path": "assets/visual/20-Scotch_Duct_Tape/texture.png",
+      "bytes": 600472,
+      "sha256": "f2df9a40cfc18b710ab222301fadeedfb2a9c5b1b689a00c4196734370b0c286"
+    },
+    {
+      "path": "assets/collision/20-Scotch_Duct_Tape/piece_00.obj",
+      "bytes": 13423,
+      "sha256": "e22bfe66b94455364ebdfce0ce2dc1cc833de18023255a877b07927a31962abb"
+    },
+    {
+      "path": "assets/collision/20-Scotch_Duct_Tape/piece_01.obj",
+      "bytes": 12847,
+      "sha256": "fb3089dbd9e0756ba0896c33ff71731b84a8d49d137ca96b17aeaff6a830b77c"
+    },
+    {
+      "path": "assets/collision/20-Scotch_Duct_Tape/piece_02.obj",
+      "bytes": 16232,
+      "sha256": "a01b819ea29bb1275d30b7f33bc0b362c3246ab8ac82b21d6ca2236d92b41695"
+    },
+    {
+      "path": "assets/collision/20-Scotch_Duct_Tape/piece_03.obj",
+      "bytes": 15234,
+      "sha256": "50aef9322858b9f93d978c75ffb71733c04cdfa1e786251aef2ebd50ff62bcbc"
+    },
+    {
+      "path": "assets/collision/20-Scotch_Duct_Tape/piece_04.obj",
+      "bytes": 15686,
+      "sha256": "f6740a8a69052430fe8dd907f96e153746a7c9fb2ecb9f1fd9f26048199137ce"
+    },
+    {
+      "path": "assets/collision/20-Scotch_Duct_Tape/piece_05.obj",
+      "bytes": 19556,
+      "sha256": "0b77fdf37e8c66a3ce1091560ab3d3d813268bdea9bc326d79aa8521f592b7e1"
+    },
+    {
+      "path": "assets/collision/20-Scotch_Duct_Tape/piece_06.obj",
+      "bytes": 13335,
+      "sha256": "eb7c74b66981c8169db49ec65ff4a9bbedb2e97c56d91ae4c2c937b521cdbc19"
+    },
+    {
+      "path": "assets/collision/20-Scotch_Duct_Tape/piece_07.obj",
+      "bytes": 14234,
+      "sha256": "bc03c684aaeeabbe8199f928570336b15046a5b5e620fd7a5ca1c1beaeddb8ae"
+    },
+    {
+      "path": "assets/visual/6-Foam_Brick/textured.obj",
+      "bytes": 1436470,
+      "sha256": "7dd2605578fdbb7a6f59bccefa443cd4ea9d8e7e48b550b2da808986755d87ec"
+    },
+    {
+      "path": "assets/visual/6-Foam_Brick/texture_map.png",
+      "bytes": 4192866,
+      "sha256": "bfb6f0049911bc138e4a9e8fa44ce5cd05ada34e42bc8a8d24ddc0b5aebd2712"
+    },
+    {
+      "path": "assets/collision/6-Foam_Brick/piece_00.obj",
+      "bytes": 9493,
+      "sha256": "fb29c349eaf4f0f84451e872beb64bdf1d2bf55aa3fd61d6e20843103f722812"
+    },
+    {
+      "path": "assets/collision/6-Foam_Brick/piece_01.obj",
+      "bytes": 11401,
+      "sha256": "81f010d60993ed5637d0c21927d808e0aaa41a5b2ceec5d3f3e67c3a9003e6b7"
+    },
+    {
+      "path": "assets/collision/6-Foam_Brick/piece_02.obj",
+      "bytes": 15959,
+      "sha256": "622dedf73ae869645673244a29ca79e9a6b154ccecb197cb3647074387296139"
+    },
+    {
+      "path": "assets/collision/6-Foam_Brick/piece_03.obj",
+      "bytes": 20493,
+      "sha256": "d5c42bfc1893982eb649c4ef7b458ef28d7e206f858b1d5050f6b85068528915"
+    },
+    {
+      "path": "assets/collision/6-Foam_Brick/piece_04.obj",
+      "bytes": 11831,
+      "sha256": "4681e3fc2e554f6239dccbb50892e4741bf8108ac9d0c4b0a0919123086c2b4b"
+    },
+    {
+      "path": "assets/collision/6-Foam_Brick/piece_05.obj",
+      "bytes": 1530,
+      "sha256": "2a5f9bd587865bf318ae3af1586bbc5609cfdaaaf99113a625b75c081cdfb680"
+    },
+    {
+      "path": "assets/collision/6-Foam_Brick/piece_06.obj",
+      "bytes": 2663,
+      "sha256": "c090bedc57c06b6d789235c496e7cb11bd7597001492f4a815f5bac5ba5c3f0d"
+    },
+    {
+      "path": "assets/collision/6-Foam_Brick/piece_07.obj",
+      "bytes": 3243,
+      "sha256": "a75854947bae3ece60968c13100fe2770997614922bc8a4b78b2e44e42ee05ee"
+    },
+    {
+      "path": "assets/visual/1-Cheez-it/textured.obj",
+      "bytes": 1437349,
+      "sha256": "266ab66c4a383fd5b0a239abe7223d7102d07102a7d5f4cb5d148c2cef8e3333"
+    },
+    {
+      "path": "assets/visual/1-Cheez-it/texture_map.png",
+      "bytes": 9675554,
+      "sha256": "da2226ae7ad287df691ccbfb4643bceeb3b29331a11c746cce7cac6a2177ada2"
+    },
+    {
+      "path": "assets/collision/1-Cheez-it/piece_00.obj",
+      "bytes": 24759,
+      "sha256": "530dd6e5ee438a106ed825b535d331ce08e3ea6f7d24c6626fa8f13cba179d8c"
+    },
+    {
+      "path": "assets/collision/1-Cheez-it/piece_01.obj",
+      "bytes": 45708,
+      "sha256": "26179c35891ebfd0e2bfc46dd9f9968a902006d91b56d60c1a65710ea8a1510f"
+    },
+    {
+      "path": "assets/visual/26-Plastic_Strawberry/Plastic_Strawberry.obj",
+      "bytes": 1697071,
+      "sha256": "4bfde9eae2fa99414e00c5072f1777f063584be6ffdf09056c87beecc8ad4d05"
+    },
+    {
+      "path": "assets/visual/26-Plastic_Strawberry/texture.png",
+      "bytes": 5122289,
+      "sha256": "3dc2027dbc259959ae1c84b0e34257fdf2aa5a9ebef332fad74a7ede63cf8e8c"
+    },
+    {
+      "path": "assets/collision/26-Plastic_Strawberry/piece_00.obj",
+      "bytes": 104271,
+      "sha256": "00140261274a8af36283dabce6d16f491cee22ae04d0303c7cedd722078b8a7e"
+    },
+    {
+      "path": "assets/collision/26-Plastic_Strawberry/piece_01.obj",
+      "bytes": 82707,
+      "sha256": "b2c965b68747e573ffa4215ef1b0e4a8648a2b0977be4cdd54ba5d4b2c3bb834"
+    },
+    {
+      "path": "assets/collision/26-Plastic_Strawberry/piece_02.obj",
+      "bytes": 19392,
+      "sha256": "b199e23f99de3b2ca757f7c9d337cdc1c6b2dda98b25cdd5ee827e770d26fc22"
+    },
+    {
+      "path": "assets/collision/26-Plastic_Strawberry/piece_03.obj",
+      "bytes": 40902,
+      "sha256": "e4ff69df8a3c95ae206888698b80f498fd0c6004e4aaa5cfd7f7787841549531"
+    },
+    {
+      "path": "assets/visual/15-28 Bottle/cocacolaempty.obj",
+      "bytes": 63388541,
+      "sha256": "24f4db23d5f5fb970b436d0777c21e53b00266bac74b7a28729a562250a30bdc"
+    },
+    {
+      "path": "assets/icra2026_local_proxy_textures/15-28 Bottle__coca_texture.png",
+      "bytes": 2180442,
+      "sha256": "b5d02378371b934f22631b7adcb62d230ab9c2e0fe0a05902a6a1c05a228f23b"
+    },
+    {
+      "path": "assets/collision/15-28 Bottle/piece_00.obj",
+      "bytes": 12580,
+      "sha256": "9d17f0ebdc72724c81cd8cdd62c0cc3eced017c97908238caaea167ec7c45c55"
+    },
+    {
+      "path": "assets/collision/15-28 Bottle/piece_01.obj",
+      "bytes": 56938,
+      "sha256": "4dc922cd8d3326bf82d2eba0d6cdf0c680d751c564bf9a429aebb9a5944ce6ce"
+    },
+    {
+      "path": "assets/collision/15-28 Bottle/piece_02.obj",
+      "bytes": 30208,
+      "sha256": "16d5e95d722596e1898dd9dd3a886b4de7bbd9d1df8ea959e47c5dbd7713711e"
+    },
+    {
+      "path": "assets/collision/15-28 Bottle/piece_03.obj",
+      "bytes": 14376,
+      "sha256": "8b521581ea42e5e84b9d5270bf34478b10a6bbb3ea4e06fe985510dfba9abdab"
+    },
+    {
+      "path": "assets/collision/15-28 Bottle/piece_04.obj",
+      "bytes": 15419,
+      "sha256": "add16142d3900035eaf1d981520ba246a08016b8965134e435909fd2f46e5162"
+    },
+    {
+      "path": "assets/visual/10-meat_can/textured.obj",
+      "bytes": 1443223,
+      "sha256": "766dae1f0eac60a1096afc00646c5b5493dd1d70a1e95da5752732bfb3ef9084"
+    },
+    {
+      "path": "assets/visual/10-meat_can/texture_map.png",
+      "bytes": 7845494,
+      "sha256": "f5f3957a6ed349a75b7e257dab544188bad4fcb85ecfe09d12cb16e2ec628337"
+    },
+    {
+      "path": "assets/collision/10-meat_can/piece_00.obj",
+      "bytes": 30456,
+      "sha256": "76da52ebd754a4071a1618d4b2741a1835616436c05e12c1d906183b513960a1"
+    },
+    {
+      "path": "assets/collision/10-meat_can/piece_01.obj",
+      "bytes": 30015,
+      "sha256": "75e2a5f43d8de401fd4dd2700e2d35129f4b37f1fa45a365e9b5e79e3c3677fb"
+    },
+    {
+      "path": "assets/collision/10-meat_can/piece_02.obj",
+      "bytes": 10053,
+      "sha256": "5af0373515a21113af6923b8ea5d43800dc52bf9b602626ba8eb508ecb315f71"
+    },
+    {
+      "path": "assets/collision/10-meat_can/piece_03.obj",
+      "bytes": 9317,
+      "sha256": "f32289c58c0b25d9d372f791d3d12a5c636e05092cdf77fa1a5f2086e15519df"
+    },
+    {
+      "path": "assets/collision/10-meat_can/piece_04.obj",
+      "bytes": 8865,
+      "sha256": "e27ff83d2800d452e5cccaaafad0bfdea10dc71408262458341a1f2ae45156a7"
+    },
+    {
+      "path": "assets/collision/10-meat_can/piece_05.obj",
+      "bytes": 9651,
+      "sha256": "fd12bbdd4d9d62789a0ed94f2ab745bfcacf00b110cbd71b085a49fa9f585886"
+    },
+    {
+      "path": "assets/visual/25-Flat_Screwdriver/Flat_Screwdriver.obj",
+      "bytes": 1105846,
+      "sha256": "65d07fef170d05190d29d738cb686a4cfbf64584760c20d236a5c25a043a657d"
+    },
+    {
+      "path": "assets/visual/25-Flat_Screwdriver/texture.png",
+      "bytes": 765605,
+      "sha256": "39bdfcd6151ccf5389681910bc5152113d09f46151b2af7d6d9e461848e3c463"
+    },
+    {
+      "path": "assets/collision/25-Flat_Screwdriver/piece_00.obj",
+      "bytes": 37604,
+      "sha256": "4937f99d3eb0c784ed3da241a6b3f8406022b091abd3386fd9c4991944081224"
+    },
+    {
+      "path": "assets/visual/24-Spoon/Spoon 1.obj",
+      "bytes": 719996,
+      "sha256": "0e0481d25e58276614a07b15f2493dd0225ce624dfcaea83b5e3131ca37ad16c"
+    },
+    {
+      "path": "assets/collision/24-Spoon/piece_00.obj",
+      "bytes": 16042,
+      "sha256": "3b1b3f5784dd3a58f538e752a9c9efbc61f584dae34d915648655bcb722841bc"
+    },
+    {
+      "path": "assets/collision/24-Spoon/piece_01.obj",
+      "bytes": 28470,
+      "sha256": "8b56a041335878e52d966951cd358d841b4aab5d83be11d0568096a3000f2bfe"
+    },
+    {
+      "path": "assets/visual/5-Tomato_Soup/textured.obj",
+      "bytes": 1445268,
+      "sha256": "69202cd43cd6bfa6cf912a58261e0d66b8f9a3da075ece66844e7e23c417b2d5"
+    },
+    {
+      "path": "assets/visual/5-Tomato_Soup/texture_map.png",
+      "bytes": 8860430,
+      "sha256": "221306ee224fa52e7d768999179c2442354ed8afd0475b89b463261dc6fc7990"
+    },
+    {
+      "path": "assets/collision/5-Tomato_Soup/piece_00.obj",
+      "bytes": 111199,
+      "sha256": "e6d19ebaf8be5923e47654553f1726e5afa44fa8f6567339a17468e72316abfa"
+    },
+    {
+      "path": "assets/collision/5-Tomato_Soup/piece_01.obj",
+      "bytes": 7866,
+      "sha256": "b7a0f7c955e748df27aa674a24206b0b406e11de86592b3b3996739cdb1d7b68"
+    },
+    {
+      "path": "assets/collision/5-Tomato_Soup/piece_02.obj",
+      "bytes": 6028,
+      "sha256": "9059e47eeac27a9b099ba16d2eda8008e4705ea86e82ef793be8dc1523a82287"
+    },
+    {
+      "path": "assets/collision/5-Tomato_Soup/piece_03.obj",
+      "bytes": 16369,
+      "sha256": "22792e93bef845345178add385eaeef10b3b5ef1a8eabbcc8452d01581ab3803"
+    },
+    {
+      "path": "assets/collision/5-Tomato_Soup/piece_04.obj",
+      "bytes": 1887,
+      "sha256": "01ff9d6710198335e70086ebea8725d2327a7f7d5a866e99279df889fc165d3d"
+    },
+    {
+      "path": "assets/collision/5-Tomato_Soup/piece_05.obj",
+      "bytes": 5876,
+      "sha256": "a1a4cc4c3203cb01943353afc915b1dd22b8ef65cc38c9e5a41abb955cc046eb"
+    },
+    {
+      "path": "assets/collision/5-Tomato_Soup/piece_06.obj",
+      "bytes": 5772,
+      "sha256": "8626c790c3b64a10144727641adef6b8a816c838a1543b97b91fc8969a8462b7"
+    },
+    {
+      "path": "assets/collision/5-Tomato_Soup/piece_07.obj",
+      "bytes": 5171,
+      "sha256": "b94899624a43cdedcb90af919831fdb4bd1809943e739a60200b5c44981269ef"
+    },
+    {
+      "path": "assets/visual/34-Nail/Nail.obj",
+      "bytes": 23394,
+      "sha256": "2ee7bb232fda4f0972ec9508a73889d51b17af561634778f9fdf4ee29fe3b554"
+    },
+    {
+      "path": "assets/collision/34-Nail/piece_00.obj",
+      "bytes": 29187,
+      "sha256": "4663b88709518ff7d22c595188805344f35c0b4cd7e707ed9aca4a854206d7ec"
+    },
+    {
+      "path": "assets/collision/34-Nail/piece_01.obj",
+      "bytes": 11340,
+      "sha256": "ac7b3a6e43b57318d4da133cae5bd2637d9bcc0c92b7bd4300e3dfbc19220dcc"
+    },
+    {
+      "path": "assets/visual/13-Bowl/textured.obj",
+      "bytes": 1437708,
+      "sha256": "e432b1d8028a880f6a7a8c56483c4769bd3fcfa0119416fc5fe9ad6d5df7f5e2"
+    },
+    {
+      "path": "assets/visual/13-Bowl/texture_map.png",
+      "bytes": 5477845,
+      "sha256": "5f54ed5a1569e3d2d3e475feacba51340f65b40cdb77420bcd1cb943d451ed9b"
+    },
+    {
+      "path": "assets/collision/13-Bowl/piece_00.obj",
+      "bytes": 32046,
+      "sha256": "da1575130192750d6f502067437632d1cfa648be3268f5ba3250aa292096a4bb"
+    },
+    {
+      "path": "assets/collision/13-Bowl/piece_01.obj",
+      "bytes": 28007,
+      "sha256": "26c5f6e30f317b563c5ce9b58ec606e3dee4b6dd8b879d2970ec1857d2194f3b"
+    },
+    {
+      "path": "assets/collision/13-Bowl/piece_02.obj",
+      "bytes": 29857,
+      "sha256": "3b4cef19c97476a8e36defec2614e8a8b6b52e645223988ac3b5b3b2e2d35b4e"
+    },
+    {
+      "path": "assets/collision/13-Bowl/piece_03.obj",
+      "bytes": 21824,
+      "sha256": "22f4b3881f02133fe399c160e56c331cf6d8760181ad818ac488e79fc9488297"
+    },
+    {
+      "path": "assets/collision/13-Bowl/piece_04.obj",
+      "bytes": 26425,
+      "sha256": "c785ba4bd1fef6caf13d89fa8e9d513f0ee0dd86e40794a263011f72621407bc"
+    },
+    {
+      "path": "assets/collision/13-Bowl/piece_05.obj",
+      "bytes": 22365,
+      "sha256": "63c2f2d20cbc621f95c10e2276c9dc0ded1a0d5fa1a6b88c43183a1187f65f85"
+    },
+    {
+      "path": "assets/collision/13-Bowl/piece_06.obj",
+      "bytes": 21319,
+      "sha256": "1ab8b4cc62e8f298d2516b94b24161181248812d3d97142ddc79f1f9a9016272"
+    },
+    {
+      "path": "assets/collision/13-Bowl/piece_07.obj",
+      "bytes": 20804,
+      "sha256": "5ebd2eb66552d57c812e6e29e2a43dc2a54cc654fe1d976a5eb5173247679900"
+    },
+    {
+      "path": "assets/visual/27-Kong_Duck_Dog_Toy/Kong_Duck_Dog_Toy.obj",
+      "bytes": 9582262,
+      "sha256": "8dba1a2661a87ae97d434e99f4af62776c3b4a7290b04b6e7c57f743f6878655"
+    },
+    {
+      "path": "assets/visual/27-Kong_Duck_Dog_Toy/texture.png",
+      "bytes": 1282503,
+      "sha256": "ea9b05e32a9178a5002c48b38a13b6643edac84203cacbd90e20e12dd25fc5a4"
+    },
+    {
+      "path": "assets/collision/27-Kong_Duck_Dog_Toy/piece_00.obj",
+      "bytes": 9407,
+      "sha256": "28c104229969c9028ed9e8268223be7dac3bdc2967bb24907736c70f646326a8"
+    },
+    {
+      "path": "assets/collision/27-Kong_Duck_Dog_Toy/piece_01.obj",
+      "bytes": 12639,
+      "sha256": "0952ca45b16666ed54c8bde70e6e823ece980260bb75c32dee2fa0166ad6dd30"
+    },
+    {
+      "path": "assets/collision/27-Kong_Duck_Dog_Toy/piece_02.obj",
+      "bytes": 10892,
+      "sha256": "7204629da3670b4bbf0876bc5e9be8839a183511734e1e10513ce11b7d38d4bb"
+    },
+    {
+      "path": "assets/collision/27-Kong_Duck_Dog_Toy/piece_03.obj",
+      "bytes": 15666,
+      "sha256": "bdb51d21017c7e9e435c81b2c3ab5632c30a3e471a1c9272157f89890584c5f6"
+    },
+    {
+      "path": "assets/collision/27-Kong_Duck_Dog_Toy/piece_04.obj",
+      "bytes": 3967,
+      "sha256": "fbcf0de4559cd17b04fb499b2c180534d096e69bb54f023bf523964c714f0fa0"
+    },
+    {
+      "path": "assets/collision/27-Kong_Duck_Dog_Toy/piece_05.obj",
+      "bytes": 8899,
+      "sha256": "df3a3132a54cbc48e6f0ffbb717daf5a2389f4ac2b4f1e7e544fe64190fa4a3f"
+    },
+    {
+      "path": "assets/collision/27-Kong_Duck_Dog_Toy/piece_06.obj",
+      "bytes": 8018,
+      "sha256": "881c1b71de779edb711074953fb3f68c5f2b0b7c9fbf26ed758381a0125c7b43"
+    },
+    {
+      "path": "assets/collision/27-Kong_Duck_Dog_Toy/piece_07.obj",
+      "bytes": 15091,
+      "sha256": "7fd91e9fa1b4a505bdd91727799806caa8ec739632cdff38dfc87a53c33f116b"
+    },
+    {
+      "path": "assets/visual/2-Starkist_Tuna/textured.obj",
+      "bytes": 1436403,
+      "sha256": "87b2a01b8e5aa73a90cc71d4dbc29636858dd7d79cad045b5b90f151f25460ef"
+    },
+    {
+      "path": "assets/visual/2-Starkist_Tuna/texture_map.png",
+      "bytes": 7208855,
+      "sha256": "47cf7c530087b86b6e7822e48234ef34af98b5c6bad4cff2a5a7055340d3c6dc"
+    },
+    {
+      "path": "assets/collision/2-Starkist_Tuna/piece_00.obj",
+      "bytes": 26796,
+      "sha256": "0b485caece7fb667506ba15966f90a5224d41c858dbba574ddd18a9ecafe0585"
+    },
+    {
+      "path": "assets/collision/2-Starkist_Tuna/piece_01.obj",
+      "bytes": 28492,
+      "sha256": "57269f5f389797202a61f7140b61860ea4e509c0d764a61b57c60e54e9840f48"
+    },
+    {
+      "path": "assets/collision/2-Starkist_Tuna/piece_02.obj",
+      "bytes": 23709,
+      "sha256": "2c0eeb40515261781eb4eb31f367616628bef2cc4d5a29b32e1f89bcbcfad3cf"
+    },
+    {
+      "path": "assets/collision/2-Starkist_Tuna/piece_03.obj",
+      "bytes": 26595,
+      "sha256": "45cc62825b2e1c5e28fb0307af7df3fb8344c5114d66796cebc63a97841f82d8"
+    },
+    {
+      "path": "assets/visual/23-GU24_adapter/GU24_adapter.obj",
+      "bytes": 70288,
+      "sha256": "0d513e9e0b8f56b7a820b0a95196dd7b28adeaf2f3f81a60ababb3e3be6eeb46"
+    },
+    {
+      "path": "assets/collision/23-GU24_adapter/piece_00.obj",
+      "bytes": 40046,
+      "sha256": "f7dddc36f4a4ae780f75ca70e988c661d40ff8fbffc78f09cd0eb047a66a4d1e"
+    },
+    {
+      "path": "assets/collision/23-GU24_adapter/piece_01.obj",
+      "bytes": 9953,
+      "sha256": "6a947c2eb9d497647eecdfabf6facb7bce54b63f958653a1163d65aba9b9b61e"
+    },
+    {
+      "path": "assets/collision/23-GU24_adapter/piece_02.obj",
+      "bytes": 6989,
+      "sha256": "6bad564daa6f8f5a88964815739b8176265aaf4b19d2603712a709a7e21253ad"
+    },
+    {
+      "path": "assets/collision/23-GU24_adapter/piece_03.obj",
+      "bytes": 11635,
+      "sha256": "80aa17e9fa2e13bc61a4630da59699038edff75fc9bd6503b44d311cdcc6473a"
+    },
+    {
+      "path": "assets/collision/23-GU24_adapter/piece_04.obj",
+      "bytes": 10449,
+      "sha256": "547006e070e98f36bfa886027642f845ae7347e7bab4b3827828b9d688623a8c"
+    },
+    {
+      "path": "assets/collision/23-GU24_adapter/piece_05.obj",
+      "bytes": 6789,
+      "sha256": "000fafafa003581363a6132d4d0f6ec8b4fe0a1d3e934bfc101c7f80200ec325"
+    },
+    {
+      "path": "assets/collision/23-GU24_adapter/piece_06.obj",
+      "bytes": 8714,
+      "sha256": "306773fe432392657c0e7d7d4a37d6bee77270614b70be42ee0fa9c9595ce1ee"
+    },
+    {
+      "path": "assets/collision/23-GU24_adapter/piece_07.obj",
+      "bytes": 8456,
+      "sha256": "9b6c259f96b23b901de95970c0624999dc3942526a1092f2e84e59e6c2e21cd4"
+    },
+    {
+      "path": "assets/visual/8-Plastic_Banana/textured.obj",
+      "bytes": 1435391,
+      "sha256": "ca68a3de797b3dee020719e8b2ea67b23c395f19d3e1541d83c8e7f972c70296"
+    },
+    {
+      "path": "assets/visual/8-Plastic_Banana/texture_map.png",
+      "bytes": 3979031,
+      "sha256": "a5d70629ee8cff461e25f5c0aa87651746e3c9e405674dc6a20446f824d9d97a"
+    },
+    {
+      "path": "assets/collision/8-Plastic_Banana/piece_00.obj",
+      "bytes": 77392,
+      "sha256": "227a3c6d236ad2707beac6376e52a4c3700c375f0e7fe8e0d0bfbd346e6da521"
+    },
+    {
+      "path": "assets/collision/8-Plastic_Banana/piece_01.obj",
+      "bytes": 5588,
+      "sha256": "19e4f18f6c900e56e9fe9120d3635efed2571d8770b72335f84c158f9ad5e5a7"
+    },
+    {
+      "path": "assets/collision/8-Plastic_Banana/piece_02.obj",
+      "bytes": 49435,
+      "sha256": "8718b0be0d6b7652ae5cf3b974af635273511a49b9cd1026c7a08f440829ed90"
+    },
+    {
+      "path": "assets/visual/29-Paper_Towels/Kleenex_Paper_Towels.obj",
+      "bytes": 10789,
+      "sha256": "d7d89c9341272fdab0251edb8cf1ab3fda83cd331ec673c160b4e54b542105d0"
+    },
+    {
+      "path": "assets/visual/29-Paper_Towels/paper_towel.png",
+      "bytes": 358789,
+      "sha256": "76460e1f989c9d0bfdceaa874ea53a3672263c8c30a074624f3c77d2f6aa645d"
+    },
+    {
+      "path": "assets/collision/29-Paper_Towels/piece_00.obj",
+      "bytes": 41123,
+      "sha256": "724370348ee196d2f07ff784292b274b350ab216fe71fc027afd34d1cb8d43fc"
+    },
+    {
+      "path": "assets/visual/30-Stabilo_OHPen/stabilo_box.obj",
+      "bytes": 437194,
+      "sha256": "e591668c31fdf058369b973d6f1a704ed53f22da63b76c4890fac40dd405fc00"
+    },
+    {
+      "path": "assets/icra2026_local_proxy_textures/30-Stabilo_OHPen__stabilo_front_box.png",
+      "bytes": 3811405,
+      "sha256": "5d74731dd845fb9a6a690d117466887d61cce23d03f0dee8737ab8350bb530f0"
+    },
+    {
+      "path": "assets/collision/30-Stabilo_OHPen/piece_00.obj",
+      "bytes": 8774,
+      "sha256": "d24b1f2d7041aa87679ea81b8eee59626a8ffe346e060c9d2173211077e4c779"
+    },
+    {
+      "path": "assets/visual/32-Wine_Glass/Wine_Glass.obj",
+      "bytes": 936726,
+      "sha256": "1858b081ade1a0bf2c32bd755d286a0183fb1c9fb62f11481111bf6ea5894303"
+    },
+    {
+      "path": "assets/collision/32-Wine_Glass/piece_00.obj",
+      "bytes": 5827,
+      "sha256": "deaec7435afc331953d418cb9d3ce9a0d42ec40fcd6673ea9bd388fbe85cc602"
+    },
+    {
+      "path": "assets/collision/32-Wine_Glass/piece_01.obj",
+      "bytes": 22783,
+      "sha256": "d54752a729eb84f08ef0e8e8cfc0749c4f9d4095cb4889120e99a3dc35c9f728"
+    },
+    {
+      "path": "assets/collision/32-Wine_Glass/piece_02.obj",
+      "bytes": 47290,
+      "sha256": "c0011cd8fd96b9e39260a2c8ef4a229d32f2cd5f0ca38c8eef7d4d6c3e8ba61d"
+    },
+    {
+      "path": "assets/collision/32-Wine_Glass/piece_03.obj",
+      "bytes": 18953,
+      "sha256": "c463dea91d2f6c1ccbd7839c159a3a96555c69503e05a66505333dedc7a99bc4"
+    },
+    {
+      "path": "assets/collision/32-Wine_Glass/piece_04.obj",
+      "bytes": 18172,
+      "sha256": "a9c431f33d3a192537f3df43bf67e56e6bd2ae57e280c4a1cb8aca20b1e0d80e"
+    },
+    {
+      "path": "assets/collision/32-Wine_Glass/piece_05.obj",
+      "bytes": 19626,
+      "sha256": "add811d6f513c42b9b5c7bc97067dbac9b2e78935f3e7b31d8078aa97c711c91"
+    },
+    {
+      "path": "assets/collision/32-Wine_Glass/piece_06.obj",
+      "bytes": 12469,
+      "sha256": "f76a3b5b796e6f28edfb77c91319f73577cbb5674f19c809ef8c46c2fbe2db19"
+    },
+    {
+      "path": "assets/collision/32-Wine_Glass/piece_07.obj",
+      "bytes": 15951,
+      "sha256": "1b0ba35186627062be39281b030766b678ce508a090f86c826b8fb58f329cceb"
+    },
+    {
+      "path": "assets/visual/7-Clamp/textured.obj",
+      "bytes": 1464434,
+      "sha256": "a3e82c948dc935ee2204fa3794acc09dad9ec67ca78520589d3e4a4a5a6b39c4"
+    },
+    {
+      "path": "assets/visual/7-Clamp/texture_map.png",
+      "bytes": 3881893,
+      "sha256": "54c231099ed34c199914bcb3f8956e8eb635a71757ceb75225c5674988b29bcb"
+    },
+    {
+      "path": "assets/collision/7-Clamp/piece_00.obj",
+      "bytes": 21280,
+      "sha256": "95e4d78741f1eab1c84902e1f0d58a31cd738067ec01b9a4b89ea2383607d4e1"
+    },
+    {
+      "path": "assets/collision/7-Clamp/piece_01.obj",
+      "bytes": 21299,
+      "sha256": "98ecf89e5730ec99a00cc1a3afe9f8a743f8b5446b5520efb48ed7dfce3088ed"
+    },
+    {
+      "path": "assets/collision/7-Clamp/piece_02.obj",
+      "bytes": 12631,
+      "sha256": "fd872422eba11f24c87de85307d0c12bd7f2b529ecd4c118c222b4eb9b980b17"
+    },
+    {
+      "path": "assets/collision/7-Clamp/piece_03.obj",
+      "bytes": 11061,
+      "sha256": "7f34a34fb7b66bf984ed24c49fb270db0c67123798592a2e69215ada0ceb9ec1"
+    },
+    {
+      "path": "assets/collision/7-Clamp/piece_04.obj",
+      "bytes": 14336,
+      "sha256": "45b75aeab1a324db0e22b0d7f77ce5342e8a3c9a45e51efc7dab7a67c9f0b3eb"
+    },
+    {
+      "path": "assets/collision/7-Clamp/piece_05.obj",
+      "bytes": 11778,
+      "sha256": "02fa4aaa5c8dd664c87a858eeb5033b521a0a4e55a41488b5cdf3743a14a53e4"
+    },
+    {
+      "path": "assets/collision/7-Clamp/piece_06.obj",
+      "bytes": 6625,
+      "sha256": "e7accdc91b8e4ad6b5a51c8762ca5a6c93b5c12506e98e67acebbb04250ecd2f"
+    },
+    {
+      "path": "assets/collision/7-Clamp/piece_07.obj",
+      "bytes": 10905,
+      "sha256": "f3f0228a76c8b76ae22b5462b9a430061c4dab6f352437073a254af0a019b1e8"
+    },
+    {
+      "path": "assets/visual/3-Scissors/textured.obj",
+      "bytes": 1436592,
+      "sha256": "3f714d43120f205f399687ed081878be6fd7651bad3bfbef2047ef37687aa535"
+    },
+    {
+      "path": "assets/visual/3-Scissors/texture_map.png",
+      "bytes": 3002207,
+      "sha256": "924291c14ead270c4afb7331b692658df738fb80e0d2df9ddb6f888c2cb77e85"
+    },
+    {
+      "path": "assets/collision/3-Scissors/piece_00.obj",
+      "bytes": 8850,
+      "sha256": "e611f0f49d4a1057ec43f4d16813890d00c2a0a82856c0db84e31e3b1f814a0b"
+    },
+    {
+      "path": "assets/collision/3-Scissors/piece_01.obj",
+      "bytes": 6855,
+      "sha256": "7ec03b3bf877de65f2f40810a41536d3abc0a1a41f2cbdfbed8ebf759265be33"
+    },
+    {
+      "path": "assets/collision/3-Scissors/piece_02.obj",
+      "bytes": 9422,
+      "sha256": "dd9091900e4bfd9c3c6e0cbfdcaab04df2c8238cdee68df4abf6493b57a5bf07"
+    },
+    {
+      "path": "assets/collision/3-Scissors/piece_03.obj",
+      "bytes": 8918,
+      "sha256": "0b85c654389d4988bdda847cba12756b098da003dfee88bd782dadf0050c5313"
+    },
+    {
+      "path": "assets/collision/3-Scissors/piece_04.obj",
+      "bytes": 9693,
+      "sha256": "b7994f5f2f01a22f06294d608137635afa390bf5e91a9a28608410cd6cfe3295"
+    },
+    {
+      "path": "assets/collision/3-Scissors/piece_05.obj",
+      "bytes": 4744,
+      "sha256": "e693a29b0713b0d90f1f29d2b942df4ba9ef6e842bea05431d28ca4e2774b234"
+    },
+    {
+      "path": "assets/collision/3-Scissors/piece_06.obj",
+      "bytes": 11516,
+      "sha256": "58ee7a6b77890bab5c2845a7e0bacb8792bdf6f896275dc5e86e78bea84ca9ca"
+    },
+    {
+      "path": "assets/collision/3-Scissors/piece_07.obj",
+      "bytes": 9394,
+      "sha256": "41cd40e9481b567b8af32cbcb4043790511a28a9d1073d7355134e773ac31d23"
+    },
+    {
+      "path": "assets/visual/31-Plastic_White_Cup/Plastic_White_Cup.obj",
+      "bytes": 188139,
+      "sha256": "b7176c300e8ff40b4884af2d4e32b4a59e864bf2ac7926d70fca73e07f6cfbaf"
+    },
+    {
+      "path": "assets/collision/31-Plastic_White_Cup/piece_00.obj",
+      "bytes": 32378,
+      "sha256": "ecc07873d703fdb1200f00b8b3ccae860a09934514172aeb762e659cd7929ac4"
+    },
+    {
+      "path": "assets/collision/31-Plastic_White_Cup/piece_01.obj",
+      "bytes": 12621,
+      "sha256": "fcbe57a9f8f065a1b30f85bdaffa7321421f7a183392823d17ecee3d2b9a5126"
+    },
+    {
+      "path": "assets/collision/31-Plastic_White_Cup/piece_02.obj",
+      "bytes": 13405,
+      "sha256": "9a8114793372222a8732807115e1c3f49f5226c9f918c4f403c1b1162e8695fa"
+    },
+    {
+      "path": "assets/collision/31-Plastic_White_Cup/piece_03.obj",
+      "bytes": 8320,
+      "sha256": "cdfc99d3e2d877c5d298728b825a3d0afdf4144973c7f3fb995215496de76c5d"
+    },
+    {
+      "path": "assets/collision/31-Plastic_White_Cup/piece_04.obj",
+      "bytes": 9823,
+      "sha256": "eb1071318d41e5e379d38d148db640acd94cdf512f7505da274a1c53c7480221"
+    },
+    {
+      "path": "assets/collision/31-Plastic_White_Cup/piece_05.obj",
+      "bytes": 9463,
+      "sha256": "395915bb44ee2b91d671dcd3b3e5aac16b09b368123e234787c544fb8e6248dc"
+    },
+    {
+      "path": "assets/collision/31-Plastic_White_Cup/piece_06.obj",
+      "bytes": 7639,
+      "sha256": "ac2367864b09bafcb29e4f775f7311e558c97346f25a4d41512baa88893ac94a"
+    },
+    {
+      "path": "assets/collision/31-Plastic_White_Cup/piece_07.obj",
+      "bytes": 7192,
+      "sha256": "5618bcac520419557afef1789789c3257e73f51b3823e356e24cf42f8c30a3ed"
+    },
+    {
+      "path": "assets/visual/40-Pringles/Pringles.obj",
+      "bytes": 22633,
+      "sha256": "2a4502f537b95a26768b031573504c17d15b565495ab787f8125b319930614e8"
+    },
+    {
+      "path": "assets/icra2026_local_proxy_textures/40-Pringles__texture.png",
+      "bytes": 5628925,
+      "sha256": "2913e4a2a722ee00696479ff1b32f9e66e7289693b43a5cd4bbdb2e2e56fcdce"
+    },
+    {
+      "path": "assets/collision/40-Pringles/piece_00.obj",
+      "bytes": 29220,
+      "sha256": "69fb87247586f44843d15638957817ed7338bf7a6f2c47abe0ed47436f5443bf"
+    },
+    {
+      "path": "assets/visual/35-Laugh_Out_Loud_Joke_Book/laugh_out_loud_joke_book.obj",
+      "bytes": 3143630,
+      "sha256": "fcad49dfa47596942b1ef52f43e1f42b72f17baa62698da95ed3a0fdb5ab6131"
+    },
+    {
+      "path": "assets/visual/35-Laugh_Out_Loud_Joke_Book/laugh_out_loud_joke_book.png",
+      "bytes": 1241271,
+      "sha256": "7dff6d9db836a2e9faaff0d2a1127d2b6a7fd0d742bd3a9841dfaf08d9a514f6"
+    },
+    {
+      "path": "assets/collision/35-Laugh_Out_Loud_Joke_Book/piece_00.obj",
+      "bytes": 5087,
+      "sha256": "0cd4a35ee542fa0d05b48fa8318c4a0600d7e9f5ffce29e180d981964373dacf"
+    },
+    {
+      "path": "assets/visual/18-Dice/Dice.obj",
+      "bytes": 3754204,
+      "sha256": "08e5621bdfb53e025709a259beb02ef211dbc70105dd1d39e8849e51730347d3"
+    },
+    {
+      "path": "assets/collision/18-Dice/piece_00.obj",
+      "bytes": 26649,
+      "sha256": "0e3717d1873fed7233a75b67dbac7921ed13a3948cd01cc5c95538a1dcbbe851"
+    },
+    {
+      "path": "assets/collision/18-Dice/piece_01.obj",
+      "bytes": 41695,
+      "sha256": "b4093f52c4059287b82821c005aa4931e657fa1efebc4ab809fd43c42ccb2005"
+    },
+    {
+      "path": "assets/collision/18-Dice/piece_02.obj",
+      "bytes": 29839,
+      "sha256": "43eca8d58087a1bfac7ec3083e5ccaa4ed6d7e7288beb299e7db46df67836d1e"
+    },
+    {
+      "path": "assets/collision/18-Dice/piece_03.obj",
+      "bytes": 7130,
+      "sha256": "d5959c21d84310e37831854608ba238120244207635229fd26be4f993e2fdb18"
+    },
+    {
+      "path": "assets/collision/18-Dice/piece_04.obj",
+      "bytes": 13169,
+      "sha256": "c7ee9d5a0394ec790b0f202e3cd54b5ca4f089ce30391017cdba1c0011dc7e02"
+    },
+    {
+      "path": "assets/collision/18-Dice/piece_05.obj",
+      "bytes": 12526,
+      "sha256": "e28974e7e89e94597a332f2544eaa09ed96f62169cb7304e2e0ef140955e84d9"
+    },
+    {
+      "path": "assets/collision/18-Dice/piece_06.obj",
+      "bytes": 8758,
+      "sha256": "b41ee69f8956fa4d4489a69ddb9802bc53ffb060597bdedca7dfd3098f400146"
+    },
+    {
+      "path": "assets/collision/18-Dice/piece_07.obj",
+      "bytes": 75722,
+      "sha256": "49402a90db1af59b34d96df7bd46677e0ea78189bc2236b20b3eaad98ceff996"
+    },
+    {
+      "path": "assets/visual/33-Key/Key.obj",
+      "bytes": 226790,
+      "sha256": "c6a5eca0e4d4d9df34bc1dd99568d2ff619dc2d6729e7ca954b91a7315e9d1e3"
+    },
+    {
+      "path": "assets/collision/33-Key/piece_00.obj",
+      "bytes": 5444,
+      "sha256": "838a5d451941a72405ca544e29c02bcee95380c24b524c452c6efc3957c58248"
+    },
+    {
+      "path": "assets/collision/33-Key/piece_01.obj",
+      "bytes": 5150,
+      "sha256": "951be654dee528eb22e526870194e7166245766529deb6871cc1fe9414a4cf9b"
+    },
+    {
+      "path": "assets/collision/33-Key/piece_02.obj",
+      "bytes": 6500,
+      "sha256": "36d6c1851bb3a30fee449d508d7a11b08236ba37c1c219eae11a36d505da3879"
+    },
+    {
+      "path": "assets/collision/33-Key/piece_03.obj",
+      "bytes": 6643,
+      "sha256": "a2f8591288c0d5de438d28696921a911ef8fb19a1768f2ebf0b0ec1d93e76c3e"
+    }
+  ],
+  "redistributed": false
+}

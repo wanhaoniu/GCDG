@@ -1,0 +1,57 @@
+{
+  "source": "ours",
+  "split": "test",
+  "params": {
+    "seed": 7,
+    "tau_any": 0.8199999928474426,
+    "tau_sufficient": 0.7599999904632568,
+    "tau_app": 0.8299999833106995,
+    "tau_lift": 0.6899999976158142,
+    "use_calibrated_thresholds": true,
+    "calibration_thresholds_path": "auto",
+    "alpha": 0.5,
+    "beta": 0.1,
+    "gamma": 0.75,
+    "eta": 0.1,
+    "max_steps": 5,
+    "budget_residual_weight": 1.0,
+    "budget_residual_ratio_weight": 0.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "budget_coverage_reward": 0.0,
+    "topk_min_strength": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true,
+    "use_grasp_score": true,
+    "mechanical_search_target_score_thresh": 0.2,
+    "xray_target_score_thresh": 0.2,
+    "xray_overlap_weight": 2.0,
+    "xray_near_weight": 0.75,
+    "xray_front_weight": 0.75,
+    "xray_area_weight": 0.5,
+    "run_open_loop": false,
+    "run_closed_loop": true,
+    "verbose": false
+  },
+  "spec": {
+    "name": "ablate_budgeted_no_removal_penalty",
+    "group": "ablations",
+    "display": "No removal-count penalty",
+    "predictor_source": "ours",
+    "baselines": [
+      "budgeted_dependency"
+    ],
+    "run_open_loop": false,
+    "run_closed_loop": true,
+    "planner_overrides": {
+      "alpha": 0.5,
+      "budget_residual_weight": 1.0,
+      "budget_removal_weight": 0.0,
+      "budget_removed_reward": 0.0,
+      "use_typed_dependency": false,
+      "use_sufficient_dependency": true
+    },
+    "use_calibrated_thresholds": true
+  },
+  "model_seed": 7
+}

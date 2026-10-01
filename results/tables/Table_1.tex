@@ -1,0 +1,17 @@
+\begin{wraptable}{r}{0.56\linewidth}
+  \centering
+  \caption{Dependency prediction.}
+  \label{tab:main_stage2_prediction}
+  \small
+  \setlength{\tabcolsep}{2.2pt}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.36\linewidth}ccc@{}}
+    \toprule
+    Method & AP $\uparrow$ & F1 $\uparrow$ & Blocker IoU $\uparrow$ \\
+    \midrule
+    Geometry & 3.3 $\pm$ 0.0 & 7.1 $\pm$ 0.0 & 4.4 $\pm$ 0.0 \\
+    Edge-MLP & 31.5 $\pm$ 0.5 & 37.3 $\pm$ 0.4 & 24.8 $\pm$ 0.3 \\
+    G2N2~\citep{lou2022g2n2} & 38.3 $\pm$ 0.5 & 42.2 $\pm$ 0.5 & 29.3 $\pm$ 0.3 \\
+    \best{Ours} & 40.0 $\pm$ 0.3 & 43.5 $\pm$ 1.1 & 30.7 $\pm$ 1.1 \\
+    \bottomrule
+  \end{tabular}
+\end{wraptable}

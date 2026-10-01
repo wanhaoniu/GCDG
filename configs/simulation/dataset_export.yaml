@@ -1,0 +1,8 @@
+output_root: outputs
+write_scene_snapshots: true
+write_grasp_proposals: true
+write_labels: true
+write_manifests: true
+max_blocker_search_depth: 3
+enumerate_all_targets: true
+include_targets_without_proposals: true

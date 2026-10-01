@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "graph_arrays_exact": [
+    "object_class_ids",
+    "grasp_type_ids",
+    "x_obj",
+    "x_grasp",
+    "edge_index_oo",
+    "edge_attr_oo",
+    "edge_index_gg",
+    "edge_attr_gg",
+    "edge_index_og",
+    "edge_attr_og",
+    "edge_label_og",
+    "edge_label_mask_og"
+  ],
+  "fixture": "scene_test_new_00000__obj_00",
+  "checkpoint_predictions_exact": true,
+  "stored_planner_smoke": true,
+  "tests": 6,
+  "scope": "CPU fixture and imports only; no training, full evaluation or native episode launched"
+}

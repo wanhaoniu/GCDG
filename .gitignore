@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/
+outputs/
+weights/
+*.lic
+*.signature
+*.public_key
+licenseCfg.json
+.env
+.DS_Store

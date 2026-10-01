@@ -1,0 +1,1039 @@
+[
+  {
+    "id": "1",
+    "caption": "Dependency prediction.",
+    "cells": [
+      [
+        "Method",
+        "AP ↑",
+        "F1 ↑",
+        "Blocker IoU ↑"
+      ],
+      [
+        "Geometry",
+        "3.3 ± 0.0",
+        "7.1 ± 0.0",
+        "4.4 ± 0.0"
+      ],
+      [
+        "Edge-MLP",
+        "31.5 ± 0.5",
+        "37.3 ± 0.4",
+        "24.8 ± 0.3"
+      ],
+      [
+        "G2N2",
+        "38.3 ± 0.5",
+        "42.2 ± 0.5",
+        "29.3 ± 0.3"
+      ],
+      [
+        "Ours",
+        "40.0 ± 0.3",
+        "43.5 ± 1.1",
+        "30.7 ± 1.1"
+      ]
+    ]
+  },
+  {
+    "id": "2",
+    "caption": "Stored-label planning.",
+    "cells": [
+      [
+        "Method",
+        "Success ↑",
+        "Removals ↓"
+      ],
+      [
+        "Direct",
+        "8.3",
+        "0.00"
+      ],
+      [
+        "Nearest",
+        "26.2",
+        "5.00"
+      ],
+      [
+        "Mech. Search",
+        "11.5",
+        "2.32"
+      ],
+      [
+        "X-Ray-style",
+        "14.9",
+        "2.32"
+      ],
+      [
+        "Highest dep.",
+        "40.5",
+        "5.00"
+      ],
+      [
+        "Ours",
+        "31.9",
+        "2.32"
+      ],
+      [
+        "Oracle MBS",
+        "67.7",
+        "0.95"
+      ]
+    ]
+  },
+  {
+    "id": "3",
+    "caption": "Closed-loop retrieval.",
+    "cells": [
+      [
+        "Method",
+        "256-t succ. ↑",
+        "Rem. ↓",
+        "Ord. comp. ↑",
+        "Reloc./retr. ↓"
+      ],
+      [
+        "Direct",
+        "12.9",
+        "0.42",
+        "1.81/10",
+        "1.90"
+      ],
+      [
+        "Nearest",
+        "20.3",
+        "4.81",
+        "5.25/10",
+        "9.52"
+      ],
+      [
+        "Mechanical",
+        "36.7",
+        "3.61",
+        "5.44/10",
+        "4.98"
+      ],
+      [
+        "X-Ray",
+        "48.4",
+        "3.36",
+        "8.06/10",
+        "2.18"
+      ],
+      [
+        "Ours",
+        "51.2",
+        "2.53",
+        "8.56/10",
+        "1.34"
+      ]
+    ]
+  },
+  {
+    "id": "4",
+    "caption": "Real-robot retrieval.",
+    "cells": [
+      [
+        "Method",
+        "Trials",
+        "Success",
+        "Rem."
+      ],
+      [
+        "Direct",
+        "20",
+        "7.3",
+        "0.0"
+      ],
+      [
+        "Mech.",
+        "20",
+        "15.0",
+        "7.3"
+      ],
+      [
+        "Ours",
+        "20",
+        "18.3",
+        "4.7"
+      ]
+    ]
+  },
+  {
+    "id": "A1-A",
+    "caption": "Dataset statistics.",
+    "cells": [
+      [
+        "Split",
+        "Scenes",
+        "Samples",
+        "Obj. nodes",
+        "Grasps",
+        "OG edges",
+        "Edges/sample"
+      ],
+      [
+        "train",
+        "350",
+        "9,090",
+        "196,975",
+        "218,949",
+        "4,728,186",
+        "520.2"
+      ],
+      [
+        "val",
+        "75",
+        "1,950",
+        "42,722",
+        "47,254",
+        "1,030,373",
+        "528.4"
+      ],
+      [
+        "test",
+        "75",
+        "1,945",
+        "41,905",
+        "47,025",
+        "1,007,538",
+        "518.0"
+      ],
+      [
+        "all",
+        "500",
+        "12,985",
+        "281,602",
+        "313,228",
+        "6,766,097",
+        "521.1"
+      ]
+    ]
+  },
+  {
+    "id": "A1-B",
+    "caption": "Dependency-label distribution.",
+    "cells": [
+      [
+        "Split",
+        "Progress-any",
+        "Sufficient",
+        "Approach",
+        "Lift"
+      ],
+      [
+        "train",
+        "65,316 (1.38%)",
+        "31,645 (0.67%)",
+        "44,895 (0.95%)",
+        "20,421 (0.43%)"
+      ],
+      [
+        "val",
+        "13,424 (1.30%)",
+        "6,515 (0.63%)",
+        "9,428 (0.92%)",
+        "3,996 (0.39%)"
+      ],
+      [
+        "test",
+        "14,280 (1.42%)",
+        "7,029 (0.70%)",
+        "9,506 (0.94%)",
+        "4,774 (0.47%)"
+      ],
+      [
+        "all",
+        "93,020 (1.37%)",
+        "45,189 (0.67%)",
+        "63,829 (0.94%)",
+        "29,191 (0.43%)"
+      ]
+    ]
+  },
+  {
+    "id": "A1-C",
+    "caption": "Minimal blocker set sizes.",
+    "cells": [
+      [
+        "Split",
+        "|B*|=0",
+        "|B*|=1",
+        "|B*|=2",
+        "|B*|=3"
+      ],
+      [
+        "train",
+        "1,494 (16.4%)",
+        "2,041 (22.5%)",
+        "1,642 (18.1%)",
+        "1,109 (12.2%)"
+      ],
+      [
+        "val",
+        "330 (16.9%)",
+        "420 (21.5%)",
+        "359 (18.4%)",
+        "237 (12.2%)"
+      ],
+      [
+        "test",
+        "295 (15.2%)",
+        "443 (22.8%)",
+        "324 (16.7%)",
+        "255 (13.1%)"
+      ],
+      [
+        "all",
+        "2,119 (16.3%)",
+        "2,904 (22.4%)",
+        "2,325 (17.9%)",
+        "1,601 (12.3%)"
+      ]
+    ]
+  },
+  {
+    "id": "A1-D",
+    "caption": "Grasp modalities.",
+    "cells": [
+      [
+        "Split",
+        "Parallel jaw",
+        "Suction",
+        "Total grasps"
+      ],
+      [
+        "train",
+        "112,521 (51.4%)",
+        "106,428 (48.6%)",
+        "218,949"
+      ],
+      [
+        "val",
+        "24,462 (51.8%)",
+        "22,792 (48.2%)",
+        "47,254"
+      ],
+      [
+        "test",
+        "24,321 (51.7%)",
+        "22,704 (48.3%)",
+        "47,025"
+      ],
+      [
+        "all",
+        "161,304 (51.5%)",
+        "151,924 (48.5%)",
+        "313,228"
+      ]
+    ]
+  },
+  {
+    "id": "A2-A",
+    "caption": "Predictor inputs and outputs.",
+    "cells": [
+      [
+        "Tensor",
+        "Channels and construction"
+      ],
+      [
+        "Object (36)",
+        "Box coordinates/confidence, visibility, depth statistics, estimated center/size, target-relative offsets, and identity encoding."
+      ],
+      [
+        "Grasp (28)",
+        "Modality/score, SE(3) pose, approach/lift/closing directions, contact normal and location, pregrasp offset, jaw width or suction radius."
+      ],
+      [
+        "Edge (22)",
+        "Relative position/depth, overlap, approach/lift segment distances and clearances, and normalized motion alignment."
+      ],
+      [
+        "Output (4)",
+        "Progress-any, sufficient-removal, approach-progress, and lift-progress probabilities for each object--grasp pair."
+      ]
+    ]
+  },
+  {
+    "id": "A2-B",
+    "caption": "Dependency prediction.",
+    "cells": [
+      [
+        "Method",
+        "AP ↑",
+        "AUC ↑",
+        "F1 ↑",
+        "Blocker IoU ↑"
+      ],
+      [
+        "Random",
+        "1.4 ± 0.0",
+        "50.3 ± 0.4",
+        "2.8 ± 0.0",
+        "1.4 ± 0.0"
+      ],
+      [
+        "Center-dist.",
+        "2.3 ± 0.0",
+        "65.4 ± 0.0",
+        "4.7 ± 0.0",
+        "2.9 ± 0.0"
+      ],
+      [
+        "Geometry",
+        "3.3 ± 0.0",
+        "72.6 ± 0.0",
+        "7.1 ± 0.0",
+        "4.4 ± 0.0"
+      ],
+      [
+        "Edge-MLP",
+        "31.5 ± 0.5",
+        "94.8 ± 0.2",
+        "37.3 ± 0.4",
+        "24.8 ± 0.3"
+      ],
+      [
+        "G2N2",
+        "38.3 ± 0.5",
+        "95.7 ± 0.3",
+        "42.2 ± 0.5",
+        "29.3 ± 0.3"
+      ],
+      [
+        "Ours",
+        "40.0 ± 0.3",
+        "96.4 ± 0.2",
+        "43.5 ± 1.1",
+        "30.7 ± 1.1"
+      ]
+    ]
+  },
+  {
+    "id": "A2-C",
+    "caption": "Minimal blocker set recovery.",
+    "cells": [
+      [
+        "Method",
+        "AP ↑",
+        "R@3 ↑",
+        "R@5 ↑",
+        "Blocker IoU ↑",
+        "Exact ↑"
+      ],
+      [
+        "Object-only",
+        "12.3 ± 0.1",
+        "43.7 ± 0.9",
+        "62.6 ± 0.9",
+        "19.6 ± 0.7",
+        "8.7 ± 0.6"
+      ],
+      [
+        "Edge-MLP",
+        "31.5 ± 0.5",
+        "47.8 ± 1.0",
+        "66.7 ± 1.1",
+        "23.5 ± 0.5",
+        "10.9 ± 0.2"
+      ],
+      [
+        "G2N2",
+        "38.3 ± 0.5",
+        "48.9 ± 0.7",
+        "67.2 ± 0.7",
+        "25.6 ± 0.1",
+        "12.7 ± 0.4"
+      ],
+      [
+        "Ours",
+        "40.0 ± 0.3",
+        "54.0 ± 0.7",
+        "73.3 ± 1.2",
+        "28.4 ± 1.7",
+        "14.6 ± 1.3"
+      ]
+    ]
+  },
+  {
+    "id": "A2-D",
+    "caption": "Per-label average precision.",
+    "cells": [
+      [
+        "Method",
+        "Progress-any",
+        "Sufficient",
+        "Approach",
+        "Lift"
+      ],
+      [
+        "Random",
+        "1.43 ± 0.02",
+        "0.70 ± 0.01",
+        "0.95 ± 0.00",
+        "0.48 ± 0.00"
+      ],
+      [
+        "Center-dist.",
+        "2.27 ± 0.00",
+        "0.81 ± 0.00",
+        "1.94 ± 0.00",
+        "0.48 ± 0.00"
+      ],
+      [
+        "Geometry",
+        "3.25 ± 0.00",
+        "1.14 ± 0.00",
+        "2.85 ± 0.00",
+        "0.62 ± 0.00"
+      ],
+      [
+        "Edge-MLP",
+        "31.51 ± 0.46",
+        "12.08 ± 0.84",
+        "37.07 ± 0.69",
+        "6.72 ± 0.69"
+      ],
+      [
+        "G2N2",
+        "38.34 ± 0.49",
+        "16.96 ± 1.10",
+        "44.40 ± 0.43",
+        "9.73 ± 0.91"
+      ],
+      [
+        "Ours",
+        "39.96 ± 0.27",
+        "22.06 ± 0.67",
+        "44.04 ± 0.90",
+        "15.82 ± 1.03"
+      ]
+    ]
+  },
+  {
+    "id": "A2-E",
+    "caption": "Architecture ablations.",
+    "cells": [
+      [
+        "Variant",
+        "AP ↑",
+        "F1 ↑",
+        "Blocker IoU ↑"
+      ],
+      [
+        "Edge-context model",
+        "40.0 ± 0.3",
+        "43.5 ± 1.1",
+        "30.7 ± 1.1"
+      ],
+      [
+        "w/o edge-context aggregation",
+        "34.5 ± 0.7",
+        "39.0 ± 0.1",
+        "26.1 ± 0.3"
+      ],
+      [
+        "w/o OG edge attributes",
+        "39.3 ± 0.8",
+        "42.9 ± 0.4",
+        "30.1 ± 0.5"
+      ],
+      [
+        "w/o raw decoder skip",
+        "40.1 ± 0.9",
+        "43.5 ± 1.0",
+        "30.6 ± 1.0"
+      ],
+      [
+        "+ pair interactions",
+        "40.6 ± 0.6",
+        "44.3 ± 0.1",
+        "31.4 ± 0.1"
+      ],
+      [
+        "+ generic OO/GG",
+        "39.2 ± 0.6",
+        "43.3 ± 0.3",
+        "30.2 ± 0.3"
+      ]
+    ]
+  },
+  {
+    "id": "A3-A",
+    "caption": "Retrieval planning.",
+    "cells": [
+      [
+        "Method",
+        "Success ↑",
+        "Removals ↓",
+        "Utility ↑",
+        "Rem. gap ↓"
+      ],
+      [
+        "Direct target grasp",
+        "8.3",
+        "0.00",
+        "0.083",
+        "-0.73"
+      ],
+      [
+        "Random removal",
+        "13.3",
+        "5.00",
+        "-0.267",
+        "4.27"
+      ],
+      [
+        "Nearest-to-target",
+        "26.2",
+        "5.00",
+        "-0.138",
+        "4.27"
+      ],
+      [
+        "Mechanical Search",
+        "11.5",
+        "2.32",
+        "-0.071",
+        "1.59"
+      ],
+      [
+        "X-Ray-style",
+        "14.9",
+        "2.32",
+        "-0.037",
+        "1.59"
+      ],
+      [
+        "Highest dep.",
+        "40.5",
+        "5.00",
+        "0.005",
+        "4.27"
+      ],
+      [
+        "Ours",
+        "31.9",
+        "2.32",
+        "0.134",
+        "1.73"
+      ],
+      [
+        "Oracle MBS",
+        "67.7",
+        "0.95",
+        "0.601",
+        "0.00"
+      ]
+    ]
+  },
+  {
+    "id": "A3-B",
+    "caption": "Predictor ablations.",
+    "cells": [
+      [
+        "Predictor",
+        "Success ↑",
+        "Removals ↓",
+        "Rem. gap ↓",
+        "Blocker IoU ↑"
+      ],
+      [
+        "Random",
+        "12.8",
+        "4.20",
+        "3.54",
+        "18.6"
+      ],
+      [
+        "Center-dist.",
+        "11.2",
+        "4.20",
+        "3.78",
+        "18.6"
+      ],
+      [
+        "Geometry",
+        "12.7",
+        "4.20",
+        "3.78",
+        "19.0"
+      ],
+      [
+        "Edge-MLP",
+        "20.5",
+        "2.19",
+        "1.76",
+        "60.0"
+      ],
+      [
+        "G2N2",
+        "25.1",
+        "2.27",
+        "1.75",
+        "58.9"
+      ],
+      [
+        "Object-only",
+        "34.8",
+        "4.20",
+        "3.46",
+        "26.5"
+      ],
+      [
+        "Ours",
+        "31.9",
+        "2.32",
+        "1.73",
+        "55.8"
+      ],
+      [
+        "Oracle edge labels",
+        "21.4",
+        "0.13",
+        "-0.60",
+        "72.1"
+      ]
+    ]
+  },
+  {
+    "id": "A3-C",
+    "caption": "Planner ablations.",
+    "cells": [
+      [
+        "Variant",
+        "Success ↑",
+        "Removals ↓",
+        "Utility ↑",
+        "Rem. gap ↓"
+      ],
+      [
+        "Reference: tuned budgeted closed-loop",
+        "31.9",
+        "2.32",
+        "0.134",
+        "1.73"
+      ],
+      [
+        "Threshold blocker set planner",
+        "3.4",
+        "0.01",
+        "0.033",
+        "-0.34"
+      ],
+      [
+        "Budgeted planner without validation tuning",
+        "5.0",
+        "0.32",
+        "0.025",
+        "0.22"
+      ],
+      [
+        "Naive edge-prefix MBS",
+        "1.7",
+        "0.04",
+        "0.014",
+        "-0.12"
+      ],
+      [
+        "Budgeted progress-any only",
+        "27.1",
+        "2.30",
+        "0.087",
+        "1.80"
+      ],
+      [
+        "Budgeted sufficient-removal only",
+        "31.9",
+        "2.32",
+        "0.134",
+        "1.73"
+      ],
+      [
+        "Budgeted open-loop plan",
+        "30.9",
+        "2.29",
+        "0.125",
+        "1.73"
+      ],
+      [
+        "No grasp-score bonus",
+        "5.1",
+        "0.47",
+        "0.014",
+        "0.36"
+      ],
+      [
+        "No residual dependency cost",
+        "8.3",
+        "0.00",
+        "0.083",
+        "-0.73"
+      ],
+      [
+        "No removal-count penalty",
+        "40.1",
+        "4.20",
+        "0.065",
+        "3.48"
+      ],
+      [
+        "Top 5 dependency removal on highest-score grasp",
+        "41.6",
+        "5.00",
+        "0.016",
+        "4.27"
+      ]
+    ]
+  },
+  {
+    "id": "A3-D",
+    "caption": "Adapter sensitivity.",
+    "cells": [
+      [
+        "Variant",
+        "Success ↑",
+        "Removals ↓",
+        "Utility ↑",
+        "Rem. gap ↓"
+      ],
+      [
+        "Mechanical Search random",
+        "9.7",
+        "2.32",
+        "-0.089",
+        "1.59"
+      ],
+      [
+        "Mechanical Search largest-first",
+        "11.5",
+        "2.32",
+        "-0.071",
+        "1.59"
+      ],
+      [
+        "Mechanical Search largest-first, no target preemption",
+        "18.6",
+        "5.00",
+        "-0.214",
+        "4.27"
+      ],
+      [
+        "X-Ray-style full adapter",
+        "14.9",
+        "2.32",
+        "-0.037",
+        "1.59"
+      ],
+      [
+        "X-Ray-style overlap only",
+        "14.6",
+        "2.32",
+        "-0.040",
+        "1.59"
+      ],
+      [
+        "X-Ray-style distance only",
+        "13.7",
+        "2.32",
+        "-0.049",
+        "1.59"
+      ],
+      [
+        "X-Ray-style frontness only",
+        "8.6",
+        "2.32",
+        "-0.099",
+        "1.59"
+      ],
+      [
+        "X-Ray-style visible-area only",
+        "11.5",
+        "2.32",
+        "-0.071",
+        "1.59"
+      ],
+      [
+        "X-Ray-style full adapter, no target preemption",
+        "30.2",
+        "5.00",
+        "-0.098",
+        "4.27"
+      ],
+      [
+        "Ours budgeted, budget 3",
+        "21.9",
+        "1.35",
+        "0.111",
+        "0.85"
+      ],
+      [
+        "Ours budgeted, budget 5",
+        "31.9",
+        "2.32",
+        "0.134",
+        "1.73"
+      ]
+    ]
+  },
+  {
+    "id": "A4-A",
+    "caption": "Single-target retrieval.",
+    "cells": [
+      [
+        "Method",
+        "N",
+        "Succ. (%)",
+        "Rem.",
+        "Approach",
+        "Lift",
+        "No prop.",
+        "Other"
+      ],
+      [
+        "Direct",
+        "256",
+        "12.9",
+        "0.42",
+        "170",
+        "41",
+        "0",
+        "12"
+      ],
+      [
+        "Nearest",
+        "256",
+        "20.3",
+        "4.81",
+        "116",
+        "45",
+        "0",
+        "43"
+      ],
+      [
+        "Mechanical",
+        "256",
+        "36.7",
+        "3.61",
+        "98",
+        "38",
+        "0",
+        "26"
+      ],
+      [
+        "X-Ray",
+        "256",
+        "48.4",
+        "3.36",
+        "61",
+        "39",
+        "0",
+        "32"
+      ],
+      [
+        "Ours",
+        "256",
+        "51.2",
+        "2.53",
+        "46",
+        "33",
+        "0",
+        "46"
+      ]
+    ]
+  },
+  {
+    "id": "A4-B",
+    "caption": "Ordered retrieval.",
+    "cells": [
+      [
+        "Method",
+        "Seq. (%)",
+        "Targets",
+        "Comp. (%)",
+        "Reloc.",
+        "R/retr.",
+        "Terminal reasons"
+      ],
+      [
+        "Direct",
+        "0",
+        "1.81/10",
+        "18.1",
+        "3.44",
+        "1.90",
+        "with failures 16"
+      ],
+      [
+        "Nearest",
+        "6",
+        "5.25/10",
+        "52.5",
+        "50.00",
+        "9.52",
+        "with failures 15; complete 1"
+      ],
+      [
+        "Mechanical",
+        "0",
+        "5.44/10",
+        "54.4",
+        "27.06",
+        "4.98",
+        "with failures 16"
+      ],
+      [
+        "X-Ray",
+        "19",
+        "8.06/10",
+        "80.6",
+        "17.56",
+        "2.18",
+        "with failures 12; unstable 1; complete 3"
+      ],
+      [
+        "Ours",
+        "25",
+        "8.56/10",
+        "85.6",
+        "11.44",
+        "1.34",
+        "with failures 12; complete 4"
+      ]
+    ]
+  },
+  {
+    "id": "A4-C",
+    "caption": "Repeated real-robot runs.",
+    "cells": [
+      [
+        "Method",
+        "Trials",
+        "Success runs",
+        "Removals runs",
+        "Mean success / removals"
+      ],
+      [
+        "Direct",
+        "20",
+        "6 / 7 / 9",
+        "0 / 0 / 0",
+        "7.3 ± 1.5 / 0.0 ± 0.0"
+      ],
+      [
+        "Mechanical",
+        "20",
+        "15 / 14 / 16",
+        "7 / 7 / 8",
+        "15.0 ± 1.0 / 7.3 ± 0.6"
+      ],
+      [
+        "Ours",
+        "20",
+        "18 / 18 / 19",
+        "4 / 5 / 5",
+        "18.3 ± 0.6 / 4.7 ± 0.6"
+      ]
+    ]
+  }
+]

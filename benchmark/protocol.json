@@ -1,0 +1,82 @@
+{
+  "benchmark_version": "1.0.0",
+  "scene_counts": {
+    "train": 350,
+    "val": 75,
+    "test": 75
+  },
+  "target_counts": {
+    "train": 9090,
+    "val": 1950,
+    "test": 1945
+  },
+  "grasps": {
+    "parallel_jaw": 161304,
+    "suction": 151924
+  },
+  "object_grasp_edges": 6766097,
+  "objects_per_dense_scene": [
+    25,
+    27
+  ],
+  "prediction": {
+    "seeds": [
+      7,
+      11,
+      23
+    ],
+    "epochs": 45,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "selection": "validation progress AP",
+    "thresholds": "per-label validation F1"
+  },
+  "planning": {
+    "test_scenes": 75,
+    "test_targets": 1945,
+    "groups": 42,
+    "seed": 7,
+    "validation_objective": "success - 0.08 * removals"
+  },
+  "physical": {
+    "scenes": 10,
+    "targets_per_method": 256,
+    "methods": 5,
+    "seed": 7,
+    "settle_steps": 9000,
+    "timestep_s": 0.002,
+    "velocity_threshold_m_s": 0.04,
+    "multiccd": true,
+    "max_non_target_removals": 5
+  },
+  "ordered": {
+    "development_scenes": 4,
+    "objects_per_scene": 15,
+    "targets_per_sequence": 10,
+    "orders_per_scene": 4,
+    "target_trials_per_condition": 160,
+    "conditions": 9,
+    "model_seeds": [
+      7,
+      11,
+      23,
+      31,
+      43
+    ],
+    "order_seeds": [
+      "original",
+      101,
+      211,
+      307
+    ],
+    "representative_seed": 11,
+    "selection": "Seed 11 was selected post hoc among five models on the original-order development runs, then fixed before the three additional target orders. All five models and outcomes are released."
+  },
+  "hardware": {
+    "existing_trials_per_method": 60,
+    "batches": 3,
+    "trials_per_batch": 20,
+    "new_robot_runs": false
+  }
+}

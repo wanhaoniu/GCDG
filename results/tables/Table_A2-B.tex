@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Dependency prediction.}
+  \label{tab:stage2_prediction_main}
+  \small
+  \setlength{\tabcolsep}{4.5pt}
+  \begin{tabular}{ccccc}
+    \toprule
+    Method & AP $\uparrow$ & AUC $\uparrow$ & F1 $\uparrow$ & Blocker IoU $\uparrow$ \\
+    \midrule
+    Random & 1.4 $\pm$ 0.0 & 50.3 $\pm$ 0.4 & 2.8 $\pm$ 0.0 & 1.4 $\pm$ 0.0 \\
+    Center-dist. & 2.3 $\pm$ 0.0 & 65.4 $\pm$ 0.0 & 4.7 $\pm$ 0.0 & 2.9 $\pm$ 0.0 \\
+    Geometry & 3.3 $\pm$ 0.0 & 72.6 $\pm$ 0.0 & 7.1 $\pm$ 0.0 & 4.4 $\pm$ 0.0 \\
+    Edge-MLP & 31.5 $\pm$ 0.5 & 94.8 $\pm$ 0.2 & 37.3 $\pm$ 0.4 & 24.8 $\pm$ 0.3 \\
+    G2N2 & 38.3 $\pm$ 0.5 & 95.7 $\pm$ 0.3 & 42.2 $\pm$ 0.5 & 29.3 $\pm$ 0.3 \\
+    Ours & 40.0 $\pm$ 0.3 & 96.4 $\pm$ 0.2 & 43.5 $\pm$ 1.1 & 30.7 $\pm$ 1.1 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

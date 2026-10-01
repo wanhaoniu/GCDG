@@ -1,0 +1,12 @@
+﻿Variant,Success ↑,Removals ↓,Utility ↑,Rem. gap ↓
+Mechanical Search random,9.7,2.32,-0.089,1.59
+Mechanical Search largest-first,11.5,2.32,-0.071,1.59
+"Mechanical Search largest-first, no target preemption",18.6,5.00,-0.214,4.27
+X-Ray-style full adapter,14.9,2.32,-0.037,1.59
+X-Ray-style overlap only,14.6,2.32,-0.040,1.59
+X-Ray-style distance only,13.7,2.32,-0.049,1.59
+X-Ray-style frontness only,8.6,2.32,-0.099,1.59
+X-Ray-style visible-area only,11.5,2.32,-0.071,1.59
+"X-Ray-style full adapter, no target preemption",30.2,5.00,-0.098,4.27
+"Ours budgeted, budget 3",21.9,1.35,0.111,0.85
+"Ours budgeted, budget 5",31.9,2.32,0.134,1.73

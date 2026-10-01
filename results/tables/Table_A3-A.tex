@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Retrieval planning.}
+  \label{tab:stage3_planning_main}
+  \small
+  \setlength{\tabcolsep}{4.0pt}
+  \begin{tabular}{ccccc}
+    \toprule
+    Method & Success $\uparrow$ & Removals $\downarrow$ & Utility $\uparrow$ & Rem. gap $\downarrow$ \\
+    \midrule
+    Direct target grasp & 8.3 & 0.00 & 0.083 & -0.73 \\
+    Random removal & 13.3 & 5.00 & -0.267 & 4.27 \\
+    Nearest-to-target & 26.2 & 5.00 & -0.138 & 4.27 \\
+    Mechanical Search & 11.5 & 2.32 & -0.071 & 1.59 \\
+    X-Ray-style & 14.9 & 2.32 & -0.037 & 1.59 \\
+    Highest dep. & 40.5 & 5.00 & 0.005 & 4.27 \\
+    Ours & 31.9 & 2.32 & 0.134 & 1.73 \\
+    Oracle MBS & 67.7 & 0.95 & 0.601 & 0.00 \\
+    \bottomrule
+  \end{tabular}
+  \vspace{2pt}
+  \begin{minipage}{0.95\linewidth}
+    
+  \end{minipage}
+\end{table}

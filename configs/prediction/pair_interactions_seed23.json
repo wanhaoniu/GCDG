@@ -1,0 +1,102 @@
+{
+  "backend": "torch",
+  "dataset": {
+    "root": "data/benchmark"
+  },
+  "output": {
+    "dir": "outputs/pair_interactions_seed23"
+  },
+  "split": {
+    "seed": 7,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "overwrite": false,
+    "reuse_existing_if_mismatch": false,
+    "split_file": "benchmark/splits.json"
+  },
+  "features": {
+    "det_conf_default": 1.0,
+    "hidden_thresh": 0.01,
+    "visible_thresh": 0.3,
+    "object_knn_k": 4,
+    "grasp_knn_k": 6,
+    "object_edge_max_distance": null,
+    "grasp_edge_max_distance": null,
+    "lift_distance": 0.1,
+    "cache_samples": true,
+    "cache_depth_images": true,
+    "allow_privileged_scene_geometry": false
+  },
+  "model": {
+    "hidden_dim": 128,
+    "class_emb_dim": 16,
+    "grasp_type_emb_dim": 8,
+    "message_layers": 0,
+    "cross_layers": 0,
+    "decoder_layers": 3,
+    "conv_variant": "legacy",
+    "decoder_interactions": true,
+    "decoder_raw_features": true,
+    "separate_label_heads": true,
+    "decoder_head_layers": 2,
+    "edge_context_layers": 3,
+    "edge_context_use_object": true,
+    "edge_context_interactions": true,
+    "edge_mlp_hidden_dim": 128,
+    "edge_mlp_layers": 3,
+    "g2n2_hidden_dim": 128,
+    "g2n2_message_layers": 3,
+    "g2n2_decoder_layers": 2,
+    "dropout": 0.1,
+    "edge_context_attention": false,
+    "decoder_use_edge_attr": true,
+    "edge_context_source": "raw",
+    "edge_context_use_edge_attr": true,
+    "edge_context_attention_query": false,
+    "edge_context_logit_residual": false,
+    "grasp_conditioned_object_layers": 0,
+    "grasp_conditioned_object_use_edge_attr": true,
+    "grasp_conditioned_object_require_edges": false,
+    "grasp_conditioned_object_interactions": true,
+    "grasp_conditioned_object_decoder_context": true,
+    "grasp_conditioned_object_logit_residual": false,
+    "blocker_relation_layers": 0,
+    "blocker_relation_decoder_context": true,
+    "blocker_relation_interactions": true,
+    "blocker_relation_logit_residual": false
+  },
+  "loss": {
+    "label_weights": {
+      "dep_progress_any": 1.0,
+      "dep_sufficient": 0.5,
+      "dep_approach": 1.0,
+      "dep_lift": 1.0
+    },
+    "use_pos_weight": true,
+    "pos_weight_max": 20.0,
+    "focal_gamma": 0.0,
+    "consistency_weight": 0.05,
+    "pos_weight_values": {
+      "dep_progress_any": 20.0,
+      "dep_sufficient": 20.0,
+      "dep_approach": 20.0,
+      "dep_lift": 20.0
+    }
+  },
+  "training": {
+    "seed": 23,
+    "epochs": 45,
+    "batch_size": 32,
+    "lr": 0.001,
+    "numpy_lr": 0.01,
+    "weight_decay": 0.0001,
+    "grad_clip": 5.0,
+    "device": "cuda",
+    "selection_metric": "edge.labels.dep_progress_any.ap",
+    "checkpoint_selection": "validation"
+  },
+  "evaluation": {
+    "threshold": 0.5
+  }
+}

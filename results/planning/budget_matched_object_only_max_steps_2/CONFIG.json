@@ -1,0 +1,58 @@
+{
+  "source": "object_only",
+  "split": "test",
+  "params": {
+    "seed": 7,
+    "tau_any": 0.6800000071525574,
+    "tau_sufficient": 0.6299999952316284,
+    "tau_app": 0.6200000047683716,
+    "tau_lift": 0.6000000238418579,
+    "use_calibrated_thresholds": true,
+    "calibration_thresholds_path": "auto",
+    "alpha": 0.5,
+    "beta": 0.1,
+    "gamma": 0.75,
+    "eta": 0.1,
+    "max_steps": 2,
+    "budget_residual_weight": 1.0,
+    "budget_residual_ratio_weight": 0.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "budget_coverage_reward": 0.0,
+    "topk_min_strength": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true,
+    "use_grasp_score": true,
+    "mechanical_search_target_score_thresh": 0.2,
+    "xray_target_score_thresh": 0.2,
+    "xray_overlap_weight": 2.0,
+    "xray_near_weight": 0.75,
+    "xray_front_weight": 0.75,
+    "xray_area_weight": 0.5,
+    "run_open_loop": false,
+    "run_closed_loop": true,
+    "verbose": false
+  },
+  "spec": {
+    "name": "budget_matched_object_only_max_steps_2",
+    "group": "budget_matched_predictors",
+    "display": "Object-only dependency model, budget 2",
+    "predictor_source": "object_only",
+    "baselines": [
+      "budgeted_dependency"
+    ],
+    "run_open_loop": false,
+    "run_closed_loop": true,
+    "planner_overrides": {
+      "alpha": 0.5,
+      "budget_residual_weight": 1.0,
+      "budget_removal_weight": 0.002,
+      "budget_removed_reward": 0.0,
+      "use_typed_dependency": false,
+      "use_sufficient_dependency": true,
+      "max_steps": 2
+    },
+    "use_calibrated_thresholds": true
+  },
+  "model_seed": 7
+}

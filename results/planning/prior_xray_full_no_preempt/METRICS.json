@@ -1,0 +1,25 @@
+{
+  "overall": {
+    "num_results": 1945,
+    "target_retrieval_success_rate": 0.30231362467866324,
+    "mean_num_removals": 5.0,
+    "mean_excess_removal": 4.265295629820051,
+    "mean_blocker_set_iou": 0.5856041131105398,
+    "mean_planning_time_sec": 1.688465203103492e-05
+  },
+  "by_planner": {
+    "xray_support_reduction_closed_loop": {
+      "num_samples": 1945,
+      "target_retrieval_success_rate": 0.30231362467866324,
+      "mean_num_removals": 5.0,
+      "mean_excess_removal": 4.265295629820051,
+      "mean_optimality_gap": 3.9519280205655654,
+      "mean_blocker_set_precision": 0.0,
+      "mean_blocker_set_recall": 0.0,
+      "mean_blocker_set_f1": 0.0,
+      "mean_blocker_set_iou": 0.5856041131105398,
+      "selected_grasp_feasibility_after_removals": 0.30231362467866324,
+      "mean_planning_time_sec": 1.688465203103492e-05
+    }
+  }
+}

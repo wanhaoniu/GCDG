@@ -1,0 +1,46 @@
+parallel_backend: icra2026_anygrasp
+suction_backend: icra2026_suctionnet
+parallel_top_k: 80
+suction_top_k: 80
+max_keep_per_type: 40
+enable_similarity_filter: true
+max_approach_angle_from_down_deg: 30.0
+post_generation_roi_filter_enabled: true
+post_generation_roi_bbox_margin_px: 2
+post_generation_roi_mask_dilation_px: 2
+post_generation_roi_world_margin_m: 0.01
+similarity_position_threshold_m: 0.008
+similarity_approach_angle_deg: 10.0
+parallel_jaw_similarity_inplane_angle_deg: 15.0
+icra2026_root: .
+icra2026_grasp_config: configs/simulation/provider.yaml
+render_width: 640
+render_height: 480
+render_fovy_deg: 45.0
+render_lookat:
+- 0.0
+- 0.0
+- 0.06
+render_distance: 0.62
+render_azimuth_deg: -90.0
+render_elevation_deg: 55.0
+render_wall_height: 0.06
+parallel_scene_generation_enabled: true
+parallel_scene_raw_top_k_multiplier: 4.0
+parallel_scene_raw_top_k_min: 0
+parallel_target_only_generation_enabled: false
+parallel_multiview_enabled: false
+parallel_multiview_azimuth_deg:
+- -90.0
+- 0.0
+- 90.0
+- 180.0
+parallel_multiview_elevation_deg:
+- 55.0
+parallel_multiview_distance: 0.62
+parallel_multiview_voxel_size_m: 0.003
+parallel_multiview_max_points: 35000
+parallel_target_support_fill_enabled: false
+parallel_target_support_fill_xy_step_m: 0.004
+parallel_target_support_fill_z_step_m: 0.004
+parallel_target_support_fill_max_points: 20000

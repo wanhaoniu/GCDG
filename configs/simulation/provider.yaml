@@ -1,0 +1,82 @@
+runtime:
+  target_frame: robot_base
+  top_k: 5
+  score_threshold: 0.15
+  top_down_filter_enabled: true
+  top_down_max_angle_deg: 15.0
+preprocessing:
+  roi_padding_pixels: 0
+  workspace_padding_m: 0.01
+  min_depth_m: 0.01
+  max_depth_m: 1.2
+support_plane:
+  enabled: true
+  apply_to_adapters:
+  - anygrasp
+  multiview_tabletop_alignment_enabled: true
+  multiview_anchor_alignment_xy_only: true
+  estimation_xy_radius_m: 0.3
+  estimation_max_below_anchor_m: 0.35
+  estimation_max_above_anchor_m: 0.05
+  estimation_bin_size_m: 0.004
+  estimation_inlier_tolerance_m: 0.008
+  min_points: 60
+  grid_step_m: 0.004
+  xy_margin_m: 0.05
+  fallback_half_extent_m: 0.12
+  max_points: 40000
+  color_rgb:
+  - 150
+  - 150
+  - 150
+  project_to_depth_for_suctionnet: true
+end_effector_policy:
+  default_end_effector_id: gripper_main
+  rules: []
+algorithm_mapping:
+  gripper_main:
+    adapter: anygrasp
+    grasp_type: parallel_gripper
+    target_frame: robot_base
+    top_k: 5
+    score_threshold: 0.01
+  suction_main:
+    adapter: suctionnet
+    grasp_type: suction
+    target_frame: robot_base
+    top_k: 8
+    score_threshold: 0.008
+  magnet_main:
+    adapter: manual_strategy
+    grasp_type: magnet
+    target_frame: robot_base
+    top_k: 1
+    score_threshold: 0.01
+paths:
+  anygrasp_root: ../../external/anygrasp_sdk/grasp_detection
+  anygrasp_checkpoint: ../../external/anygrasp_sdk/grasp_detection/log/checkpoint_detection.tar
+  suctionnet_root: ../../external/suctionnet-baseline
+algorithms:
+  anygrasp:
+    max_gripper_width: 0.1
+    gripper_height: 0.03
+    top_down_grasp: false
+    apply_object_mask: true
+    dense_grasp: false
+    collision_detection: true
+    input_voxel_size_m: 0.005
+    max_input_points: 35000
+    normalize_roi_to_origin: true
+    origin_center_method: median
+    origin_z_shift_mode: min
+    native_top_k: 50
+  suctionnet:
+    backend: normal_std
+    smoothing_kernel_size: 15
+    down_rate: 8
+    native_top_k: 96
+    approach_align: -normal
+placeholders:
+  robot_execution_interface: reserved
+  retry_interface: reserved
+  visible_but_ungraspable_status: enabled

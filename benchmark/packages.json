@@ -1,0 +1,90 @@
+[
+  {
+    "name": "gcdg-benchmark-train-01.tar.gz",
+    "split": "train",
+    "scenes": 50,
+    "files": 3965,
+    "bytes": 168821453,
+    "sha256": "d16fe66300397be8b8343ce33d30d2ad6d2423637976e47d4285080968fc488a"
+  },
+  {
+    "name": "gcdg-benchmark-train-02.tar.gz",
+    "split": "train",
+    "scenes": 50,
+    "files": 3929,
+    "bytes": 165516318,
+    "sha256": "da2867916fed46888a4877672f0ff8df18778ab810bdd9cfc69f4c93275b5810"
+  },
+  {
+    "name": "gcdg-benchmark-train-03.tar.gz",
+    "split": "train",
+    "scenes": 50,
+    "files": 3941,
+    "bytes": 169473247,
+    "sha256": "09324814cc4a62306e76f79eed370258f4923da940474e638a93cc24d7f969a7"
+  },
+  {
+    "name": "gcdg-benchmark-train-04.tar.gz",
+    "split": "train",
+    "scenes": 50,
+    "files": 3938,
+    "bytes": 166292503,
+    "sha256": "6692f31bae58b2188a86727c5592bf1cd6674b923e96ebc02ec905fa6004d8ba"
+  },
+  {
+    "name": "gcdg-benchmark-train-05.tar.gz",
+    "split": "train",
+    "scenes": 50,
+    "files": 3944,
+    "bytes": 167687691,
+    "sha256": "f8f0f15f7572a2a882c46ec27e6b79002214d02b4b414eeccc22cd1162dfea96"
+  },
+  {
+    "name": "gcdg-benchmark-train-06.tar.gz",
+    "split": "train",
+    "scenes": 50,
+    "files": 3947,
+    "bytes": 169277687,
+    "sha256": "d6cc10a59bbfb1d598b17e5df8a8b7a6bfb99297a4e7c08349ffdd5a0771a929"
+  },
+  {
+    "name": "gcdg-benchmark-train-07.tar.gz",
+    "split": "train",
+    "scenes": 50,
+    "files": 3956,
+    "bytes": 168760387,
+    "sha256": "b94ce68953f5be4873c80bea1b531ce87030ba921f88bd7c918227aeb5a26ce2"
+  },
+  {
+    "name": "gcdg-benchmark-val-01.tar.gz",
+    "split": "val",
+    "scenes": 50,
+    "files": 3953,
+    "bytes": 170857375,
+    "sha256": "a1fa16c96a1ef9b4fe896a3e4200a3b0c94fde4b1a8713ce0f9ad6891341e7e7"
+  },
+  {
+    "name": "gcdg-benchmark-val-02.tar.gz",
+    "split": "val",
+    "scenes": 25,
+    "files": 1972,
+    "bytes": 82886970,
+    "sha256": "23ae4b13885085252100a355520d0b25474cdea421330eb9cbd64603122b7ba5"
+  },
+  {
+    "name": "gcdg-benchmark-test-01.tar.gz",
+    "split": "test",
+    "scenes": 50,
+    "files": 3944,
+    "bytes": 168234519,
+    "sha256": "8e3799299e2e82fbae5788d737a5a3e90d644d57b6b6b92c19f12518fe8230d4"
+  },
+  {
+    "name": "gcdg-benchmark-test-02.tar.gz",
+    "split": "test",
+    "scenes": 25,
+    "files": 1966,
+    "bytes": 83885172,
+    "sha256": "86ca9c822145a08627f635fb83c726c6cdd41c97a9c8e87ae7e3209e55a87876"
+  }
+]

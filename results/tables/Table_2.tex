@@ -1,0 +1,20 @@
+\begin{wraptable}[14]{r}{0.50\linewidth}
+  \centering
+  \caption{Stored-label planning.}
+  \label{tab:main_stage3_planning}
+  \small
+  \setlength{\tabcolsep}{4.0pt}
+  \begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.50\linewidth}cc@{}}
+    \toprule
+    Method & Success $\uparrow$ & Removals $\downarrow$ \\
+    \midrule
+    Direct & 8.3 & 0.00 \\
+    Nearest & 26.2 & 5.00 \\
+    Mech. Search~\citep{danielczuk2019mechanical} & 11.5 & 2.32 \\
+    X-Ray-style~\citep{danielczuk2020xray,huang2021laxray} & 14.9 & 2.32 \\
+    Highest dep. & 40.5 & 5.00 \\
+    \best{Ours} & \best{31.9} & \best{2.32} \\
+    Oracle MBS & 67.7 & 0.95 \\
+    \bottomrule
+  \end{tabular}
+\end{wraptable}

@@ -1,0 +1,470 @@
+[
+  {
+    "file": "src/grasp_dependency_dataset/__init__.py",
+    "source_sha256": "9e543fcd02e7d3dfdb821b975e4dd878350aefd4297c0567755bd916aba7bbad",
+    "release_sha256": "a765b86c18a1ad4942ebc4d99d12b8703884751bb4139b7e85e2f8a8ae0941f4",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/common/config.py",
+    "source_sha256": "e30660dee88bd9ce8c3c9acf2c76ab018c511c2a2fcbde688ef27e3b14453e3c",
+    "release_sha256": "535350de9be77e7fc401b4b76b0a47288e69bb7bf2942821067767c83e244903",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/common/export_layout.py",
+    "source_sha256": "ca474eab050c67e557bbd1917b62bba6f52d474b3b620030d660943c375e0452",
+    "release_sha256": "34deadb3b568c51b00fcb955de76b4766aa8fe0f6359fe7249ee0ab0812d34bf",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/common/io.py",
+    "source_sha256": "f7b7dc153eb8e87820e03301aedbb717f63aa9aa8cd6ca3173e7c047bd1d22be",
+    "release_sha256": "18b4dae8fad1994bdf87b2e7664885c832c13e547d6248d4164dfffcb851c967",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/common/types.py",
+    "source_sha256": "29121d65de0dca17d6c121103320394577efe45535623150fcf782cc024c7f77",
+    "release_sha256": "b667d99f8a3cf1efb941348981c9ed6ca95bd235a9ed5426ee9804316db2c015",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/common/__init__.py",
+    "source_sha256": "fa38f6ded7fff4ce734cdd41b98e3bc5af29d5d1a7a90cda60396a6f53b5f012",
+    "release_sha256": "8e965979c2dd214399db250546d6c16d9f9ce1f354a42d2af66e8c0cb318e35d",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/grasping/anygrasp_interface.py",
+    "source_sha256": "08f3866b60f120f7f7db8aeb571b5a412daa1957780134688f0578cf8f7b4e65",
+    "release_sha256": "e4d90b110aa70292bbb0e92e844b144fad2fa3687de454981517904d091900a0",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/grasping/base.py",
+    "source_sha256": "49a9365459bd4216a8a7455e8a0cf76606a0b9f7ac8dbf578ec6ec4cbbabbec9",
+    "release_sha256": "86a09395191b066a1e5f771b9bcb959795c11f829db14eead353ba8a6f2780bb",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/grasping/icra2026_provider.py",
+    "source_sha256": "d356016e7560b4c85bb309986a39987af4c196735192d5199a2b51d087dc4be2",
+    "release_sha256": "3f180b23529b1a91c152bce40dd0a7b0a76c49f6f9eaeb90a884bd0051796fd9",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/grasping/suctionnet_interface.py",
+    "source_sha256": "720a2607fe5785241f6f140b25f9d9b9a0e8b47bb73361d4bc9ca79e336be161",
+    "release_sha256": "3f08a5686d1a52b5ed728254c0723e28d8509beb73e07782f636353a0b49c22d",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/grasping/__init__.py",
+    "source_sha256": "653c1f0eeb1df00d7d25b790ff40607ab29c1c50b8f2b69147d54b00157bceee",
+    "release_sha256": "a235bc469dd5ba1295a8cd4940622fdd0f98ccf1e84ce4343e40d9d380d287af",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/hetero_gnn/eval_hetero_gnn.py",
+    "source_sha256": "211c85cf9dd1389d0a5528be3d72be3468e17da6f4bef8bfd1053917403d2139",
+    "release_sha256": "9be1dcea87cf7868865de95d3211524457804f8ff179580364e97a59d4cd7652",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/hetero_gnn/graph_dataset.py",
+    "source_sha256": "219f5774afdcc2af703eb2888a7706e383c248ed70a36b114e60797fd18c1ba1",
+    "release_sha256": "340d6811b86ab42d5e87703e444657cad70869885d65a0c6dc236194aa7c8e7e",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/hetero_gnn/graph_features.py",
+    "source_sha256": "06ac2e4b63ecc5ed80aed77f4d8b862094e91eb7a251b4d9c901a04c6dc38c7c",
+    "release_sha256": "7b4f49c3dfa0fe0b158228cf91b1f2569ead5e0e87f054f7c4a508cfcba9631f",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/hetero_gnn/hetero_gnn.py",
+    "source_sha256": "9d1cbfc5ff3ca2dcbb8b5e7e5569aa0319903f2c0f4f3169c82972729576ed64",
+    "release_sha256": "c39e91b21e68896cf19a9db3873cebee3d77112352c335571cf250db1c6e0b90",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/hetero_gnn/metrics.py",
+    "source_sha256": "718d8d349f8e2a423c43ac04af255c7f24a523ec5aac51b9539c3ba917839efd",
+    "release_sha256": "9bdfeb079e902ce222108deddcf3ca476782c0dd67e3baf04f1f876c0c8a5d2a",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/hetero_gnn/minimal_blocker_metrics.py",
+    "source_sha256": "a6e414fface702430617c02a7865c09fd4257fcb32e32d618f58b27f3aed2b99",
+    "release_sha256": "51f08f355e3caa3d298e601dc4ba5bbd9a5bcf0158ff96ec4d1fd498314b7577",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/hetero_gnn/train_hetero_gnn.py",
+    "source_sha256": "761fc2a208af4ab9513c984ad4bd1c6f75aedc8737176644c8101deabda5e5c8",
+    "release_sha256": "65d668ddfb8c63f76cd1df4df67a3c70a9f9b5a3195c94c780f9778e018340d7",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/hetero_gnn/__init__.py",
+    "source_sha256": "b13add3994e5c9917bd1267cf45995140f2fa27a09063fac714efaf403c9a6f7",
+    "release_sha256": "4c055f42705b41c6563e435e0e2626c27c7702c03d64b0e4ec5c7abd135ca715",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/labeling/dependency_labeler.py",
+    "source_sha256": "1ec333e27bc65a5346d3ed82c7f2bdb67db7afeaaeee455eb6e6a866a544684c",
+    "release_sha256": "10e66acae3699ffa3fc10c60186c377a2fa16ce46ace0a20ddd7946cb2771a27",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/labeling/__init__.py",
+    "source_sha256": "d0e7f321ba93bfa6ef5ec5831a7c0a46245a96e6843758e7a97b2e8b82d2d8fb",
+    "release_sha256": "1b9675342d7fb45f146a5452bfaa211936afce1b4d97df11a862ca72dd5d792f",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/observation/renderer.py",
+    "source_sha256": "16fe1ce534ed43ea198c7b25fd05dae0957d610e6f810ba1515ead7d31d82899",
+    "release_sha256": "f8547446aa14f9e5af9e5bbf08d9e39f589e980d65abd5fb8f4b8452f1ff7b27",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/observation/__init__.py",
+    "source_sha256": "8219d4a1ecf74913ed192e0f4a239160d11e446efecf6335a4436e5ef4b1a524",
+    "release_sha256": "9d3de69ee069b8b9d9316228db70578b4584ff7cfe74bcc9f91a91ca9523a5f8",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/pipeline/runner.py",
+    "source_sha256": "579f2aa281c0fef4a5a0d3e1d799115217ccb69e53d4ce7907d97236e9812e3f",
+    "release_sha256": "4dd17d9842c42238aece14b26582ce4f2389135f17ba7a0cb0f79d50d5b1b802",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/pipeline/__init__.py",
+    "source_sha256": "3194abf270ae0ed573bfc447e232b9c68723f2f04ad9fa8e2ba5da940615d703",
+    "release_sha256": "efcb58382792b69639f20a2bf473fa393d099aaa401081b0d520198ccbd647f9",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/planning/blocker_solver.py",
+    "source_sha256": "f6c65feccf9e5b6cdd8bffde1061dedcfe07b4e75b72ab0126d2b5ac6448d97f",
+    "release_sha256": "2eac7eb5f49c1a151452ddca9853894c4e3910d7f27f6ac128243175fda1b6a0",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/planning/__init__.py",
+    "source_sha256": "58590f0be175afbb8373d01f18d878f85b0f4585e0e183dfe355d9795ea4a81f",
+    "release_sha256": "7a10de7cac324cf422c5daee395e38f5e3a89c2a8bfbeb5956c3d3762c5fa2a7",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/simulation/assets.py",
+    "source_sha256": "c32afef9d8db9b1f8422adb60e00010343951a6e6f48ab2c01d02131022f8278",
+    "release_sha256": "5268c34dec1b6d66393c4680bf89560c2c338cc9c2df6537ad35dcecf81def03",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/simulation/backend.py",
+    "source_sha256": "8a01fc694310f7fa5f5220e77cd93539855a33aca0509936cb74f09c1c4900ae",
+    "release_sha256": "8c4d43a860e8279c54006b5d34ed3fc78a9050f5fa2663d1f80f502a61bd5ef4",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/simulation/mujoco_backend.py",
+    "source_sha256": "06b54610c3418ddf0fba95dada8829a8bc38ae43da31540ca6a85efaf4e069b9",
+    "release_sha256": "4a8968c07bf71a9acf81cfffe78f5564d9da3be4779c20553de2d4250b71dd20",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/simulation/scene_builder.py",
+    "source_sha256": "10eafa83635cdcc3a22b7336301dbac959970d81953268c0b045655a0a5b8b89",
+    "release_sha256": "cd123acf49c7c1aa4822c5b639de874430357567174b4d725778e43480236a5b",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/simulation/scene_generator.py",
+    "source_sha256": "dde727c7b7d194c0d4d49c9211950bc7be6ad8d3145369d141da401a995c91df",
+    "release_sha256": "fa145aaa549182b3920ccdd86e8fc5dd1fd50806bf0a6badf221f7752873bd48",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/simulation/__init__.py",
+    "source_sha256": "51d53799b8314c9976512940f97b77952b183e3ed7a9714cc7f66245d43dbd99",
+    "release_sha256": "7cf40e194cbaaecfef08b0a740877fec5c37732009debde3f66f1cc79fed66de",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/validation/geometry.py",
+    "source_sha256": "24b9ee02449a74d061e55c02eabb94438693758d80f8ee9a97df63f7d3c1f130",
+    "release_sha256": "8cebacad168ec132b11d1d1662a094218e3a0dd69590ca4626937d5571bcb826",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/validation/validator.py",
+    "source_sha256": "dc72a76d24d897c94705dc9b1f48c7dd54c5937c1118f759523a7bd8734b5fec",
+    "release_sha256": "79c7919259b1bc30a7b53d75a74f97ecb4f0ef146d76fe0a1fc42ea0fd9627fc",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/validation/__init__.py",
+    "source_sha256": "3ed3c3e12915210b9dfc51300c4f16d393d30b5308057a6887fbf782fe17bc85",
+    "release_sha256": "e64c2c1994d410f2b1324185a80fdd1baed151678a7f6ef1153344a1c62e7fdf",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/visualization/grasp_status.py",
+    "source_sha256": "01bfa7f8dc36b6d564c1007a538ddea985a0e843d395ac849c57ff4c8dd1b72d",
+    "release_sha256": "8b29a1f4adad8386a0ededc4b31240e421845e90e08ec7157bb200ce27cb0edf",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_dependency_dataset/visualization/__init__.py",
+    "source_sha256": "ff8e0c3bcb267ef728e70dc385b8801bee250c770d40a65b421cca656983daa9",
+    "release_sha256": "a6a8a0062074aea07679eee58845d7b7f0443b30c9fa4bec02fb96d6c6c04fae",
+    "identical": false
+  },
+  {
+    "file": "planners/dependency_planner.py",
+    "source_sha256": "966de008f1f9d32cba166f312c080c3076696ce9880f50ba178a816034d8c6c1",
+    "release_sha256": "ac89e6aac67cc25455542ec17769b4692936aef536b187ec2c0157d231a070e0",
+    "identical": false
+  },
+  {
+    "file": "planners/planner_utils.py",
+    "source_sha256": "01678233cba7d4360ae7b015076569d6a8a86b7e642d22d212a9fc3020c50ebf",
+    "release_sha256": "ec30ac6aef84fea71ae69bcbeac2a42e5d0d80e078e572631b362fb8b89e4b14",
+    "identical": false
+  },
+  {
+    "file": "planners/__init__.py",
+    "source_sha256": "9e1c1bb075998f8cc7eb4b656cefc61c7e84892a455bdf163fe26dcf4adaa0ee",
+    "release_sha256": "38e934aac8bf202e415baea8f8d7462e29b677fd595d2c7eb30c51f71812f21c",
+    "identical": false
+  },
+  {
+    "file": "fresh_mujoco_closed_loop/ordered_process_visualization.py",
+    "source_sha256": "520b2aa935a89b30b9bd62edb64f0b1551d112b9aadcefa3679e077c946b660c",
+    "release_sha256": "2d6b263a8a738bfb8c6fb58fb40ece97b8a6b994a3380237fb7d700c7129b64e",
+    "identical": false
+  },
+  {
+    "file": "fresh_mujoco_closed_loop/ordered_sequence.py",
+    "source_sha256": "691bae538feb9a22db6d3f4b7bd870a5a279ba29bc51918f45e5906de663a3e6",
+    "release_sha256": "ec5fd8a556b4000d0352cfbe19c7588f1773ea2d3347235315c2cc7a0757da8e",
+    "identical": false
+  },
+  {
+    "file": "fresh_mujoco_closed_loop/proposal_protocol.py",
+    "source_sha256": "dcb5a366399970ce36841cde8a3921a0c8406dcbd90fe93819fb4ec7973514b1",
+    "release_sha256": "13bf9eb5abc7aeb488bace57d155b1440337d09e57b2bf9e85396f50cf42fc9e",
+    "identical": false
+  },
+  {
+    "file": "fresh_mujoco_closed_loop/run_closed_loop.py",
+    "source_sha256": "fa0602f9742048761f8b33fde9a45db8187ab1fcc9266f9d34835b9c01d1d336",
+    "release_sha256": "c7939f15b8623b34b5e81ea6750f79c3f8fdcf8bbf38c380e9b01c39b5fdd726",
+    "identical": false
+  },
+  {
+    "file": "fresh_mujoco_closed_loop/run_ordered_process_visualization.py",
+    "source_sha256": "df019fb84d73053a7e1e7330fb728e4c5aabe8cbd34fdabf70b6c249e060b692",
+    "release_sha256": "132879cf611285ca983147e6a4535e5443773dfc321a432828d26a35140851bc",
+    "identical": false
+  },
+  {
+    "file": "fresh_mujoco_closed_loop/run_ordered_sequence.py",
+    "source_sha256": "4597fecf1d217662569036f2d0d8c0bc4fe5e6931b312174c38032158c485af5",
+    "release_sha256": "cecd351cef979bc655cf8679fcb59f814d904c6778a05d0741bbbea8e9db989e",
+    "identical": false
+  },
+  {
+    "file": "fresh_mujoco_closed_loop/__init__.py",
+    "source_sha256": "5d347fd3c189352d2f18de363bfb721c50e387cb946c830bf543aeced21377a9",
+    "release_sha256": "2eb3c23d29d3431e385503d615eff722dde5f8c7d5c50b2995c749c17d339a8f",
+    "identical": false
+  },
+  {
+    "file": "run_planner.py",
+    "source_sha256": "5dd92e0f6d890c715a567d584a5c62e64bbba56a6fd25b7b057ded2d6576a7ec",
+    "release_sha256": "fd63283f2d59d1c5c4a15af38d3f0e904616fb465d3f31bb1c06bf5a78fff97e",
+    "identical": false
+  },
+  {
+    "file": "eval_planner.py",
+    "source_sha256": "477abfec203cee662f8abfe37b4396dcca55638b47a23f765d831ea220da2877",
+    "release_sha256": "a4d7e070c82c808343f4e778b336971fdc81ca2147f7469cfae78c5ae58a4475",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/__init__.py",
+    "source_sha256": "64a3c8ba665d37eb8cd6b291107593448b66759c1d4436daf7c7c6d6b0cb320a",
+    "release_sha256": "c46648073b7fb21bccfe94b3f2e5086ada1c14f0d680f8d8e79d2cf7fd044c83",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/adapters/anygrasp_adapter.py",
+    "source_sha256": "5ebadcd0ca25fdc9f57ad3399c2cafba173137f2104e48641096c27589665270",
+    "release_sha256": "0265a2e88bef6bd839f4b172edb42443691abeace3fe2896ae16b9833f73d420",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/adapters/suctionnet_adapter.py",
+    "source_sha256": "394e2be28b80f437dfc12d6230ee5c3cf693f14ba1dd3d54b125893a7444cc88",
+    "release_sha256": "29af5b55c20cc93a95d868527f8621d1b9f93d79712d7ef82f82776f76978da3",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/adapters/__init__.py",
+    "source_sha256": "5b8e33dde93760294a3d4c662640500c968dc2a8fe4088cf516f09c75d4e318a",
+    "release_sha256": "1db54058cd7d0a32f0d5abece7b3321f5c4513367f52683a638d8e908c9bfdfa",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/base/interfaces.py",
+    "source_sha256": "c98dd38b51c74610390cd9423cec490bfc28ad38182758a31abdca8549abc232",
+    "release_sha256": "85bd8a687a2d206f97f4f020df094d72a7d04cf655655b0a58d0069d2fc9f178",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/base/status_codes.py",
+    "source_sha256": "250698c9f02baaca31a3f462e2dde7a4fa8ca247c43da0122d00a9ba39c0accf",
+    "release_sha256": "539fd9e0508306435cdba1c935c611310b8655a9eaede278543c130643fa3e45",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/base/types.py",
+    "source_sha256": "d7f709acf2c001e2ff8ee83047ca911d9a7131a5a8805d44c9172afa59dea8fc",
+    "release_sha256": "ebe68ea58d693630be7e03fea0c4cc9acb62c003aaa9f3581ee356cda14c4688",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/base/__init__.py",
+    "source_sha256": "7d94fbb540a9deb15fd107363585715e587bee32a408be881e746d7d6bef7255",
+    "release_sha256": "7044af9d8027f080e081c7218467e0566c38bcf1f49de51baafc16d8d504e86a",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/compat.py",
+    "source_sha256": "32de78e7f07c23d50c5b3cfe5a6d9b95827d14d6c80b8c30f0d167dfbce30c25",
+    "release_sha256": "74715dc69fe72fd7dbdc710042d720efcbc0721f683db0b0768b8f7b9877bdfa",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/config_loader.py",
+    "source_sha256": "38f7477952648aece6fc76c029cd71f91087ee594771d104d5e9658875a8c347",
+    "release_sha256": "af553ca8f8c75f69b3b01172a7c4c71c490f7198064cbfd058c84cf1fda693dc",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/end_effector_policy.py",
+    "source_sha256": "d6c2dfdc6a8b9df9b81cbd692a1c4e6b14d335cfd38d9262f16306001ec30ec7",
+    "release_sha256": "80a2c5eca9fbd06eea3834e3a4880f9fcdf8584d82f55f0402f9278bae25858e",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/io.py",
+    "source_sha256": "d8a6c2ca17d5d77f350113c504757709711f8e66f177b0b4a10cbf2f7396de34",
+    "release_sha256": "11f2ee1861b85f56334ced4a235072fca0fc8232cf5a37f266c2ee65c191a1a0",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/manager.py",
+    "source_sha256": "bcd5b16b3ec5b04157ba454ccef9c7a8d469139e4f54535b35b6bc06b795bc90",
+    "release_sha256": "14cab58c0a9678a694d08a5698fe9335ecb807d995fb9219955a0a95f26addec",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/postprocessing.py",
+    "source_sha256": "e1eb82ea627392f9b6ffe671af35e09c178312e4a1275358d8dd4239363270e1",
+    "release_sha256": "f2825b29e05bd20e255fe07e1f6d03438f33020a20532d9dfea3c08fc551a50b",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/preprocessing.py",
+    "source_sha256": "d4954e271b1f6e7ee6730d94e4f24c6e94792a7d870f320edf2a71c141057d8d",
+    "release_sha256": "75d58a08ddc108624c361fc5560afc170360131815b4a09dab06ccf9d8989e68",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/support_plane.py",
+    "source_sha256": "edc1b881925db521135e25c9c85418b37d2606b31770d2bd343b10cd3cff43ab",
+    "release_sha256": "b521dd85b63f346e4f489cd02dfcbdd0371708896d68242cf37f8e2e3ff921f5",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/transforms.py",
+    "source_sha256": "23b7c6f98ba074690cba54a704101400415c9674cc3040383d21ff48b6a1f6f3",
+    "release_sha256": "9b7e931e8aef999e358df1d76d6f0ae0de8d6dd686ff81f88cc70d8e2603c1e4",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/core/__init__.py",
+    "source_sha256": "56728727e30f5eaf169321b6baeb1a95bc432490372c4b2ef4d37f465b712774",
+    "release_sha256": "ec9efe42ca36185e47c93ad4d264f67b37e3e067cc951b847cfe737bd5e642c6",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/examples/demo_generate.py",
+    "source_sha256": "19ce0d1dde22a9d2b5a0b5947880bbc6156819cba2ebb48d72c58a2d340d3013",
+    "release_sha256": "c520a70d5113cade866a7edfcb649871d01f198cfcfaf1b788e3338423371698",
+    "identical": false
+  },
+  {
+    "file": "src/grasp_pose_generator/examples/__init__.py",
+    "source_sha256": "8dde5e991a2efe282047bf2b10fbf6dd9e2e67327e91de36bf7e5a315fe98e7b",
+    "release_sha256": "e90f6e2bab9a4e9a462d78f34a5bae85ca3fabd40ff4341795cd99a6cf1e13d9",
+    "identical": false
+  },
+  {
+    "file": "safe_placement.py",
+    "source_sha256": "7b10a3b13be728ab8d39597990a92f09289f43afcce1b392a70d98fbb8c982a7",
+    "release_sha256": "8fb772aa626c7dc42a209fc389662be7aae8258a15c48332b3a0eadb894e633b",
+    "identical": false
+  },
+  {
+    "file": "safe_placement_floor.py",
+    "source_sha256": "c8057bc536cb9d760461369d424548b5556e5cf7b870feed8e86d0f9fa7486c0",
+    "release_sha256": "8abaee0a91644f3febf55e54e70e636108d7e4ce147615475da9fcf059490a7c",
+    "identical": false
+  },
+  {
+    "file": "numerical_backend.py",
+    "source_sha256": "620a08c6d799ab4e4cdd1d555fef5a44e3f9dde132819df500ae9dd8a96eb726",
+    "release_sha256": "7d88fe73c3824236c5f6e8fb2e212afca4a0a82249eca0b011e7ee1968ae6d0e",
+    "identical": false
+  },
+  {
+    "file": "parent_numerical_backend.py",
+    "source_sha256": "620a08c6d799ab4e4cdd1d555fef5a44e3f9dde132819df500ae9dd8a96eb726",
+    "release_sha256": "7d88fe73c3824236c5f6e8fb2e212afca4a0a82249eca0b011e7ee1968ae6d0e",
+    "identical": false
+  },
+  {
+    "file": "provider_guard.py",
+    "source_sha256": "9295a14e14ce8097ede674b1b02c3829bd77ea94a41b7b73bd18a6139fe90eba",
+    "release_sha256": "e5d9f623a50f5001941ca642443078b095946458e7972ecf9a3c2bd1cdb5e6a8",
+    "identical": false
+  },
+  {
+    "file": "run_stage2_simple_baselines.py",
+    "source_sha256": "515ecff1fc1517b5bbe1e392bfcc3f90f786b413c16e23bfa1b96e7f768ece93",
+    "release_sha256": "71f11464664d7e942a1d868bef2d019e9140f86d0482e904145108ec1652ac8c",
+    "identical": false
+  },
+  {
+    "file": "scripts/generate_dense_layer_scenes.py",
+    "source_sha256": "4ed15663d32875209469f57d9f00a51ce44de95b12b079024af75f96bd992095",
+    "release_sha256": "b65b3c1f2c4b77efda4db1e75f1fa077d14e17883f1540e9096a226f76599dcc",
+    "identical": false
+  },
+  {
+    "file": "scripts/prepare_dense_stored_labels.py",
+    "source_sha256": "fa280bde561a1f9782859bdeff4be886b8cf7a44ea312ee0438156cca9839f08",
+    "release_sha256": "6795033a9f748bc6f60d42754c0b8b9cf1a08868a14801ba568a1d391e78f50e",
+    "identical": false
+  }
+]

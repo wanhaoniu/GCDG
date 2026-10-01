@@ -1,0 +1,13 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Predictor inputs and outputs.}
+\label{tab:input_output}
+\begin{tabular}{@{}p{.19\linewidth}p{.72\linewidth}@{}}\toprule
+Tensor & Channels and construction \\\midrule
+    Object (36) & Box coordinates/confidence, visibility, depth statistics, estimated center/size, target-relative offsets, and identity encoding. \\
+    Grasp (28) & Modality/score, SE(3) pose, approach/lift/closing directions, contact normal and location, pregrasp offset, jaw width or suction radius. \\
+    Edge (22) & Relative position/depth, overlap, approach/lift segment distances and clearances, and normalized motion alignment. \\
+    Output (4) & Progress-any, sufficient-removal, approach-progress, and lift-progress probabilities for each object--grasp pair. \\
+    \bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,488 @@
+[
+  {
+    "mode_name": "typed",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.005,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.01,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.02,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.05,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.005,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.01,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.02,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.05,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.005,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.01,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.02,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "typed",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.05,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": true,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.005,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.01,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.02,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.05,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.005,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.01,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.02,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.05,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.005,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.01,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.02,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "progress_any",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.05,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": false
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.005,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.01,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.02,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.0,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.05,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.005,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.01,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.02,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.25,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.05,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.0,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.002,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.005,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.01,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.02,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  },
+  {
+    "mode_name": "sufficient",
+    "alpha": 0.5,
+    "budget_residual_weight": 1.0,
+    "budget_removal_weight": 0.05,
+    "budget_removed_reward": 0.0,
+    "use_typed_dependency": false,
+    "use_sufficient_dependency": true
+  }
+]

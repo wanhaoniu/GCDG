@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Planner ablations.}
+  \label{tab:stage3_planner_ablations}
+  \small
+  \setlength{\tabcolsep}{4.5pt}
+  \begin{tabular}{>{\centering\arraybackslash}p{0.48\linewidth}cccc}
+    \toprule
+    Variant & Success $\uparrow$ & Removals $\downarrow$ & Utility $\uparrow$ & Rem. gap $\downarrow$ \\
+    \midrule
+    Reference: tuned budgeted closed-loop & 31.9 & 2.32 & 0.134 & 1.73 \\
+    Threshold blocker set planner & 3.4 & 0.01 & 0.033 & -0.34 \\
+    Budgeted planner without validation tuning & 5.0 & 0.32 & 0.025 & 0.22 \\
+    Naive edge-prefix MBS & 1.7 & 0.04 & 0.014 & -0.12 \\
+    Budgeted progress-any only & 27.1 & 2.30 & 0.087 & 1.80 \\
+    Budgeted sufficient-removal only & 31.9 & 2.32 & 0.134 & 1.73 \\
+    Budgeted open-loop plan & 30.9 & 2.29 & 0.125 & 1.73 \\
+    No grasp-score bonus & 5.1 & 0.47 & 0.014 & 0.36 \\
+    No residual dependency cost & 8.3 & 0.00 & 0.083 & -0.73 \\
+    No removal-count penalty & 40.1 & 4.20 & 0.065 & 3.48 \\
+    Top 5 dependency removal on highest-score grasp & 41.6 & 5.00 & 0.016 & 4.27 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

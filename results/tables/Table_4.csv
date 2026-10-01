@@ -1,0 +1,4 @@
+﻿Method,Trials,Success,Rem.
+Direct,20,7.3,0.0
+Mech.,20,15.0,7.3
+Ours,20,18.3,4.7

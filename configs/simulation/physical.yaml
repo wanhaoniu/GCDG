@@ -1,0 +1,48 @@
+seed: 1183
+num_scenes: 6
+scene_id_prefix: rebuttal_dense25
+object_source: icra2026_local_proxy
+catalog_manifest: configs/simulation/catalog.yaml
+excluded_asset_names:
+- 14-Sleeve
+- 17-Kygen_Squeakin_Eggs_Plush_Puppies
+- 21_Haribo_gold_bear
+- 37-T-shirt
+- 39-Glove
+num_objects_min: 25
+num_objects_max: 27
+num_targets_min: 1
+num_targets_max: 3
+bin:
+  size:
+  - 0.22
+  - 0.16
+  - 0.2
+  wall_thickness: 0.01
+simulation:
+  timestep: 0.002
+  integrator: Euler
+  settle_steps: 9000
+  stability_window: 250
+  stability_velocity_threshold: 0.04
+  spawn_height_range:
+  - 0.17
+  - 0.24
+  spawn_planar_fraction: 0.1
+  spawn_center_bias_power: 3.0
+  use_volume_scaled_mass: true
+  nominal_density_kgm3: 320.0
+  min_object_mass_kg: 0.03
+  max_object_mass_kg: 0.35
+  contact_friction:
+  - 0.95
+  - 0.06
+  - 0.02
+  contact_solimp:
+  - 0.95
+  - 0.995
+  - 0.0001
+  contact_solref:
+  - 0.005
+  - 1.0
+  drop_wave_size_max: 1

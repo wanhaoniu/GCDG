@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Predictor ablations.}
+  \label{tab:stage3_predictor_comparison}
+  \small
+  \setlength{\tabcolsep}{4.5pt}
+  \begin{tabular}{ccccc}
+    \toprule
+    Predictor & Success $\uparrow$ & Removals $\downarrow$ & Rem. gap $\downarrow$ & Blocker IoU $\uparrow$ \\
+    \midrule
+    Random & 12.8 & 4.20 & 3.54 & 18.6 \\
+    Center-dist. & 11.2 & 4.20 & 3.78 & 18.6 \\
+    Geometry & 12.7 & 4.20 & 3.78 & 19.0 \\
+    Edge-MLP & 20.5 & 2.19 & 1.76 & 60.0 \\
+    G2N2 & 25.1 & 2.27 & 1.75 & 58.9 \\
+    Object-only & 34.8 & 4.20 & 3.46 & 26.5 \\
+    Ours & 31.9 & 2.32 & 1.73 & 55.8 \\
+    Oracle edge labels & 21.4 & 0.13 & -0.60 & 72.1 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
